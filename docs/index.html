@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SensASP — Unified Cellular Senescence &amp; SASP Gene Database</title>
+<meta name="description" content="SensASP: 1,250 human senescence and SASP genes unified from CellAge, GenAge, SenMayo, and Reactome, with cross-species conservation, GTEx expression, and STRING interaction annotation.">
+
+<!-- Tabulator 6.3 -->
+<link rel="stylesheet" href="https://unpkg.com/tabulator-tables@6.3.0/dist/css/tabulator.min.css">
+<script src="https://unpkg.com/tabulator-tables@6.3.0/dist/js/tabulator.min.js"></script>
+
+<style>
+  :root {
+    --accent:   #1d6fa4;
+    --accent2:  #0f4f77;
+    --bg:       #f7f8fa;
+    --surface:  #ffffff;
+    --border:   #dde1e7;
+    --text:     #1a1e26;
+    --muted:    #6b7280;
+    --tag-bg:   #eef4fb;
+    --tag-bd:   #b8d4ec;
+    --green:    #166534;
+    --green-bg: #dcfce7;
+    --amber-bg: #fef9c3;
+    --amber:    #854d0e;
+    --red-bg:   #fee2e2;
+    --red:      #991b1b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.5; }
+
+  /* ── Header ────────────────────────────────────────────────────── */
+  header {
+    background: var(--accent2);
+    color: #fff;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 56px;
+    position: sticky; top: 0; z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,.18);
+  }
+  header .brand { font-size: 1.3rem; font-weight: 700; letter-spacing: -.5px; white-space: nowrap; }
+  header .brand span { color: #7dd3fc; }
+  header nav { display: flex; gap: 4px; margin-left: auto; }
+  header nav a {
+    color: rgba(255,255,255,.8); text-decoration: none; padding: 6px 12px;
+    border-radius: 6px; font-size: 13px; font-weight: 500; transition: .15s;
+  }
+  header nav a:hover, header nav a.active { background: rgba(255,255,255,.15); color: #fff; }
+
+  /* ── Hero ──────────────────────────────────────────────────────── */
+  .hero {
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+    color: #fff; padding: 40px 24px 36px;
+  }
+  .hero-inner { max-width: 900px; margin: 0 auto; }
+  .hero h1 { font-size: 2rem; font-weight: 800; margin-bottom: 8px; }
+  .hero p  { font-size: .95rem; opacity: .88; max-width: 680px; margin-bottom: 24px; }
+  .stat-row { display: flex; flex-wrap: wrap; gap: 12px; }
+  .stat-card {
+    background: rgba(255,255,255,.12); border-radius: 10px;
+    padding: 14px 20px; min-width: 130px; text-align: center;
+  }
+  .stat-card .num { font-size: 1.7rem; font-weight: 800; }
+  .stat-card .lbl { font-size: .78rem; opacity: .82; margin-top: 2px; }
+
+  /* ── Tabs ──────────────────────────────────────────────────────── */
+  .tab-bar {
+    background: var(--surface); border-bottom: 2px solid var(--border);
+    padding: 0 24px; display: flex; gap: 0;
+    position: sticky; top: 56px; z-index: 90;
+  }
+  .tab-btn {
+    padding: 12px 20px; border: none; background: none; cursor: pointer;
+    font-size: 13.5px; font-weight: 500; color: var(--muted);
+    border-bottom: 2px solid transparent; margin-bottom: -2px;
+    transition: .15s; display: flex; align-items: center; gap: 6px;
+  }
+  .tab-btn:hover { color: var(--accent); }
+  .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .tab-btn .badge {
+    background: var(--tag-bg); color: var(--accent); border: 1px solid var(--tag-bd);
+    border-radius: 10px; font-size: 11px; padding: 1px 7px; font-weight: 600;
+  }
+
+  /* ── Panels ────────────────────────────────────────────────────── */
+  .panel { display: none; padding: 20px 24px; max-width: 1400px; margin: 0 auto; }
+  .panel.active { display: block; }
+
+  /* ── Filter Bar ─────────────────────────────────────────────────── */
+  .filter-bar {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+    margin-bottom: 14px; background: var(--surface);
+    border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px;
+  }
+  .filter-bar input[type=text] {
+    flex: 1; min-width: 200px; padding: 7px 12px;
+    border: 1px solid var(--border); border-radius: 6px; font-size: 13px;
+    outline: none; transition: .15s;
+  }
+  .filter-bar input[type=text]:focus { border-color: var(--accent); }
+  .filter-bar select {
+    padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px;
+    font-size: 13px; background: #fff; cursor: pointer; outline: none;
+  }
+  .filter-bar label { display: flex; align-items: center; gap: 5px;
+    font-size: 13px; cursor: pointer; white-space: nowrap; }
+  .filter-bar .sep { width: 1px; height: 24px; background: var(--border); }
+  .btn {
+    padding: 7px 14px; border-radius: 6px; border: 1px solid var(--border);
+    background: var(--surface); cursor: pointer; font-size: 13px;
+    font-weight: 500; color: var(--text); transition: .15s;
+  }
+  .btn:hover { background: var(--bg); }
+  .btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .btn-primary:hover { background: var(--accent2); }
+
+  /* ── Tabulator overrides ────────────────────────────────────────── */
+  .tabulator { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  .tabulator .tabulator-header { background: #f1f5f9; }
+  .tabulator .tabulator-col-title { font-size: 12px; font-weight: 600; color: var(--muted); }
+  .tabulator .tabulator-row:hover { background: #eef4fb !important; }
+  .tabulator .tabulator-row.tabulator-row-even { background: #fafbfc; }
+  .tabulator-cell { font-size: 13px; }
+
+  /* ── Tags / badges ─────────────────────────────────────────────── */
+  .tag {
+    display: inline-block; padding: 1px 8px; border-radius: 10px;
+    font-size: 11px; font-weight: 600; white-space: nowrap;
+  }
+  .tag-cellage  { background: #dbeafe; color: #1e40af; }
+  .tag-genage   { background: #dcfce7; color: #166534; }
+  .tag-senmayo  { background: #fce7f3; color: #9d174d; }
+  .tag-reactome { background: #fff7ed; color: #9a3412; }
+  .tag-multi    { background: #ede9fe; color: #5b21b6; }
+  .bool-yes { color: var(--green); font-weight: 600; }
+  .bool-no  { color: #9ca3af; }
+
+  /* ── Source cards ──────────────────────────────────────────────── */
+  .source-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); gap: 16px; }
+  .source-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px;
+  }
+  .source-card .sc-header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .source-card .sc-name { font-size: 1.05rem; font-weight: 700; }
+  .source-card .sc-count { font-size: .85rem; color: var(--muted); }
+  .source-card p { font-size: .87rem; color: var(--muted); line-height: 1.5; }
+  .source-card a { color: var(--accent); text-decoration: none; font-size: .85rem;
+    margin-top: 10px; display: inline-block; }
+  .source-card a:hover { text-decoration: underline; }
+
+  /* ── Coverage bar ───────────────────────────────────────────────── */
+  .cov-table { width: 100%; border-collapse: collapse; }
+  .cov-table td { padding: 8px 12px; border-bottom: 1px solid var(--border); font-size: 13px; }
+  .cov-table td:first-child { font-weight: 500; width: 260px; }
+  .cov-bar-wrap { background: #e5e7eb; border-radius: 4px; height: 8px; width: 200px; display: inline-block; vertical-align: middle; }
+  .cov-bar { background: var(--accent); border-radius: 4px; height: 8px; }
+
+  /* ── Overview layout ────────────────────────────────────────────── */
+  .ov-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 720px) { .ov-grid { grid-template-columns: 1fr; } }
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px;
+  }
+  .card h3 { font-size: .95rem; font-weight: 700; margin-bottom: 14px; color: var(--text); }
+  .donut-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 6px; }
+  .donut-seg { text-align: center; font-size: 12px; }
+  .donut-seg .big { font-size: 1.4rem; font-weight: 800; color: var(--accent); }
+
+  /* ── Download bar ───────────────────────────────────────────────── */
+  .dl-bar {
+    display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px;
+    align-items: center;
+  }
+  .dl-bar .lbl { font-size: 13px; color: var(--muted); font-weight: 500; }
+
+  /* ── Footer ─────────────────────────────────────────────────────── */
+  footer {
+    text-align: center; padding: 24px; font-size: 12px; color: var(--muted);
+    border-top: 1px solid var(--border); margin-top: 32px;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<!-- ── Header ─────────────────────────────────────────────────────────── -->
+<header>
+  <div class="brand">Sens<span>ASP</span></div>
+  <nav>
+    <a href="index.html" class="active">Database</a>
+    <a href="cite.html">How to Cite</a>
+  </nav>
+</header>
+
+<!-- ── Hero ──────────────────────────────────────────────────────────── -->
+<div class="hero">
+  <div class="hero-inner">
+    <h1>Cellular Senescence &amp; SASP Gene Database</h1>
+    <p>
+      An integrative, multi-layered resource unifying four disconnected seed databases with
+      harmonized identifiers, cross-species conservation, GTEx expression, and STRING
+      protein–protein interaction annotation.
+    </p>
+    <div class="stat-row" id="stat-row">
+      <div class="stat-card"><div class="num">1,250</div><div class="lbl">Unique Genes</div></div>
+      <div class="stat-card"><div class="num">4</div><div class="lbl">Seed Sources</div></div>
+      <div class="stat-card"><div class="num">173</div><div class="lbl">Multi-source Genes</div></div>
+      <div class="stat-card"><div class="num">89.4%</div><div class="lbl">Full Coverage</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Tab bar ────────────────────────────────────────────────────────── -->
+<div class="tab-bar">
+  <button class="tab-btn active" onclick="showTab('genes',this)">
+    Gene Table <span class="badge" id="gene-badge">1250</span>
+  </button>
+  <button class="tab-btn" onclick="showTab('overview',this)">Overview</button>
+  <button class="tab-btn" onclick="showTab('sources',this)">Sources</button>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- Panel: Genes                                                        -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<div class="panel active" id="panel-genes">
+
+  <!-- Filter bar -->
+  <div class="filter-bar" style="margin-top:20px">
+    <input type="text" id="search-box" placeholder="Search gene symbol, name, partners…" oninput="applyFilters()">
+    <div class="sep"></div>
+    <label>Source:
+      <select id="sel-source" onchange="applyFilters()">
+        <option value="">All</option>
+        <option>CellAge</option>
+        <option>GenAge</option>
+        <option>SenMayo</option>
+        <option>Reactome</option>
+      </select>
+    </label>
+    <div class="sep"></div>
+    <label><input type="checkbox" id="chk-multi" onchange="applyFilters()"> Multi-source (≥2)</label>
+    <label><input type="checkbox" id="chk-mouse" onchange="applyFilters()"> Mouse conserved</label>
+    <label><input type="checkbox" id="chk-zf"    onchange="applyFilters()"> Zebrafish conserved</label>
+    <div class="sep"></div>
+    <label>Expression:
+      <select id="sel-expr" onchange="applyFilters()">
+        <option value="">All</option>
+        <option>Tissue enhanced</option>
+        <option>Tissue specific</option>
+        <option>Low cell type specificity</option>
+        <option>Cell type enhanced</option>
+        <option>Cell type specific</option>
+      </select>
+    </label>
+    <button class="btn" onclick="clearFilters()">Clear</button>
+    <button class="btn btn-primary" onclick="downloadCSV()">⬇ CSV</button>
+  </div>
+
+  <div id="gene-table"></div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- Panel: Overview                                                     -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<div class="panel" id="panel-overview">
+  <div class="ov-grid" style="margin-top:20px">
+
+    <div class="card">
+      <h3>Source Contributions</h3>
+      <table class="cov-table" id="src-contrib-table"></table>
+    </div>
+
+    <div class="card">
+      <h3>Multi-source Confirmation</h3>
+      <table class="cov-table" id="nsrc-table"></table>
+    </div>
+
+    <div class="card" style="grid-column: 1/-1">
+      <h3>Annotation Coverage</h3>
+      <table class="cov-table" id="cov-table"></table>
+    </div>
+
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- Panel: Sources                                                      -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<div class="panel" id="panel-sources">
+  <div class="source-grid" id="source-grid" style="margin-top:20px"></div>
+  <div class="card" style="margin-top:20px">
+    <h3>Annotation Layers Added by SensASP</h3>
+    <p style="font-size:.9rem; color:var(--muted); line-height:1.7; margin-top:8px">
+      None of the four seed sources provides conservation, expression, or interaction annotation.
+      All layers below are <strong>net-new</strong> relative to any existing database.
+    </p>
+    <div style="display:flex; flex-wrap:wrap; gap:12px; margin-top:16px">
+      <div class="stat-card" style="background:var(--tag-bg); border:1px solid var(--tag-bd)">
+        <div class="num" style="color:var(--accent);font-size:1.2rem">Identifiers</div>
+        <div class="lbl">HGNC · Ensembl · Entrez · UniProt</div>
+      </div>
+      <div class="stat-card" style="background:var(--tag-bg); border:1px solid var(--tag-bd)">
+        <div class="num" style="color:var(--accent);font-size:1.2rem">Conservation</div>
+        <div class="lbl">Mouse &amp; Zebrafish orthologs (Ensembl Compara)</div>
+      </div>
+      <div class="stat-card" style="background:var(--tag-bg); border:1px solid var(--tag-bd)">
+        <div class="num" style="color:var(--accent);font-size:1.2rem">Expression</div>
+        <div class="lbl">GTEx v8 (54 tissues) + HPA RNA specificity</div>
+      </div>
+      <div class="stat-card" style="background:var(--tag-bg); border:1px solid var(--tag-bd)">
+        <div class="num" style="color:var(--accent);font-size:1.2rem">Interactions</div>
+        <div class="lbl">STRING v12.0 high-confidence PPI (score ≥ 700)</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  SensASP &mdash; Unified Cellular Senescence / SASP Gene Database &nbsp;|&nbsp;
+  Build date: <span id="build-date"></span> &nbsp;|&nbsp;
+  <a href="cite.html">How to Cite</a>
+</footer>
+
+<script>
+// ── Data loading ────────────────────────────────────────────────────────
+let allGenes = [];
+let table;
+
+Promise.all([
+  fetch('data/genes.json').then(r => r.json()),
+  fetch('data/metrics.json').then(r => r.json()),
+  fetch('data/sources.json').then(r => r.json()),
+]).then(([genes, metrics, sources]) => {
+  allGenes = genes;
+  document.getElementById('build-date').textContent = metrics.build_date;
+  initTable(genes);
+  initOverview(metrics);
+  initSources(sources);
+});
+
+// ── Tab switching ───────────────────────────────────────────────────────
+function showTab(name, btn) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('panel-' + name).classList.add('active');
+  btn.classList.add('active');
+}
+
+// ── Tabulator init ──────────────────────────────────────────────────────
+const SOURCE_TAGS = {
+  CellAge:  '<span class="tag tag-cellage">CellAge</span>',
+  GenAge:   '<span class="tag tag-genage">GenAge</span>',
+  SenMayo:  '<span class="tag tag-senmayo">SenMayo</span>',
+  Reactome: '<span class="tag tag-reactome">Reactome</span>',
+};
+
+function initTable(data) {
+  table = new Tabulator('#gene-table', {
+    data,
+    layout: 'fitDataFill',
+    height: 'calc(100vh - 330px)',
+    pagination: true,
+    paginationSize: 50,
+    paginationSizeSelector: [25, 50, 100, 200],
+    movableColumns: true,
+    columns: [
+      {
+        title: 'Symbol', field: 'symbol', frozen: true, width: 110,
+        formatter(cell) {
+          const s = cell.getValue();
+          return `<a href="gene.html?gene=${s}" style="color:var(--accent);font-weight:700;text-decoration:none">${s}</a>`;
+        }
+      },
+      { title: 'Gene Name', field: 'gene_name', width: 220, tooltip: true },
+      {
+        title: 'Source(s)', field: 'sources', width: 210,
+        formatter(cell) {
+          return cell.getValue().split(', ')
+            .map(s => SOURCE_TAGS[s] || s)
+            .join(' ');
+        }
+      },
+      {
+        title: '# Sources', field: 'n_sources', width: 90, hozAlign: 'center',
+        formatter(cell) {
+          const n = cell.getValue();
+          const cls = n >= 2 ? 'tag tag-multi' : '';
+          return `<span class="${cls}">${n}</span>`;
+        }
+      },
+      {
+        title: 'Mouse', field: 'conserved_mouse', width: 70, hozAlign: 'center',
+        formatter(cell) {
+          return cell.getValue() ? '<span class="bool-yes">✓</span>' : '<span class="bool-no">–</span>';
+        }
+      },
+      { title: 'Mouse Ortholog', field: 'mouse_ortholog', width: 130 },
+      {
+        title: 'Mouse ID %', field: 'mouse_identity', width: 100, hozAlign: 'right',
+        formatter(cell) {
+          const v = cell.getValue();
+          return v != null ? v.toFixed(1) + '%' : '–';
+        }
+      },
+      {
+        title: 'Zebrafish', field: 'conserved_zebrafish', width: 80, hozAlign: 'center',
+        formatter(cell) {
+          return cell.getValue() ? '<span class="bool-yes">✓</span>' : '<span class="bool-no">–</span>';
+        }
+      },
+      { title: 'Top GTEx Tissue', field: 'gtex_top_tissue', width: 160 },
+      {
+        title: 'Max TPM', field: 'gtex_max_tpm', width: 95, hozAlign: 'right',
+        formatter(cell) {
+          const v = cell.getValue();
+          return v != null ? Number(v).toLocaleString(undefined, {maximumFractionDigits:1}) : '–';
+        }
+      },
+      { title: 'HPA Tissue Spec.', field: 'hpa_tissue_spec', width: 160 },
+      { title: 'HPA Cell Spec.', field: 'hpa_cell_spec', width: 175 },
+      {
+        title: 'STRING Degree', field: 'string_degree', width: 110, hozAlign: 'right',
+        formatter(cell) {
+          const v = cell.getValue();
+          return v > 0 ? `<strong>${v}</strong>` : '–';
+        }
+      },
+      { title: 'Top Interaction Partners', field: 'string_top_partners', width: 260, tooltip: true },
+      { title: 'Ensembl', field: 'ensembl', width: 155 },
+      { title: 'UniProt', field: 'uniprot', width: 95 },
+    ],
+  });
+}
+
+// ── Filters ─────────────────────────────────────────────────────────────
+function applyFilters() {
+  if (!table) return;
+  const q      = document.getElementById('search-box').value.toLowerCase();
+  const src    = document.getElementById('sel-source').value;
+  const multi  = document.getElementById('chk-multi').checked;
+  const mouse  = document.getElementById('chk-mouse').checked;
+  const zf     = document.getElementById('chk-zf').checked;
+  const expr   = document.getElementById('sel-expr').value;
+
+  const filtered = allGenes.filter(g => {
+    if (q && !`${g.symbol} ${g.gene_name} ${g.string_top_partners}`.toLowerCase().includes(q)) return false;
+    if (src && !g.sources.includes(src)) return false;
+    if (multi && g.n_sources < 2) return false;
+    if (mouse && !g.conserved_mouse) return false;
+    if (zf && !g.conserved_zebrafish) return false;
+    if (expr && g.hpa_tissue_spec !== expr && g.hpa_cell_spec !== expr) return false;
+    return true;
+  });
+
+  table.setData(filtered);
+  document.getElementById('gene-badge').textContent = filtered.length;
+}
+
+function clearFilters() {
+  document.getElementById('search-box').value = '';
+  document.getElementById('sel-source').value = '';
+  document.getElementById('chk-multi').checked = false;
+  document.getElementById('chk-mouse').checked = false;
+  document.getElementById('chk-zf').checked = false;
+  document.getElementById('sel-expr').value = '';
+  applyFilters();
+}
+
+// ── CSV download ────────────────────────────────────────────────────────
+function downloadCSV() {
+  if (!table) return;
+  table.download('csv', 'sensasp_genes.csv');
+}
+
+// ── Overview panel ──────────────────────────────────────────────────────
+const SOURCE_COLORS = {
+  CellAge: '#1e40af', GenAge: '#166534', SenMayo: '#9d174d', Reactome: '#9a3412'
+};
+
+function initOverview(metrics) {
+  // Source contributions
+  const srcTbl = document.getElementById('src-contrib-table');
+  const total = Object.values(metrics.sources).reduce((a,b)=>a+b,0);
+  srcTbl.innerHTML = Object.entries(metrics.sources).map(([k,v]) => `
+    <tr>
+      <td><span class="tag tag-${k.toLowerCase()}">${k}</span></td>
+      <td>${v.toLocaleString()} genes</td>
+      <td>
+        <div class="cov-bar-wrap">
+          <div class="cov-bar" style="width:${(v/total*100).toFixed(1)}%;background:${SOURCE_COLORS[k]}"></div>
+        </div>
+      </td>
+      <td style="color:var(--muted);font-size:12px">${(v/total*100).toFixed(1)}%</td>
+    </tr>`).join('');
+
+  // n_sources distribution
+  const nTbl = document.getElementById('nsrc-table');
+  nTbl.innerHTML = Object.entries(metrics.n_sources_distribution).map(([n, cnt]) => `
+    <tr>
+      <td>${n} source${n>1?'s':''}</td>
+      <td><strong>${cnt}</strong> genes</td>
+      <td>
+        <div class="cov-bar-wrap">
+          <div class="cov-bar" style="width:${(cnt/metrics.n_genes*100).toFixed(1)}%;
+            background:${n>=2?'#7c3aed':'var(--accent)'}"></div>
+        </div>
+      </td>
+      <td style="color:var(--muted);font-size:12px">${(cnt/metrics.n_genes*100).toFixed(1)}%</td>
+    </tr>`).join('');
+
+  // Coverage
+  const covLabels = {
+    mouse_ortholog:   'Mouse ortholog (Ensembl Compara)',
+    zebrafish_ortholog: 'Zebrafish ortholog',
+    conservation_any: 'Conserved in any species',
+    gtex_expression:  'GTEx expression data',
+    hpa_specificity:  'HPA RNA specificity',
+    string_interaction: 'STRING protein interactions',
+    all_layers_complete: 'All layers complete',
+  };
+  const covTbl = document.getElementById('cov-table');
+  covTbl.innerHTML = Object.entries(metrics.coverage).map(([k, v]) => `
+    <tr style="${k==='all_layers_complete'?'font-weight:700':''}">
+      <td>${covLabels[k]||k}</td>
+      <td>${v.n.toLocaleString()} / ${metrics.n_genes.toLocaleString()}</td>
+      <td>
+        <div class="cov-bar-wrap">
+          <div class="cov-bar" style="width:${v.pct}%;
+            background:${k==='all_layers_complete'?'#059669':'var(--accent)'}"></div>
+        </div>
+      </td>
+      <td style="color:var(--muted);font-size:12px">${v.pct}%</td>
+    </tr>`).join('');
+}
+
+// ── Sources panel ────────────────────────────────────────────────────────
+function initSources(sources) {
+  const grid = document.getElementById('source-grid');
+  grid.innerHTML = sources.map(s => `
+    <div class="source-card">
+      <div class="sc-header">
+        <span class="tag tag-${s.name.toLowerCase()}">${s.name}</span>
+        <span class="sc-count">${s.n_genes.toLocaleString()} input genes</span>
+      </div>
+      <p>${s.description}</p>
+      <a href="${s.url}" target="_blank" rel="noopener">Visit source ↗</a>
+    </div>`).join('');
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to Cite — SensASP</title>
+<meta name="description" content="Citation information for the SensASP Unified Cellular Senescence & SASP Gene Database.">
+<style>
+  :root {
+    --accent:  #1d6fa4;
+    --accent2: #0f4f77;
+    --bg:      #f7f8fa;
+    --surface: #ffffff;
+    --border:  #dde1e7;
+    --text:    #1a1e26;
+    --muted:   #6b7280;
+    --tag-bg:  #eef4fb;
+    --tag-bd:  #b8d4ec;
+    --green:   #166534;
+    --green-bg:#dcfce7;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.6; }
+
+  header {
+    background: var(--accent2); color: #fff;
+    padding: 0 24px; display: flex; align-items: center; gap: 16px;
+    height: 56px; position: sticky; top: 0; z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,.18);
+  }
+  header .brand { font-size: 1.3rem; font-weight: 700; letter-spacing: -.5px; }
+  header .brand span { color: #7dd3fc; }
+  header nav { margin-left: auto; }
+  header nav a { color: rgba(255,255,255,.8); text-decoration: none; padding: 6px 12px;
+    border-radius: 6px; font-size: 13px; transition: .15s; }
+  header nav a:hover, header nav a.active { background: rgba(255,255,255,.15); color: #fff; }
+
+  .container { max-width: 780px; margin: 0 auto; padding: 40px 24px 64px; }
+  h1 { font-size: 1.7rem; font-weight: 800; margin-bottom: 8px; }
+  .subtitle { color: var(--muted); margin-bottom: 36px; font-size: .95rem; }
+
+  .section { margin-bottom: 32px; }
+  .section h2 { font-size: 1rem; font-weight: 700; margin-bottom: 12px;
+    padding-bottom: 8px; border-bottom: 2px solid var(--border); }
+
+  .cite-box {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 18px 20px; font-size: 13.5px;
+    line-height: 1.7; position: relative;
+  }
+  .cite-box.bibtex {
+    font-family: "SFMono-Regular", Consolas, monospace; font-size: 12.5px;
+    background: #1e2330; color: #e2e8f0; border-color: #374151;
+    white-space: pre; overflow-x: auto;
+  }
+  .bibtex .kw  { color: #7dd3fc; }
+  .bibtex .ty  { color: #f9a8d4; }
+  .bibtex .val { color: #86efac; }
+  .bibtex .str { color: #fde68a; }
+
+  .copy-btn {
+    position: absolute; top: 10px; right: 12px;
+    background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2);
+    color: #e2e8f0; border-radius: 6px; padding: 4px 10px;
+    font-size: 11px; cursor: pointer; transition: .15s;
+  }
+  .copy-btn:hover { background: rgba(255,255,255,.22); }
+  .copy-btn.plain {
+    background: var(--tag-bg); border-color: var(--tag-bd);
+    color: var(--accent); top: 10px; right: 12px;
+  }
+  .copy-btn.plain:hover { background: var(--accent); color: #fff; }
+
+  /* Seed source table */
+  .ref-table { width: 100%; border-collapse: collapse; }
+  .ref-table th { text-align: left; font-size: 11px; font-weight: 700; color: var(--muted);
+    text-transform: uppercase; letter-spacing: .05em; padding: 8px 12px;
+    border-bottom: 2px solid var(--border); }
+  .ref-table td { padding: 10px 12px; border-bottom: 1px solid var(--border); font-size: 13px;
+    vertical-align: top; }
+  .ref-table tr:last-child td { border-bottom: none; }
+
+  .tag { display: inline-block; padding: 2px 9px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+  .tag-cellage  { background: #dbeafe; color: #1e40af; }
+  .tag-genage   { background: #dcfce7; color: #166534; }
+  .tag-senmayo  { background: #fce7f3; color: #9d174d; }
+  .tag-reactome { background: #fff7ed; color: #9a3412; }
+
+  /* Data availability template */
+  .avail-box {
+    background: var(--green-bg); border: 1px solid #86efac;
+    border-radius: 10px; padding: 18px 20px; font-size: 13.5px; line-height: 1.7;
+    position: relative;
+  }
+  strong { font-weight: 700; }
+  em { font-style: italic; }
+
+  .info-row { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 14px; }
+  .info-item { background: var(--tag-bg); border: 1px solid var(--tag-bd); border-radius: 8px;
+    padding: 10px 14px; font-size: 12.5px; }
+  .info-item .lbl { color: var(--muted); font-size: 11px; font-weight: 600;
+    text-transform: uppercase; letter-spacing:.04em; margin-bottom: 3px; }
+  .info-item .val { font-weight: 600; color: var(--text); }
+
+  footer { text-align: center; padding: 24px; font-size: 12px; color: var(--muted);
+    border-top: 1px solid var(--border); }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" style="text-decoration:none">
+    <div class="brand">Sens<span>ASP</span></div>
+  </a>
+  <nav>
+    <a href="index.html">Database</a>
+    <a href="cite.html" class="active">How to Cite</a>
+  </nav>
+</header>
+
+<div class="container">
+  <h1>How to Cite SensASP</h1>
+  <p class="subtitle">
+    If you use SensASP data in your research, please cite the primary paper and acknowledge
+    the upstream resources below. Proper citation helps sustain this resource.
+  </p>
+
+  <!-- ── Primary citation ─────────────────────────────────────────────── -->
+  <div class="section">
+    <h2>Primary Citation (APA)</h2>
+    <div class="cite-box" style="position:relative">
+      <button class="copy-btn plain" onclick="copy('apa-text', this)">Copy</button>
+      <span id="apa-text">Hao, X., <em>et al.</em> (2026). SensASP: A unified multi-layer gene database for cellular
+senescence and the senescence-associated secretory phenotype (SASP).
+<em>Manuscript in preparation</em>.</span>
+    </div>
+  </div>
+
+  <!-- ── BibTeX ────────────────────────────────────────────────────────── -->
+  <div class="section">
+    <h2>BibTeX</h2>
+    <div class="cite-box bibtex" style="position:relative">
+      <button class="copy-btn" onclick="copy('bibtex-text', this)">Copy</button>
+<span id="bibtex-text"><span class="ty">@misc</span>{<span class="kw">hao2026sensasp</span>,
+  <span class="kw">title</span>   = {<span class="str">SensASP: A unified multi-layer gene database for
+             cellular senescence and the SASP</span>},
+  <span class="kw">author</span>  = {<span class="str">Hao, Xuan and others</span>},
+  <span class="kw">year</span>    = {<span class="val">2026</span>},
+  <span class="kw">note</span>    = {<span class="str">Manuscript in preparation</span>},
+  <span class="kw">url</span>     = {<span class="str">https://xuan13hao.github.io/sensasp</span>}
+}</span>
+    </div>
+  </div>
+
+  <!-- ── Data Availability statement ─────────────────────────────────── -->
+  <div class="section">
+    <h2>Data Availability Statement</h2>
+    <p style="font-size:13px;color:var(--muted);margin-bottom:10px">
+      Copy-paste this template into the Data Availability section of your manuscript:
+    </p>
+    <div class="avail-box" style="position:relative">
+      <button class="copy-btn plain" onclick="copy('avail-text', this)">Copy</button>
+      <span id="avail-text">The SensASP unified cellular senescence / SASP gene database, including all
+1,250 gene entries with multi-layer conservation, expression, and protein
+interaction annotation, is freely accessible at
+<strong>https://xuan13hao.github.io/sensasp</strong> and archived on GitHub at
+<strong>https://github.com/xuan13hao/sensasp</strong>.</span>
+    </div>
+  </div>
+
+  <!-- ── Database info ─────────────────────────────────────────────────── -->
+  <div class="section">
+    <h2>Database Information</h2>
+    <div class="info-row">
+      <div class="info-item"><div class="lbl">Genes</div><div class="val">1,250 unique entries</div></div>
+      <div class="info-item"><div class="lbl">Build date</div><div class="val" id="bdate">2026-07-19</div></div>
+      <div class="info-item"><div class="lbl">License</div><div class="val">CC BY 4.0</div></div>
+      <div class="info-item"><div class="lbl">Organism</div><div class="val">Homo sapiens</div></div>
+      <div class="info-item"><div class="lbl">Web</div>
+        <div class="val"><a href="https://xuan13hao.github.io/sensasp" style="color:var(--accent)">xuan13hao.github.io/sensasp</a></div></div>
+      <div class="info-item"><div class="lbl">GitHub</div>
+        <div class="val"><a href="https://github.com/xuan13hao/sensasp" style="color:var(--accent)">github.com/xuan13hao/sensasp</a></div></div>
+    </div>
+  </div>
+
+  <!-- ── Seed sources ────────────────────────────────────────────────── -->
+  <div class="section">
+    <h2>Seed Sources — Please Also Cite</h2>
+    <p style="font-size:13px;color:var(--muted);margin-bottom:14px">
+      SensASP integrates data from four existing databases. When you use genes
+      from a specific source, please also cite that source directly:
+    </p>
+    <table class="ref-table">
+      <thead>
+        <tr><th>Source</th><th>Reference</th><th>URL</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="tag tag-cellage">CellAge</span></td>
+          <td>Avelar, R. A., <em>et al.</em> (2020). A multidimensional systems biology analysis of cellular senescence in aging and disease. <em>Genome Biology</em>, 21(1), 91. <a href="https://doi.org/10.1186/s13059-020-01990-9" target="_blank" rel="noopener" style="color:var(--accent)">doi:10.1186/s13059-020-01990-9</a></td>
+          <td><a href="https://genomics.senescence.info/cells/" target="_blank" rel="noopener" style="color:var(--accent)">HAGR CellAge ↗</a></td>
+        </tr>
+        <tr>
+          <td><span class="tag tag-genage">GenAge</span></td>
+          <td>Tacutu, R., <em>et al.</em> (2018). Human Ageing Genomic Resources: new and updated databases. <em>Nucleic Acids Research</em>, 46(D1), D1083–D1090. <a href="https://doi.org/10.1093/nar/gkx1042" target="_blank" rel="noopener" style="color:var(--accent)">doi:10.1093/nar/gkx1042</a></td>
+          <td><a href="https://genomics.senescence.info/genes/" target="_blank" rel="noopener" style="color:var(--accent)">HAGR GenAge ↗</a></td>
+        </tr>
+        <tr>
+          <td><span class="tag tag-senmayo">SenMayo</span></td>
+          <td>Saul, D., <em>et al.</em> (2022). A new gene set identifies senescent cells and predicts senescence-associated pathways across tissues. <em>Nature Communications</em>, 13(1), 4827. <a href="https://doi.org/10.1038/s41467-022-32552-1" target="_blank" rel="noopener" style="color:var(--accent)">doi:10.1038/s41467-022-32552-1</a></td>
+          <td><a href="https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/SAUL_SEN_MAYO" target="_blank" rel="noopener" style="color:var(--accent)">MSigDB ↗</a></td>
+        </tr>
+        <tr>
+          <td><span class="tag tag-reactome">Reactome</span></td>
+          <td>Milacic, M., <em>et al.</em> (2024). The Reactome Pathway Knowledgebase 2024. <em>Nucleic Acids Research</em>, 52(D1), D672–D678. <a href="https://doi.org/10.1093/nar/gkad1025" target="_blank" rel="noopener" style="color:var(--accent)">doi:10.1093/nar/gkad1025</a></td>
+          <td><a href="https://reactome.org/content/detail/R-HSA-2559583" target="_blank" rel="noopener" style="color:var(--accent)">R-HSA-2559583 ↗</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ── Annotation sources ─────────────────────────────────────────── -->
+  <div class="section">
+    <h2>Annotation Data Sources</h2>
+    <table class="ref-table">
+      <thead>
+        <tr><th>Layer</th><th>Resource</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Identifiers</td>
+          <td>MyGene.info — Xin, J., <em>et al.</em> (2016). High-performance web services for querying gene and variant annotation. <em>Genome Biology</em>, 17(1), 91. <a href="https://doi.org/10.1186/s13059-016-0953-9" target="_blank" rel="noopener" style="color:var(--accent)">doi:10.1186/s13059-016-0953-9</a></td>
+        </tr>
+        <tr>
+          <td>Conservation</td>
+          <td>Ensembl Compara / BioMart — Cunningham, F., <em>et al.</em> (2022). Ensembl 2022. <em>Nucleic Acids Research</em>, 50(D1), D988–D995. <a href="https://doi.org/10.1093/nar/gkab1049" target="_blank" rel="noopener" style="color:var(--accent)">doi:10.1093/nar/gkab1049</a></td>
+        </tr>
+        <tr>
+          <td>Expression (GTEx)</td>
+          <td>GTEx Consortium (2020). The GTEx Consortium atlas of genetic regulatory effects across human tissues. <em>Science</em>, 369(6509), 1318–1330. <a href="https://doi.org/10.1126/science.aaz1776" target="_blank" rel="noopener" style="color:var(--accent)">doi:10.1126/science.aaz1776</a></td>
+        </tr>
+        <tr>
+          <td>Expression (HPA)</td>
+          <td>Uhlén, M., <em>et al.</em> (2015). Tissue-based map of the human proteome. <em>Science</em>, 347(6220), 1260419. <a href="https://doi.org/10.1126/science.1260419" target="_blank" rel="noopener" style="color:var(--accent)">doi:10.1126/science.1260419</a></td>
+        </tr>
+        <tr>
+          <td>Interactions</td>
+          <td>STRING v12.0 — Szklarczyk, D., <em>et al.</em> (2023). The STRING database in 2023: protein–protein association networks and functional enrichment analyses for any of 12,535 organisms. <em>Nucleic Acids Research</em>, 51(D1), D638–D646. <a href="https://doi.org/10.1093/nar/gkac1000" target="_blank" rel="noopener" style="color:var(--accent)">doi:10.1093/nar/gkac1000</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<footer>
+  SensASP &mdash; Unified Cellular Senescence / SASP Gene Database &nbsp;|&nbsp;
+  Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> &nbsp;|&nbsp;
+  <a href="index.html">Back to database</a>
+</footer>
+
+<script>
+fetch('data/metrics.json').then(r=>r.json()).then(m=>{
+  if (m.build_date) document.getElementById('bdate').textContent = m.build_date;
+}).catch(()=>{});
+
+function copy(id, btn) {
+  const el = document.getElementById(id);
+  const text = el ? el.innerText || el.textContent : '';
+  navigator.clipboard.writeText(text).then(() => {
+    const orig = btn.textContent;
+    btn.textContent = '✓ Copied';
+    setTimeout(() => btn.textContent = orig, 1800);
+  });
+}
+</script>
+</body>
+</html>

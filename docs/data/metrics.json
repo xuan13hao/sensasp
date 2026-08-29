@@ -1,0 +1,47 @@
+{
+  "n_genes": 1250,
+  "build_date": "2026-07-19",
+  "sources": {
+    "CellAge": 866,
+    "GenAge": 307,
+    "SenMayo": 124,
+    "Reactome": 163
+  },
+  "n_sources_distribution": {
+    "1": 1077,
+    "2": 138,
+    "3": 33,
+    "4": 2
+  },
+  "multi_source_genes": 173,
+  "coverage": {
+    "mouse_ortholog": {
+      "n": 1180,
+      "pct": 94.4
+    },
+    "zebrafish_ortholog": {
+      "n": 1045,
+      "pct": 83.6
+    },
+    "conservation_any": {
+      "n": 1198,
+      "pct": 95.8
+    },
+    "gtex_expression": {
+      "n": 1224,
+      "pct": 97.9
+    },
+    "hpa_specificity": {
+      "n": 1224,
+      "pct": 97.9
+    },
+    "string_interaction": {
+      "n": 1162,
+      "pct": 93.0
+    },
+    "all_layers_complete": {
+      "n": 1117,
+      "pct": 89.4
+    }
+  }
+}

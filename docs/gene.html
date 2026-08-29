@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title">Gene Detail — SensASP</title>
+<meta name="description" id="page-desc" content="Senescence gene detail — SensASP database">
+
+<style>
+  :root {
+    --accent:  #1d6fa4;
+    --accent2: #0f4f77;
+    --bg:      #f7f8fa;
+    --surface: #ffffff;
+    --border:  #dde1e7;
+    --text:    #1a1e26;
+    --muted:   #6b7280;
+    --tag-bg:  #eef4fb;
+    --tag-bd:  #b8d4ec;
+    --green:   #166534;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.6; }
+
+  header {
+    background: var(--accent2); color: #fff;
+    padding: 0 24px; display: flex; align-items: center; gap: 16px;
+    height: 56px; position: sticky; top: 0; z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,.18);
+  }
+  header .brand { font-size: 1.3rem; font-weight: 700; letter-spacing: -.5px; }
+  header .brand span { color: #7dd3fc; }
+  header nav { margin-left: auto; }
+  header nav a { color: rgba(255,255,255,.8); text-decoration: none; padding: 6px 12px;
+    border-radius: 6px; font-size: 13px; }
+  header nav a:hover { background: rgba(255,255,255,.15); color: #fff; }
+
+  .crumb { padding: 12px 24px; font-size: 13px; color: var(--muted); max-width: 960px; margin: 0 auto; }
+  .crumb a { color: var(--accent); text-decoration: none; }
+
+  .container { max-width: 960px; margin: 0 auto; padding: 0 24px 48px; }
+
+  /* Gene hero */
+  .gene-hero {
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent2) 100%);
+    color: #fff; padding: 28px 24px; border-radius: 14px; margin-bottom: 24px;
+  }
+  .gene-hero h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 4px; }
+  .gene-hero .gname { font-size: 1rem; opacity: .88; margin-bottom: 16px; }
+  .gene-id-row { display: flex; flex-wrap: wrap; gap: 10px; }
+  .id-pill {
+    background: rgba(255,255,255,.15); border-radius: 8px;
+    padding: 5px 12px; font-size: 12px; display: flex; align-items: center; gap: 6px;
+  }
+  .id-pill .key { opacity: .7; font-size: 11px; }
+  .id-pill a { color: #7dd3fc; text-decoration: none; }
+  .id-pill a:hover { text-decoration: underline; }
+
+  /* Grid */
+  .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 640px) { .detail-grid { grid-template-columns: 1fr; } }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px;
+  }
+  .card h3 {
+    font-size: .85rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .05em; color: var(--muted); margin-bottom: 14px;
+    padding-bottom: 10px; border-bottom: 1px solid var(--border);
+  }
+  .kv-table { width: 100%; border-collapse: collapse; }
+  .kv-table tr td { padding: 6px 0; font-size: 13px; border-bottom: 1px solid #f0f2f5; }
+  .kv-table tr:last-child td { border-bottom: none; }
+  .kv-table td:first-child { color: var(--muted); width: 48%; font-size: 12px; }
+  .kv-table td:last-child { font-weight: 500; }
+
+  .tag {
+    display: inline-block; padding: 2px 9px; border-radius: 10px;
+    font-size: 11px; font-weight: 600; white-space: nowrap;
+  }
+  .tag-cellage  { background: #dbeafe; color: #1e40af; }
+  .tag-genage   { background: #dcfce7; color: #166534; }
+  .tag-senmayo  { background: #fce7f3; color: #9d174d; }
+  .tag-reactome { background: #fff7ed; color: #9a3412; }
+  .tag-multi    { background: #ede9fe; color: #5b21b6; }
+
+  .bool-yes { color: #166534; font-weight: 700; }
+  .bool-no  { color: #9ca3af; }
+
+  /* Expression tissue bars */
+  .tissue-row { display: flex; align-items: center; gap: 10px; margin-bottom: 7px; }
+  .tissue-name { width: 180px; font-size: 12px; color: var(--text); white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis; flex-shrink: 0; }
+  .tissue-bar-wrap { flex: 1; background: #e5e7eb; border-radius: 3px; height: 7px; }
+  .tissue-bar { background: var(--accent); border-radius: 3px; height: 7px; }
+  .tissue-val { font-size: 11px; color: var(--muted); white-space: nowrap; width: 70px; text-align: right; }
+
+  /* STRING partners */
+  .partner-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+  .partner-pill {
+    background: var(--tag-bg); border: 1px solid var(--tag-bd);
+    border-radius: 8px; padding: 4px 10px; font-size: 12px; font-weight: 600;
+    color: var(--accent); display: flex; align-items: center; gap: 5px;
+  }
+  .partner-score { color: var(--muted); font-size: 11px; font-weight: 400; }
+
+  /* Source pills in card */
+  .source-row { display: flex; gap: 8px; flex-wrap: wrap; }
+
+  /* Not found */
+  .not-found { text-align: center; padding: 80px 24px; color: var(--muted); }
+  .not-found h2 { font-size: 1.5rem; margin-bottom: 8px; }
+  .not-found a { color: var(--accent); }
+
+  /* Nav arrows */
+  .gene-nav { display: flex; justify-content: space-between; margin-top: 24px; }
+  .gene-nav a {
+    display: inline-flex; align-items: center; gap: 6px; font-size: 13px;
+    color: var(--accent); text-decoration: none; padding: 8px 14px;
+    border: 1px solid var(--border); border-radius: 8px; background: var(--surface);
+  }
+  .gene-nav a:hover { background: var(--tag-bg); }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" style="text-decoration:none">
+    <div class="brand">Sens<span>ASP</span></div>
+  </a>
+  <nav>
+    <a href="index.html">Database</a>
+    <a href="cite.html">How to Cite</a>
+  </nav>
+</header>
+
+<div class="crumb"><a href="index.html">SensASP</a> › <span id="crumb-symbol">Gene</span></div>
+
+<div class="container">
+  <div id="content">
+    <div style="text-align:center;padding:60px;color:var(--muted)">Loading…</div>
+  </div>
+</div>
+
+<script>
+const SOURCE_TAGS = {
+  CellAge:  '<span class="tag tag-cellage">CellAge</span>',
+  GenAge:   '<span class="tag tag-genage">GenAge</span>',
+  SenMayo:  '<span class="tag tag-senmayo">SenMayo</span>',
+  Reactome: '<span class="tag tag-reactome">Reactome</span>',
+};
+
+const EXT_LINKS = {
+  ensembl: id => `https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=${id}`,
+  entrez:  id => `https://www.ncbi.nlm.nih.gov/gene/${id}`,
+  uniprot: id => `https://www.uniprot.org/uniprotkb/${id}`,
+  hgnc:    id => `https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/${id}`,
+};
+
+const symbol = new URLSearchParams(location.search).get('gene');
+if (!symbol) showNotFound('No gene specified.');
+
+fetch('data/genes.json').then(r => r.json()).then(genes => {
+  const g = genes.find(x => x.symbol.toUpperCase() === symbol.toUpperCase());
+  if (!g) { showNotFound(`Gene <strong>${symbol}</strong> not found in the database.`); return; }
+
+  // Also try to get full JSON for more detail
+  fetch('data/genes_full.json').then(r => r.json()).then(full => {
+    const gf = full.find(x => x.identifiers.hgnc_symbol.toUpperCase() === symbol.toUpperCase());
+    renderGene(g, gf);
+  }).catch(() => renderGene(g, null));
+});
+
+function renderGene(g, gf) {
+  document.getElementById('page-title').textContent = `${g.symbol} — SensASP`;
+  document.getElementById('page-desc').content = `${g.symbol} (${g.gene_name}) in the SensASP cellular senescence / SASP gene database.`;
+  document.getElementById('crumb-symbol').textContent = g.symbol;
+
+  const tissues = gf ? gf.expression.gtex_top_tissues : parseTissues(g.gtex_top3_tissues);
+  const partners = gf ? gf.interactions.string_top_partners : parsePartners(g.string_top_partners);
+  const maxTpm = tissues.length ? tissues[0].median_tpm : (g.gtex_max_tpm || 1);
+
+  const sourceTags = g.sources.split(', ').map(s => SOURCE_TAGS[s] || s).join(' ');
+  const nSrcTag = g.n_sources >= 2
+    ? `<span class="tag tag-multi" style="margin-left:6px">✓ ${g.n_sources} sources</span>`
+    : '';
+
+  document.getElementById('content').innerHTML = `
+    <!-- Gene hero -->
+    <div class="gene-hero">
+      <h1>${g.symbol}</h1>
+      <div class="gname">${g.gene_name}</div>
+      <div class="gene-id-row">
+        ${g.ensembl ? `<div class="id-pill"><span class="key">Ensembl</span>
+          <a href="${EXT_LINKS.ensembl(g.ensembl)}" target="_blank">${g.ensembl}</a></div>` : ''}
+        ${g.entrez ? `<div class="id-pill"><span class="key">Entrez</span>
+          <a href="${EXT_LINKS.entrez(g.entrez)}" target="_blank">${g.entrez}</a></div>` : ''}
+        ${g.uniprot ? `<div class="id-pill"><span class="key">UniProt</span>
+          <a href="${EXT_LINKS.uniprot(g.uniprot)}" target="_blank">${g.uniprot}</a></div>` : ''}
+      </div>
+    </div>
+
+    <div class="detail-grid">
+
+      <!-- Provenance -->
+      <div class="card">
+        <h3>Database Sources</h3>
+        <div class="source-row" style="margin-bottom:14px">${sourceTags}${nSrcTag}</div>
+        <table class="kv-table">
+          <tr><td>CellAge</td><td>${bool(g.in_cellage)}</td></tr>
+          <tr><td>GenAge</td><td>${bool(g.in_genage)}</td></tr>
+          <tr><td>SenMayo</td><td>${bool(g.in_senmayo)}</td></tr>
+          <tr><td>Reactome (R-HSA-2559583)</td><td>${bool(g.in_reactome)}</td></tr>
+        </table>
+      </div>
+
+      <!-- Conservation -->
+      <div class="card">
+        <h3>Cross-species Conservation</h3>
+        <table class="kv-table">
+          <tr><td>Mouse ortholog</td><td>${bool(g.conserved_mouse)}</td></tr>
+          ${g.mouse_ortholog ? `<tr><td>Mouse symbol</td><td><em>${g.mouse_ortholog}</em></td></tr>` : ''}
+          ${g.mouse_identity != null ? `<tr><td>% Identity (mouse)</td><td>${g.mouse_identity}%</td></tr>` : ''}
+          <tr><td>Zebrafish ortholog</td><td>${bool(g.conserved_zebrafish)}</td></tr>
+        </table>
+      </div>
+
+      <!-- Expression -->
+      <div class="card" style="grid-column:1/-1">
+        <h3>GTEx Expression (Top Tissues)</h3>
+        ${tissues.length ? `
+          <div style="margin-bottom:12px">
+            <table class="kv-table" style="margin-bottom:14px">
+              <tr><td>Max TPM</td><td>${fmt(g.gtex_max_tpm)}</td></tr>
+              <tr><td>Median across tissues</td><td>${fmt(g.gtex_median_tpm)}</td></tr>
+              <tr><td>Tissues detected (TPM≥1)</td><td>${g.gtex_n_tissues != null ? g.gtex_n_tissues + ' / 54' : '–'}</td></tr>
+              <tr><td>HPA RNA tissue specificity</td><td>${g.hpa_tissue_spec || '–'}</td></tr>
+              <tr><td>HPA single-cell specificity</td><td>${g.hpa_cell_spec || '–'}</td></tr>
+            </table>
+            ${tissues.map(t => `
+              <div class="tissue-row">
+                <div class="tissue-name">${t.tissue.replace(/_/g,' ')}</div>
+                <div class="tissue-bar-wrap">
+                  <div class="tissue-bar" style="width:${Math.min(100,(t.median_tpm/maxTpm*100)).toFixed(1)}%"></div>
+                </div>
+                <div class="tissue-val">${t.median_tpm.toLocaleString(undefined,{maximumFractionDigits:1})} TPM</div>
+              </div>`).join('')}
+          </div>` : '<div style="color:var(--muted)">No GTEx data available</div>'}
+      </div>
+
+      <!-- STRING interactions -->
+      <div class="card" style="grid-column:1/-1">
+        <h3>STRING Protein–Protein Interactions (Intra-set)</h3>
+        ${partners.length ? `
+          <table class="kv-table" style="margin-bottom:14px;max-width:300px">
+            <tr><td>Degree within senescence set</td><td><strong>${g.string_degree}</strong></td></tr>
+          </table>
+          <p style="font-size:12px;color:var(--muted);margin-bottom:10px">
+            Top interaction partners (STRING score ≥ 0.700, within the SensASP gene set):
+          </p>
+          <div class="partner-grid">
+            ${partners.map(p => `
+              <div class="partner-pill">
+                <a href="gene.html?gene=${p.partner}" style="text-decoration:none;color:inherit">${p.partner}</a>
+                <span class="partner-score">${p.score.toFixed(3)}</span>
+              </div>`).join('')}
+          </div>` : '<div style="color:var(--muted)">No STRING interactions within the senescence set</div>'}
+      </div>
+
+    </div>
+
+    <div class="gene-nav">
+      <a href="index.html">← Back to gene table</a>
+      <a href="cite.html">How to Cite SensASP ↗</a>
+    </div>
+  `;
+}
+
+function bool(v) {
+  return v ? '<span class="bool-yes">Yes</span>' : '<span class="bool-no">No</span>';
+}
+function fmt(v) {
+  return v != null ? Number(v).toLocaleString(undefined, {maximumFractionDigits:2}) : '–';
+}
+function parseTissues(str) {
+  if (!str) return [];
+  return str.split(', ').map(t => {
+    const m = t.match(/^(.+?)\s+\(([0-9.]+)\)$/);
+    return m ? { tissue: m[1], median_tpm: parseFloat(m[2]) } : null;
+  }).filter(Boolean);
+}
+function parsePartners(str) {
+  if (!str) return [];
+  return str.split(', ').map(p => ({ partner: p, score: 0 }));
+}
+function showNotFound(msg) {
+  document.getElementById('content').innerHTML = `
+    <div class="not-found">
+      <h2>Gene not found</h2>
+      <p>${msg}</p>
+      <p style="margin-top:12px"><a href="index.html">← Return to database</a></p>
+    </div>`;
+}
+</script>
+</body>
+</html>
