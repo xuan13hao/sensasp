@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title id="page-title">Gene Detail — SensASP</title>
-<meta name="description" id="page-desc" content="Senescence gene detail — SensASP database">
+<title id="page-title">Gene Detail — SenSASP</title>
+<meta name="description" id="page-desc" content="Senescence gene detail — SenSASP database">
 
 <style>
   :root {
@@ -128,7 +128,7 @@
 
 <header>
   <a href="index.html" style="text-decoration:none">
-    <div class="brand">Sens<span>ASP</span></div>
+    <div class="brand">Sen<span>SASP</span></div>
   </a>
   <nav>
     <a href="index.html">Database</a>
@@ -136,7 +136,7 @@
   </nav>
 </header>
 
-<div class="crumb"><a href="index.html">SensASP</a> › <span id="crumb-symbol">Gene</span></div>
+<div class="crumb"><a href="index.html">SenSASP</a> › <span id="crumb-symbol">Gene</span></div>
 
 <div class="container">
   <div id="content">
@@ -174,8 +174,8 @@ fetch('data/genes.json').then(r => r.json()).then(genes => {
 });
 
 function renderGene(g, gf) {
-  document.getElementById('page-title').textContent = `${g.symbol} — SensASP`;
-  document.getElementById('page-desc').content = `${g.symbol} (${g.gene_name}) in the SensASP cellular senescence / SASP gene database.`;
+  document.getElementById('page-title').textContent = `${g.symbol} — SenSASP`;
+  document.getElementById('page-desc').content = `${g.symbol} (${g.gene_name}) in the SenSASP cellular senescence / SASP gene database.`;
   document.getElementById('crumb-symbol').textContent = g.symbol;
 
   const tissues = gf ? gf.expression.gtex_top_tissues : parseTissues(g.gtex_top3_tissues);
@@ -258,7 +258,7 @@ function renderGene(g, gf) {
             <tr><td>Degree within senescence set</td><td><strong>${g.string_degree}</strong></td></tr>
           </table>
           <p style="font-size:12px;color:var(--muted);margin-bottom:10px">
-            Top interaction partners (STRING score ≥ 0.700, within the SensASP gene set):
+            Top interaction partners (STRING score ≥ 0.700, within the SenSASP gene set):
           </p>
           <div class="partner-grid">
             ${partners.map(p => `
@@ -273,7 +273,7 @@ function renderGene(g, gf) {
 
     <div class="gene-nav">
       <a href="index.html">← Back to gene table</a>
-      <a href="cite.html">How to Cite SensASP ↗</a>
+      <a href="cite.html">How to Cite SenSASP ↗</a>
     </div>
   `;
 }
