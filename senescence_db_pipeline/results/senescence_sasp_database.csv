@@ -1,0 +1,1251 @@
+canonical_id,symbol,gene_name,ensembl_gene,uniprot,entrez,hgnc_id,sources,n_sources,mouse_ortholog,zebrafish_ortholog,gtex_covered,hpa_specificity,string_degree
+ENSG00000001084,GCLC,glutamate-cysteine ligase catalytic subunit,ENSG00000001084,P48506,2729,HGNC:4311,GenAge,1,True,True,True,Tissue enhanced,12
+ENSG00000001617,SEMA3F,semaphorin 3F,ENSG00000001617,Q13275,6405,HGNC:10728,SenMayo,1,True,True,True,Tissue enhanced,0
+ENSG00000002016,RAD52,RAD52 DNA repair protein,ENSG00000002016,P43351,5893,HGNC:9824,GenAge,1,True,True,True,Low tissue specificity,46
+ENSG00000002745,WNT16,Wnt family member 16,ENSG00000002745,Q9UBV4,51384,HGNC:16267,CellAge|SenMayo,2,True,True,True,Group enriched,7
+ENSG00000002822,MAD1L1,mitotic arrest deficient 1 like 1,ENSG00000002822,Q9Y6D9,8379,HGNC:6762,CellAge,1,True,True,True,Low tissue specificity,18
+ENSG00000004487,KDM1A,lysine demethylase 1A,ENSG00000004487,O60341,23028,HGNC:29079,CellAge,1,True,True,True,Low tissue specificity,70
+ENSG00000004897,CDC27,cell division cycle 27,ENSG00000004897,P30260,996,HGNC:1728,Reactome,1,True,True,True,Low tissue specificity,61
+ENSG00000005022,SLC25A5,solute carrier family 25 member 5,ENSG00000005022,P05141,292,HGNC:10991,CellAge,1,True,True,True,Low tissue specificity,6
+ENSG00000005102,MEOX1,mesenchyme homeobox 1,ENSG00000005102,P50221,4222,HGNC:7013,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000005339,CREBBP,CREB binding lysine acetyltransferase,ENSG00000005339,Q92793,1387,HGNC:2348,GenAge,1,True,True,True,Low tissue specificity,116
+ENSG00000005421,PON1,paraoxonase 1,ENSG00000005421,P27169,5444,HGNC:9204,CellAge|GenAge,2,True,True,True,Tissue enriched,6
+ENSG00000005889,ZFX,zinc finger protein X-linked,ENSG00000005889,P17010,7543,HGNC:12869,CellAge,1,True,False,True,Low tissue specificity,3
+ENSG00000005893,LAMP2,lysosome associated membrane protein 2,ENSG00000005893,P13473,3920,HGNC:6501,CellAge,1,True,True,True,Low tissue specificity,13
+ENSG00000006062,MAP3K14,mitogen-activated protein kinase kinase kinase 14,ENSG00000006062,Q99558,9020,HGNC:6853,CellAge,1,True,True,True,Low tissue specificity,9
+ENSG00000006606,CCL26,C-C motif chemokine ligand 26,ENSG00000006606,Q9Y258,10344,HGNC:10625,SenMayo,1,False,True,True,Group enriched,11
+ENSG00000006625,GGCT,gamma-glutamylcyclotransferase,ENSG00000006625,O75223,79017,HGNC:21705,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000007264,MATK,megakaryocyte-associated tyrosine kinase,ENSG00000007264,P42679,4145,HGNC:6906,CellAge,1,True,True,True,Tissue enhanced,3
+ENSG00000007952,NOX1,NADPH oxidase 1,ENSG00000007952,Q9Y5S8,27035,HGNC:7889,CellAge,1,True,False,True,Tissue enriched,9
+ENSG00000007968,E2F2,E2F transcription factor 2,ENSG00000007968,Q14209,1870,HGNC:3114,Reactome,1,True,False,True,Group enriched,25
+ENSG00000008018,PSMB1,proteasome 20S subunit beta 1,ENSG00000008018,P20618,5689,HGNC:9537,CellAge,1,True,True,True,Low tissue specificity,11
+ENSG00000008130,NADK,NAD kinase,ENSG00000008130,O95544,65220,HGNC:29831,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000008294,SPAG9,sperm associated antigen 9,ENSG00000008294,O60271,9043,HGNC:14524,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000008517,IL32,interleukin 32,ENSG00000008517,P24001,9235,HGNC:16830,SenMayo,1,False,False,True,Tissue enhanced,8
+ENSG00000010017,RANBP9,RAN binding protein 9,ENSG00000010017,Q96S59,10048,HGNC:13727,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000010072,SPRTN,SprT-like N-terminal domain,ENSG00000010072,Q9H040,83932,HGNC:25356,GenAge,1,True,True,True,Low tissue specificity,5
+ENSG00000010244,ZNF207,zinc finger protein 207,ENSG00000010244,O43670,7756,HGNC:12998,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000010278,CD9,CD9 molecule,ENSG00000010278,P21926,928,HGNC:1709,SenMayo,1,True,False,True,Low tissue specificity,16
+ENSG00000011007,ELOA,elongin A,ENSG00000011007,Q14241,6924,HGNC:11620,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000011304,PTBP1,polypyrimidine tract binding protein 1,ENSG00000011304,P26599,5725,HGNC:9583,SenMayo,1,True,True,True,Low tissue specificity,17
+ENSG00000011347,SYT7,synaptotagmin 7,ENSG00000011347,O43581,9066,HGNC:11514,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000011405,PIK3C2A,phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 alpha,ENSG00000011405,O00443,5286,HGNC:8971,CellAge,1,True,True,True,Low tissue specificity,7
+ENSG00000011422,PLAUR,"plasminogen activator, urokinase receptor",ENSG00000011422,Q03405,5329,HGNC:9053,SenMayo,1,True,False,True,Tissue enriched,11
+ENSG00000011426,ANLN,"anillin, actin binding protein",ENSG00000011426,Q9NQW6,54443,HGNC:14082,CellAge,1,True,True,True,Tissue enriched,24
+ENSG00000012048,BRCA1,BRCA1 DNA repair associated,ENSG00000012048,P38398,672,HGNC:1100,CellAge|GenAge,2,True,False,True,Low tissue specificity,191
+ENSG00000012061,ERCC1,"ERCC excision repair 1, endonuclease non-catalytic subunit",ENSG00000012061,P07992,2067,HGNC:3433,CellAge|GenAge,2,True,True,True,Low tissue specificity,44
+ENSG00000013364,MVP,major vault protein,ENSG00000013364,Q14764,9961,HGNC:7531,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000013810,TACC3,transforming acidic coiled-coil containing protein 3,ENSG00000013810,Q9Y6A5,10460,HGNC:11524,CellAge,1,True,True,True,Tissue enhanced,24
+ENSG00000014641,MDH1,malate dehydrogenase 1,ENSG00000014641,P40925,4190,HGNC:6970,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000015171,ZMYND11,zinc finger MYND-type containing 11,ENSG00000015171,Q15326,10771,HGNC:16966,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000017427,IGF1,insulin like growth factor 1,ENSG00000017427,P05019,3479,HGNC:5464,GenAge|SenMayo,2,True,True,True,Low tissue specificity,81
+ENSG00000019991,HGF,hepatocyte growth factor,ENSG00000019991,P14210,3082,HGNC:4893,SenMayo,1,True,True,True,Tissue enriched,42
+ENSG00000020922,MRE11,MRE11 double strand break repair nuclease,ENSG00000020922,P49959,4361,HGNC:7230,Reactome,1,True,True,True,Low tissue specificity,46
+ENSG00000023909,GCLM,glutamate-cysteine ligase modifier subunit,ENSG00000023909,P48507,2730,HGNC:4312,GenAge,1,True,True,True,Tissue enhanced,9
+ENSG00000025770,NCAPH2,non-SMC condensin II complex subunit H2,ENSG00000025770,Q6IBW4,29781,HGNC:25071,CellAge,1,True,True,True,Low tissue specificity,3
+ENSG00000026103,FAS,Fas cell surface death receptor,ENSG00000026103,P25445,355,HGNC:11920,GenAge|SenMayo,2,True,True,True,Low tissue specificity,14
+ENSG00000027075,PRKCH,protein kinase C eta,ENSG00000027075,P24723,5583,HGNC:9403,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000028137,TNFRSF1B,TNF receptor superfamily member 1B,ENSG00000028137,P20333,7133,HGNC:11917,SenMayo,1,True,True,True,Tissue enhanced,13
+ENSG00000028839,TBPL1,TATA-box binding protein like 1,ENSG00000028839,P62380,9519,HGNC:11589,CellAge,1,True,True,True,Tissue enhanced,5
+ENSG00000029363,BCLAF1,BCL2 associated transcription factor 1,ENSG00000029363,Q9NYF8,9774,HGNC:16863,CellAge,1,True,False,True,Tissue enhanced,7
+ENSG00000029993,HMGB3,high mobility group box 3,ENSG00000029993,O15347,3149,HGNC:5004,CellAge,1,False,True,True,Tissue enhanced,0
+ENSG00000030110,BAK1,BCL2 antagonist/killer 1,ENSG00000030110,Q16611,578,HGNC:949,GenAge,1,True,False,True,Low tissue specificity,9
+ENSG00000030582,GRN,granulin precursor,ENSG00000030582,P28799,2896,HGNC:4601,CellAge|GenAge,2,True,True,True,Low tissue specificity,5
+ENSG00000034152,MAP2K3,mitogen-activated protein kinase kinase 3,ENSG00000034152,P46734,5606,HGNC:6843,CellAge|Reactome,2,True,False,True,Tissue enhanced,18
+ENSG00000035862,TIMP2,TIMP metallopeptidase inhibitor 2,ENSG00000035862,P16035,7077,HGNC:11821,SenMayo,1,True,True,True,Low tissue specificity,15
+ENSG00000037474,NSUN2,NOP2/Sun RNA methyltransferase 2,ENSG00000037474,Q08J23,54888,HGNC:25994,CellAge,1,True,True,True,Low tissue specificity,7
+ENSG00000038427,VCAN,versican,ENSG00000038427,P13611,1462,HGNC:2464,CellAge,1,True,True,True,Tissue enhanced,4
+ENSG00000039068,CDH1,cadherin 1,ENSG00000039068,P12830,999,HGNC:1748,CellAge,1,True,True,True,Tissue enhanced,66
+ENSG00000044524,EPHA3,EPH receptor A3,ENSG00000044524,P29320,2042,HGNC:3387,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000044574,HSPA5,heat shock protein family A (Hsp70) member 5,ENSG00000044574,P11021,3309,HGNC:5238,CellAge,1,True,True,True,Low tissue specificity,44
+ENSG00000047410,TPR,"translocated promoter region, nuclear basket protein",ENSG00000047410,P12270,7175,HGNC:12017,CellAge,1,True,True,True,Low tissue specificity,7
+ENSG00000048028,USP28,ubiquitin specific peptidase 28,ENSG00000048028,Q96RU2,57646,HGNC:12625,CellAge,1,True,True,True,Tissue enhanced,10
+ENSG00000048392,RRM2B,ribonucleotide reductase regulatory TP53 inducible subunit M2B,ENSG00000048392,Q7LG56,50484,HGNC:17296,CellAge,1,True,True,True,Low tissue specificity,9
+ENSG00000049130,KITLG,KIT ligand,ENSG00000049130,P21583,4254,HGNC:6343,SenMayo,1,True,True,True,Low tissue specificity,35
+ENSG00000049167,ERCC8,"ERCC excision repair 8, CSA ubiquitin ligase complex subunit",ENSG00000049167,Q13216,1161,HGNC:3439,GenAge,1,True,True,True,Low tissue specificity,24
+ENSG00000049540,ELN,elastin,ENSG00000049540,P15502,2006,HGNC:3327,GenAge,1,True,False,True,Tissue enriched,18
+ENSG00000049618,ARID1B,AT-rich interaction domain 1B,ENSG00000049618,Q8NFD5,57492,HGNC:18040,CellAge,1,True,True,True,Low tissue specificity,11
+ENSG00000049768,FOXP3,forkhead box P3,ENSG00000049768,Q9BZS1,50943,HGNC:6106,CellAge,1,True,False,True,Tissue enhanced,34
+ENSG00000050405,LIMA1,LIM domain and actin binding 1,ENSG00000050405,Q9UHB6,51474,HGNC:24636,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000050748,MAPK9,mitogen-activated protein kinase 9,ENSG00000050748,P45984,5601,HGNC:6886,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,48
+ENSG00000051180,RAD51,RAD51 recombinase,ENSG00000051180,Q06609,5888,HGNC:9817,GenAge,1,True,True,True,Tissue enhanced,104
+ENSG00000051382,PIK3CB,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta",ENSG00000051382,P42338,5291,HGNC:8976,GenAge,1,True,True,True,Low tissue specificity,53
+ENSG00000053900,ANAPC4,anaphase promoting complex subunit 4,ENSG00000053900,Q9UJX5,29945,HGNC:19990,Reactome,1,True,True,True,Low tissue specificity,48
+ENSG00000054267,ARID4B,AT-rich interaction domain 4B,ENSG00000054267,Q4LE39,51742,HGNC:15550,CellAge,1,True,True,True,Low tissue specificity,16
+ENSG00000055332,EIF2AK2,eukaryotic translation initiation factor 2 alpha kinase 2,ENSG00000055332,P19525,5610,HGNC:9437,CellAge,1,True,False,True,Low tissue specificity,26
+ENSG00000057663,ATG5,autophagy related 5,ENSG00000057663,Q9H1Y0,9474,HGNC:589,CellAge,1,True,True,True,Low tissue specificity,28
+ENSG00000059728,MXD1,MAX dimerization protein 1,ENSG00000059728,Q05195,4084,HGNC:6761,GenAge,1,True,True,True,Tissue enhanced,4
+ENSG00000061273,HDAC7,histone deacetylase 7,ENSG00000061273,Q8WUI4,51564,HGNC:14067,CellAge,1,True,True,True,Low tissue specificity,40
+ENSG00000062822,POLD1,"DNA polymerase delta 1, catalytic subunit",ENSG00000062822,P28340,5424,HGNC:9175,GenAge,1,True,True,True,Low tissue specificity,45
+ENSG00000064300,NGFR,nerve growth factor receptor,ENSG00000064300,P08138,4804,HGNC:7809,GenAge,1,True,True,True,Low tissue specificity,30
+ENSG00000064393,HIPK2,homeodomain interacting protein kinase 2,ENSG00000064393,Q9H2X6,28996,HGNC:14402,CellAge,1,True,True,True,Tissue enriched,16
+ENSG00000064835,POU1F1,POU class 1 homeobox 1,ENSG00000064835,P28069,5449,HGNC:9210,GenAge,1,True,True,True,Tissue enriched,7
+ENSG00000065534,MYLK,myosin light chain kinase,ENSG00000065534,Q15746,4638,HGNC:7590,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000065559,MAP2K4,mitogen-activated protein kinase kinase 4,ENSG00000065559,P45985,6416,HGNC:6844,Reactome,1,True,True,True,Low tissue specificity,16
+ENSG00000065833,ME1,malic enzyme 1,ENSG00000065833,P48163,4199,HGNC:6983,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000065911,MTHFD2,"methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2, methenyltetrahydrofolate cyclohydrolase",ENSG00000065911,P13995,10797,HGNC:7434,CellAge,1,True,False,True,Low tissue specificity,3
+ENSG00000065978,YBX1,Y-box binding protein 1,ENSG00000065978,P67809,4904,HGNC:8014,CellAge,1,True,True,True,Tissue enhanced,34
+ENSG00000066027,PPP2R5A,protein phosphatase 2 regulatory subunit B'alpha,ENSG00000066027,Q15172,5525,HGNC:9309,CellAge,1,True,True,True,Low tissue specificity,8
+ENSG00000066044,ELAVL1,ELAV like RNA binding protein 1,ENSG00000066044,Q15717,1994,HGNC:3312,CellAge,1,True,True,True,Low tissue specificity,37
+ENSG00000066117,SMARCD1,SWI/SNF related BAF chromatin remodeling complex subunit D1,ENSG00000066117,Q96GM5,6602,HGNC:11106,CellAge,1,True,True,True,Low tissue specificity,23
+ENSG00000066135,KDM4A,lysine demethylase 4A,ENSG00000066135,O75164,9682,HGNC:22978,CellAge,1,True,False,True,Low tissue specificity,18
+ENSG00000066336,SPI1,Spi-1 proto-oncogene,ENSG00000066336,P17947,6688,HGNC:11241,CellAge,1,True,True,True,Group enriched,22
+ENSG00000066468,FGFR2,fibroblast growth factor receptor 2,ENSG00000066468,P21802,2263,HGNC:3689,CellAge,1,True,True,True,Tissue enriched,46
+ENSG00000067182,TNFRSF1A,TNF receptor superfamily member 1A,ENSG00000067182,P19438,7132,HGNC:11916,SenMayo,1,True,True,True,Low tissue specificity,46
+ENSG00000067369,TP53BP1,tumor protein p53 binding protein 1,ENSG00000067369,Q12888,7158,HGNC:11999,CellAge|GenAge,2,True,True,True,Low tissue specificity,81
+ENSG00000067560,RHOA,ras homolog family member A,ENSG00000067560,P61586,387,HGNC:667,CellAge,1,True,True,True,Low tissue specificity,69
+ENSG00000067715,SYT1,synaptotagmin 1,ENSG00000067715,P21579,6857,HGNC:11509,CellAge,1,True,True,True,Group enriched,6
+ENSG00000068024,HDAC4,histone deacetylase 4,ENSG00000068024,P56524,9759,HGNC:14063,CellAge,1,True,True,True,Tissue enhanced,48
+ENSG00000068028,RASSF1,Ras association domain family member 1,ENSG00000068028,Q9NS23,11186,HGNC:9882,CellAge,1,True,True,True,Low tissue specificity,16
+ENSG00000068078,FGFR3,fibroblast growth factor receptor 3,ENSG00000068078,P22607,2261,HGNC:3690,CellAge,1,True,True,True,Tissue enhanced,41
+ENSG00000068305,MEF2A,myocyte enhancer factor 2A,ENSG00000068305,Q02078,4205,HGNC:6993,CellAge,1,True,True,True,Low tissue specificity,12
+ENSG00000069011,PITX1,paired like homeodomain 1,ENSG00000069011,P78337,5307,HGNC:9004,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000069399,BCL3,BCL3 transcription coactivator,ENSG00000069399,P20749,602,HGNC:998,CellAge,1,True,True,True,Tissue enhanced,15
+ENSG00000069869,NEDD4,NEDD4 E3 ubiquitin protein ligase,ENSG00000069869,P46934,4734,HGNC:7727,CellAge,1,True,True,True,Tissue enhanced,24
+ENSG00000070501,POLB,DNA polymerase beta,ENSG00000070501,P06746,5423,HGNC:9174,GenAge,1,True,True,True,Tissue enhanced,14
+ENSG00000070540,WIPI1,"WD repeat domain, phosphoinositide interacting 1",ENSG00000070540,Q5MNZ9,55062,HGNC:25471,CellAge,1,True,True,True,Tissue enhanced,7
+ENSG00000070831,CDC42,cell division cycle 42,ENSG00000070831,P60953,998,HGNC:1736,GenAge,1,True,True,True,Low tissue specificity,55
+ENSG00000071054,MAP4K4,mitogen-activated protein kinase kinase kinase kinase 4,ENSG00000071054,O95819,9448,HGNC:6866,Reactome,1,True,True,True,Tissue enhanced,1
+ENSG00000071242,RPS6KA2,ribosomal protein S6 kinase A2,ENSG00000071242,Q15349,6196,HGNC:10431,Reactome,1,True,True,True,Low tissue specificity,11
+ENSG00000071564,TCF3,transcription factor 3,ENSG00000071564,P15923,6929,HGNC:11633,GenAge,1,True,True,True,Low tissue specificity,11
+ENSG00000072310,SREBF1,sterol regulatory element binding transcription factor 1,ENSG00000072310,P36956,6720,HGNC:11289,CellAge,1,True,True,True,Tissue enhanced,30
+ENSG00000072401,UBE2D1,ubiquitin conjugating enzyme E2 D1,ENSG00000072401,P51668,7321,HGNC:12474,Reactome,1,True,True,True,Tissue enhanced,42
+ENSG00000072501,SMC1A,structural maintenance of chromosomes 1A,ENSG00000072501,Q14683,8243,HGNC:11111,CellAge,1,True,True,True,Low tissue specificity,20
+ENSG00000072803,FBXW11,F-box and WD repeat domain containing 11,ENSG00000072803,Q9UKB1,23291,HGNC:13607,CellAge,1,True,True,True,Low tissue specificity,20
+ENSG00000073282,TP63,tumor protein p63,ENSG00000073282,Q9H3D4,8626,HGNC:15979,CellAge|GenAge,2,True,True,True,Tissue enhanced,9
+ENSG00000073712,FERMT2,FERM domain containing kindlin 2,ENSG00000073712,Q96AC1,10979,HGNC:15767,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000073756,PTGS2,prostaglandin-endoperoxide synthase 2,ENSG00000073756,P35354,5743,HGNC:9605,CellAge|GenAge,2,True,True,True,Tissue enhanced,51
+ENSG00000074181,NOTCH3,notch receptor 3,ENSG00000074181,Q9UM47,4854,HGNC:7883,CellAge,1,True,True,True,Tissue enhanced,12
+ENSG00000074266,EED,embryonic ectoderm development,ENSG00000074266,O75530,8726,HGNC:3188,Reactome,1,True,True,True,Low tissue specificity,32
+ENSG00000074527,NTN4,netrin 4,ENSG00000074527,Q9HB63,59277,HGNC:13658,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000074590,NUAK1,NUAK family kinase 1,ENSG00000074590,O60285,9891,HGNC:14311,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000074800,ENO1,enolase 1,ENSG00000074800,P06733,2023,HGNC:3350,CellAge,1,True,True,True,Low tissue specificity,22
+ENSG00000075218,GTSE1,G2 and S-phase expressed 1,ENSG00000075218,Q9NYZ3,51512,HGNC:13698,CellAge,1,True,True,True,Tissue enhanced,15
+ENSG00000075618,FSCN1,fascin actin-bundling protein 1,ENSG00000075618,Q16658,6624,HGNC:11148,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000076242,MLH1,mutL homolog 1,ENSG00000076242,P40692,4292,HGNC:7127,GenAge,1,True,True,True,Low tissue specificity,38
+ENSG00000076662,ICAM3,intercellular adhesion molecule 3,ENSG00000076662,P32942,3385,HGNC:5346,SenMayo,1,False,True,True,Tissue enhanced,3
+ENSG00000076706,MCAM,melanoma cell adhesion molecule,ENSG00000076706,P43121,4162,HGNC:6934,CellAge,1,True,True,True,Group enriched,5
+ENSG00000076864,RAP1GAP,RAP1 GTPase activating protein,ENSG00000076864,P47736,5909,HGNC:9858,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000076984,MAP2K7,mitogen-activated protein kinase kinase 7,ENSG00000076984,O14733,5609,HGNC:6847,CellAge|Reactome,2,True,True,True,Low tissue specificity,11
+ENSG00000077092,RARB,retinoic acid receptor beta,ENSG00000077092,P10826,5915,HGNC:9865,CellAge,1,True,False,True,Low tissue specificity,6
+ENSG00000077097,TOP2B,DNA topoisomerase II beta,ENSG00000077097,Q02880,7155,HGNC:11990,GenAge,1,True,True,True,Low tissue specificity,9
+ENSG00000077150,NFKB2,nuclear factor kappa B subunit 2,ENSG00000077150,Q00653,4791,HGNC:7795,CellAge|GenAge,2,True,False,True,Low tissue specificity,20
+ENSG00000077463,SIRT6,sirtuin 6,ENSG00000077463,Q8N6T7,51548,HGNC:14934,CellAge|GenAge,2,True,True,True,Low tissue specificity,19
+ENSG00000077782,FGFR1,fibroblast growth factor receptor 1,ENSG00000077782,P11362,2260,HGNC:3688,CellAge|GenAge,2,True,True,True,Low tissue specificity,46
+ENSG00000078237,TIGAR,TP53 induced glycolysis regulatory phosphatase,ENSG00000078237,Q9NQ88,57103,HGNC:1185,CellAge,1,True,False,True,Low tissue specificity,2
+ENSG00000078399,HOXA9,homeobox A9,ENSG00000078399,P31269,3205,HGNC:5109,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000078401,EDN1,endothelin 1,ENSG00000078401,P05305,1906,HGNC:3176,SenMayo,1,True,False,True,Tissue enhanced,19
+ENSG00000078687,TNRC6C,trinucleotide repeat containing adaptor 6C,ENSG00000078687,Q9HCJ0,57690,HGNC:29318,Reactome,1,True,True,True,Tissue enhanced,6
+ENSG00000078900,TP73,tumor protein p73,ENSG00000078900,O15350,7161,HGNC:12003,GenAge,1,True,True,True,Tissue enhanced,15
+ENSG00000079246,XRCC5,X-ray repair cross complementing 5,ENSG00000079246,P13010,7520,HGNC:12833,GenAge,1,True,True,True,Low tissue specificity,65
+ENSG00000079385,CEACAM1,CEA cell adhesion molecule 1,ENSG00000079385,P13688,634,HGNC:1814,CellAge,1,True,False,True,Tissue enhanced,1
+ENSG00000079387,SENP1,SUMO specific peptidase 1,ENSG00000079387,Q9P0U3,29843,HGNC:17927,CellAge,1,True,True,True,Tissue enhanced,4
+ENSG00000079999,KEAP1,kelch like ECH associated protein 1,ENSG00000079999,Q14145,9817,HGNC:23177,CellAge,1,True,True,True,Tissue enhanced,29
+ENSG00000080503,SMARCA2,SWI/SNF related BAF chromatin remodeling complex subunit ATPase 2,ENSG00000080503,P51531,6595,HGNC:11098,CellAge,1,True,True,True,Low tissue specificity,32
+ENSG00000080815,PSEN1,presenilin 1,ENSG00000080815,P49768,5663,HGNC:9508,GenAge,1,True,True,True,Low tissue specificity,20
+ENSG00000080824,HSP90AA1,heat shock protein 90 alpha family class A member 1,ENSG00000080824,P07900,3320,HGNC:5253,CellAge|GenAge,2,True,True,True,Low tissue specificity,147
+ENSG00000080839,RBL1,RB transcriptional corepressor like 1,ENSG00000080839,P28749,5933,HGNC:9893,CellAge,1,True,True,True,Tissue enhanced,27
+ENSG00000081041,CXCL2,C-X-C motif chemokine ligand 2,ENSG00000081041,P19875,2920,HGNC:4603,SenMayo,1,False,False,True,Tissue enriched,34
+ENSG00000081181,ARG2,arginase 2,ENSG00000081181,P78540,384,HGNC:664,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000081479,LRP2,LDL receptor related protein 2,ENSG00000081479,P98164,4036,HGNC:6694,GenAge,1,True,True,True,Tissue enhanced,9
+ENSG00000081800,SLC13A1,solute carrier family 13 member 1,ENSG00000081800,Q9BZW2,6561,HGNC:10916,GenAge,1,True,True,True,Tissue enriched,0
+ENSG00000082175,PGR,progesterone receptor,ENSG00000082175,P06401,5241,HGNC:8910,CellAge,1,True,True,True,Group enriched,38
+ENSG00000082212,ME2,malic enzyme 2,ENSG00000082212,P23368,4200,HGNC:6984,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000082641,NFE2L1,NFE2 like bZIP transcription factor 1,ENSG00000082641,Q14494,4779,HGNC:7781,GenAge,1,True,True,True,Tissue enhanced,3
+ENSG00000082701,GSK3B,glycogen synthase kinase 3 beta,ENSG00000082701,P49841,2932,HGNC:4617,CellAge|GenAge,2,True,True,True,Low tissue specificity,77
+ENSG00000082898,XPO1,exportin 1,ENSG00000082898,O14980,7514,HGNC:12825,CellAge,1,True,True,True,Low tissue specificity,25
+ENSG00000084073,ZMPSTE24,zinc metallopeptidase STE24,ENSG00000084073,O75844,10269,HGNC:12877,CellAge|GenAge,2,True,True,True,Low tissue specificity,7
+ENSG00000084207,GSTP1,glutathione S-transferase pi 1,ENSG00000084207,P09211,2950,HGNC:4638,GenAge,1,True,False,True,Tissue enhanced,12
+ENSG00000085117,CD82,CD82 molecule,ENSG00000085117,P27701,3732,HGNC:6210,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000085224,ATRX,ATRX chromatin remodeler,ENSG00000085224,P46100,546,HGNC:886,CellAge,1,True,True,True,Low tissue specificity,52
+ENSG00000085563,ABCB1,ATP binding cassette subfamily B member 1,ENSG00000085563,P08183,5243,HGNC:40,CellAge,1,True,False,True,Tissue enhanced,2
+ENSG00000085662,AKR1B1,aldo-keto reductase family 1 member B,ENSG00000085662,P15121,231,HGNC:381,CellAge,1,True,True,True,Tissue enriched,2
+ENSG00000085840,ORC1,origin recognition complex subunit 1,ENSG00000085840,Q13415,4998,HGNC:8487,CellAge,1,True,True,True,Tissue enhanced,25
+ENSG00000086991,NOX4,NADPH oxidase 4,ENSG00000086991,Q9NPH5,50507,HGNC:7891,CellAge,1,True,True,True,Group enriched,7
+ENSG00000087088,BAX,"BCL2 associated X, apoptosis regulator",ENSG00000087088,Q07812,581,HGNC:959,GenAge,1,True,True,True,Low tissue specificity,19
+ENSG00000087095,NLK,nemo like kinase,ENSG00000087095,Q9UBE8,51701,HGNC:29858,CellAge,1,True,True,True,Tissue enhanced,5
+ENSG00000087237,CETP,cholesteryl ester transfer protein,ENSG00000087237,P11597,1071,HGNC:1869,GenAge,1,False,True,True,Group enriched,6
+ENSG00000087245,MMP2,matrix metallopeptidase 2,ENSG00000087245,P08253,4313,HGNC:7166,SenMayo,1,True,True,True,Tissue enhanced,53
+ENSG00000087586,AURKA,aurora kinase A,ENSG00000087586,O14965,6790,HGNC:11393,CellAge,1,True,True,True,Tissue enhanced,62
+ENSG00000087842,PIR,pirin,ENSG00000087842,O00625,8544,HGNC:30048,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000088305,DNMT3B,DNA methyltransferase 3 beta,ENSG00000088305,Q9UBC3,1789,HGNC:2979,CellAge,1,True,True,True,Tissue enhanced,42
+ENSG00000088325,TPX2,TPX2 microtubule nucleation factor,ENSG00000088325,Q9ULW0,22974,HGNC:1249,CellAge,1,True,True,True,Tissue enhanced,36
+ENSG00000088808,PPP1R13B,protein phosphatase 1 regulatory subunit 13B,ENSG00000088808,Q96KQ4,23368,HGNC:14950,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000088888,MAVS,mitochondrial antiviral signaling protein,ENSG00000088888,Q7Z434,57506,HGNC:29233,CellAge,1,True,True,True,Low tissue specificity,33
+ENSG00000089022,MAPKAPK5,MAPK activated protein kinase 5,ENSG00000089022,Q8IW41,8550,HGNC:6889,CellAge|Reactome,2,True,True,True,Low tissue specificity,8
+ENSG00000089053,ANAPC5,anaphase promoting complex subunit 5,ENSG00000089053,Q9UJX4,51433,HGNC:15713,Reactome,1,True,True,True,Low tissue specificity,48
+ENSG00000089094,KDM2B,lysine demethylase 2B,ENSG00000089094,Q8NHM5,84678,HGNC:13610,CellAge,1,True,True,True,Low tissue specificity,14
+ENSG00000089220,PEBP1,phosphatidylethanolamine binding protein 1,ENSG00000089220,P30086,5037,HGNC:8630,CellAge,1,True,False,True,Tissue enhanced,6
+ENSG00000089685,BIRC5,baculoviral IAP repeat containing 5,ENSG00000089685,O15392,332,HGNC:593,CellAge,1,True,True,True,Tissue enhanced,49
+ENSG00000090238,YPEL3,yippee like 3,ENSG00000090238,P61236,83719,HGNC:18327,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000090339,ICAM1,intercellular adhesion molecule 1,ENSG00000090339,P05362,3383,HGNC:5344,SenMayo,1,True,False,True,Tissue enhanced,61
+ENSG00000090905,TNRC6A,trinucleotide repeat containing adaptor 6A,ENSG00000090905,Q8NDV7,27327,HGNC:11969,Reactome,1,True,True,True,Low tissue specificity,12
+ENSG00000090932,DLL3,delta like canonical Notch ligand 3,ENSG00000090932,Q9NYJ7,10683,HGNC:2909,GenAge,1,True,False,True,Tissue enriched,4
+ENSG00000091428,RAPGEF4,Rap guanine nucleotide exchange factor 4,ENSG00000091428,Q8WZA2,11069,HGNC:16626,CellAge,1,True,True,True,Tissue enriched,9
+ENSG00000091831,ESR1,estrogen receptor 1,ENSG00000091831,P03372,2099,HGNC:3467,CellAge|GenAge,2,True,True,True,Tissue enhanced,126
+ENSG00000092036,HAUS4,HAUS augmin like complex subunit 4,ENSG00000092036,Q9H6D7,54930,HGNC:20163,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000092199,HNRNPC,heterogeneous nuclear ribonucleoprotein C,ENSG00000092199,P07910,3183,HGNC:5035,CellAge,1,False,False,True,Low tissue specificity,33
+ENSG00000092208,GEMIN2,gem nuclear organelle associated protein 2,ENSG00000092208,O14893,8487,HGNC:10884,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000092439,TRPM7,transient receptor potential cation channel subfamily M member 7,ENSG00000092439,Q96QT4,54822,HGNC:17994,CellAge,1,True,True,True,Tissue enriched,1
+ENSG00000092621,PHGDH,phosphoglycerate dehydrogenase,ENSG00000092621,O43175,26227,HGNC:8923,CellAge,1,True,True,True,Low tissue specificity,6
+ENSG00000092847,AGO1,argonaute RISC component 1,ENSG00000092847,Q9UL18,26523,HGNC:3262,Reactome,1,True,True,True,Low tissue specificity,27
+ENSG00000092853,CLSPN,claspin,ENSG00000092853,Q9HAW4,63967,HGNC:19715,CellAge,1,True,False,True,Tissue enhanced,26
+ENSG00000092969,TGFB2,transforming growth factor beta 2,ENSG00000092969,P61812,7042,HGNC:11768,CellAge,1,True,True,True,Low tissue specificity,21
+ENSG00000093009,CDC45,cell division cycle 45,ENSG00000093009,O75419,8318,HGNC:1739,CellAge,1,True,True,True,Group enriched,57
+ENSG00000094804,CDC6,cell division cycle 6,ENSG00000094804,Q99741,990,HGNC:1744,CellAge,1,True,True,True,Tissue enhanced,61
+ENSG00000094880,CDC23,cell division cycle 23,ENSG00000094880,Q9UJX2,8697,HGNC:1724,Reactome,1,True,True,True,Low tissue specificity,51
+ENSG00000094916,CBX5,chromobox 5,ENSG00000094916,P45973,23468,HGNC:1555,CellAge,1,True,True,True,Tissue enhanced,31
+ENSG00000095596,CYP26A1,cytochrome P450 family 26 subfamily A member 1,ENSG00000095596,O43174,1592,HGNC:2603,CellAge,1,True,True,True,Tissue enriched,4
+ENSG00000095951,HIVEP1,HIVEP zinc finger 1,ENSG00000095951,P15822,3096,HGNC:4920,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000096384,HSP90AB1,heat shock protein 90 alpha family class B member 1,ENSG00000096384,P08238,3326,HGNC:5258,CellAge,1,True,True,True,Low tissue specificity,118
+ENSG00000096433,ITPR3,"inositol 1,4,5-trisphosphate receptor type 3",ENSG00000096433,Q14573,3710,HGNC:6182,CellAge,1,True,True,True,Low tissue specificity,20
+ENSG00000096717,SIRT1,sirtuin 1,ENSG00000096717,Q96EB6,23411,HGNC:14929,CellAge|GenAge,2,True,True,True,Low tissue specificity,110
+ENSG00000096968,JAK2,Janus kinase 2,ENSG00000096968,O60674,3717,HGNC:6192,CellAge|GenAge,2,True,True,True,Low tissue specificity,81
+ENSG00000097007,ABL1,"ABL proto-oncogene 1, non-receptor tyrosine kinase",ENSG00000097007,P00519,25,HGNC:76,GenAge,1,True,True,True,Low tissue specificity,54
+ENSG00000097046,CDC7,cell division cycle 7,ENSG00000097046,O00311,8317,HGNC:1745,CellAge,1,True,True,True,Tissue enhanced,22
+ENSG00000099381,SETD1A,"SET domain containing 1A, histone lysine methyltransferase",ENSG00000099381,O15047,9739,HGNC:29010,CellAge,1,False,True,True,Low tissue specificity,21
+ENSG00000099956,SMARCB1,SWI/SNF related BAF chromatin remodeling complex subunit B1,ENSG00000099956,Q12824,6598,HGNC:11103,CellAge,1,True,True,True,Low tissue specificity,33
+ENSG00000099991,CABIN1,calcineurin binding protein 1,ENSG00000099991,Q9Y6J0,23523,HGNC:24187,Reactome,1,True,True,True,Low tissue specificity,5
+ENSG00000100029,PES1,pescadillo ribosomal biogenesis factor 1,ENSG00000100029,O00541,23481,HGNC:8848,CellAge,1,True,True,True,Low tissue specificity,11
+ENSG00000100030,MAPK1,mitogen-activated protein kinase 1,ENSG00000100030,P28482,5594,HGNC:6871,CellAge|Reactome,2,True,True,True,Low tissue specificity,102
+ENSG00000100033,PRODH,proline dehydrogenase 1,ENSG00000100033,O43272,5625,HGNC:9453,CellAge,1,True,True,True,Tissue enhanced,3
+ENSG00000100038,TOP3B,DNA topoisomerase III beta,ENSG00000100038,O95985,8940,HGNC:11993,GenAge,1,True,True,True,Low tissue specificity,4
+ENSG00000100084,HIRA,histone cell cycle regulator,ENSG00000100084,P54198,7290,HGNC:4916,CellAge|Reactome,2,True,True,True,Low tissue specificity,6
+ENSG00000100105,PATZ1,POZ/BTB and AT hook containing zinc finger 1,ENSG00000100105,Q9HBE1,23598,HGNC:13071,CellAge,1,True,True,True,Low tissue specificity,3
+ENSG00000100243,CYB5R3,cytochrome b5 reductase 3,ENSG00000100243,P00387,1727,HGNC:2873,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000100284,TOM1,target of myb1 membrane trafficking protein,ENSG00000100284,O60784,10043,HGNC:11982,CellAge,1,True,True,True,Tissue enhanced,4
+ENSG00000100307,CBX7,chromobox 7,ENSG00000100307,O95931,23492,HGNC:1557,CellAge,1,True,True,True,Low tissue specificity,45
+ENSG00000100311,PDGFB,platelet derived growth factor subunit B,ENSG00000100311,P01127,5155,HGNC:8800,CellAge|GenAge,2,True,True,True,Low tissue specificity,24
+ENSG00000100354,TNRC6B,trinucleotide repeat containing adaptor 6B,ENSG00000100354,Q9UPQ9,23112,HGNC:29190,Reactome,1,True,True,True,Low tissue specificity,8
+ENSG00000100368,CSF2RB,colony stimulating factor 2 receptor subunit beta,ENSG00000100368,P32927,1439,HGNC:2436,SenMayo,1,True,False,True,Tissue enhanced,18
+ENSG00000100387,RBX1,ring-box 1,ENSG00000100387,P62877,9978,HGNC:9928,CellAge,1,True,True,True,Low tissue specificity,55
+ENSG00000100393,EP300,EP300 lysine acetyltransferase,ENSG00000100393,Q09472,2033,HGNC:3373,CellAge|GenAge,2,True,True,True,Low tissue specificity,174
+ENSG00000100504,PYGL,glycogen phosphorylase L,ENSG00000100504,P06737,5836,HGNC:9725,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000100605,ITPK1,inositol-tetrakisphosphate 1-kinase,ENSG00000100605,Q13572,3705,HGNC:6177,CellAge,1,True,True,True,Tissue enhanced,3
+ENSG00000100644,HIF1A,hypoxia inducible factor 1 subunit alpha,ENSG00000100644,Q16665,3091,HGNC:4910,CellAge|GenAge,2,True,True,True,Tissue enhanced,115
+ENSG00000100697,DICER1,"dicer 1, ribonuclease III",ENSG00000100697,Q9UPY3,23405,HGNC:17098,CellAge,1,True,True,True,Low tissue specificity,20
+ENSG00000100784,RPS6KA5,ribosomal protein S6 kinase A5,ENSG00000100784,O75582,9252,HGNC:10434,SenMayo,1,True,True,True,Low tissue specificity,12
+ENSG00000100804,PSMB5,proteasome 20S subunit beta 5,ENSG00000100804,P28074,5693,HGNC:9542,CellAge,1,True,True,True,Low tissue specificity,10
+ENSG00000100811,YY1,YY1 transcription factor,ENSG00000100811,P25490,7528,HGNC:12856,CellAge,1,True,True,True,Low tissue specificity,69
+ENSG00000100823,APEX1,apurinic/apyrimidinic endodeoxyribonuclease 1,ENSG00000100823,P27695,328,HGNC:587,CellAge|GenAge,2,True,True,True,Low tissue specificity,29
+ENSG00000100867,DHRS2,dehydrogenase/reductase 2,ENSG00000100867,Q13268,10202,HGNC:18349,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000100906,NFKBIA,NFKB inhibitor alpha,ENSG00000100906,P25963,4792,HGNC:7797,CellAge|GenAge,2,True,False,True,Tissue enhanced,73
+ENSG00000100983,GSS,glutathione synthetase,ENSG00000100983,P48637,2937,HGNC:4624,GenAge,1,True,True,True,Low tissue specificity,7
+ENSG00000100985,MMP9,matrix metallopeptidase 9,ENSG00000100985,P14780,4318,HGNC:7176,CellAge|SenMayo,2,True,True,True,Group enriched,87
+ENSG00000101057,MYBL2,MYB proto-oncogene like 2,ENSG00000101057,P10244,4605,HGNC:7548,CellAge,1,True,True,True,Group enriched,31
+ENSG00000101109,STK4,serine/threonine kinase 4,ENSG00000101109,Q13043,6789,HGNC:11408,CellAge,1,True,False,True,Tissue enhanced,10
+ENSG00000101146,RAE1,ribonucleic acid export 1,ENSG00000101146,P78406,8480,HGNC:9828,GenAge,1,True,True,True,Tissue enhanced,9
+ENSG00000101191,DIDO1,death inducer-obliterator 1,ENSG00000101191,Q9BTC0,11083,HGNC:2680,CellAge,1,True,True,True,Low tissue specificity,7
+ENSG00000101266,CSNK2A1,casein kinase 2 alpha 1,ENSG00000101266,P68400,1457,HGNC:2457,CellAge,1,True,True,True,Low tissue specificity,27
+ENSG00000101311,FERMT1,FERM domain containing kindlin 1,ENSG00000101311,Q9BQL6,55612,HGNC:15889,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000101347,SAMHD1,SAM and HD domain containing deoxynucleoside triphosphate triphosphohydrolase 1,ENSG00000101347,Q9Y3Z3,25939,HGNC:15925,CellAge,1,True,True,True,Low tissue specificity,10
+ENSG00000101412,E2F1,E2F transcription factor 1,ENSG00000101412,Q01094,1869,HGNC:3113,CellAge|GenAge|Reactome,3,True,True,True,Tissue enhanced,90
+ENSG00000101441,CST4,cystatin S,ENSG00000101441,P01036,1472,HGNC:2476,SenMayo,1,False,True,True,Tissue enriched,1
+ENSG00000101868,POLA1,"DNA polymerase alpha 1, catalytic subunit",ENSG00000101868,P09884,5422,HGNC:9173,GenAge,1,True,True,True,Low tissue specificity,23
+ENSG00000101916,TLR8,toll like receptor 8,ENSG00000101916,Q9NR97,51311,HGNC:15632,CellAge,1,True,False,True,Tissue enhanced,15
+ENSG00000101945,SUV39H1,SUV39H1 histone lysine methyltransferase,ENSG00000101945,O43463,6839,HGNC:11479,CellAge,1,True,True,True,Low tissue specificity,41
+ENSG00000101966,XIAP,X-linked inhibitor of apoptosis,ENSG00000101966,P98170,331,HGNC:592,CellAge,1,True,True,True,Low tissue specificity,34
+ENSG00000101972,STAG2,STAG2 cohesin complex component,ENSG00000101972,Q8N3U4,10735,HGNC:11355,CellAge,1,True,True,True,Low tissue specificity,7
+ENSG00000102054,RBBP7,"RB binding protein 7, chromatin remodeling factor",ENSG00000102054,Q16576,5931,HGNC:9890,Reactome,1,True,True,True,Low tissue specificity,60
+ENSG00000102119,EMD,emerin,ENSG00000102119,P50402,2010,HGNC:3331,GenAge,1,True,False,True,Low tissue specificity,9
+ENSG00000102245,CD40LG,CD40 ligand,ENSG00000102245,P29965,959,HGNC:11935,CellAge,1,True,False,True,Tissue enhanced,27
+ENSG00000102755,FLT1,fms related receptor tyrosine kinase 1,ENSG00000102755,P17948,2321,HGNC:3763,CellAge|GenAge,2,True,True,True,Tissue enriched,42
+ENSG00000102804,TSC22D1,TSC22 domain family member 1,ENSG00000102804,Q15714,8848,HGNC:16826,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000102882,MAPK3,mitogen-activated protein kinase 3,ENSG00000102882,P27361,5595,HGNC:6877,GenAge|Reactome,2,True,True,True,Low tissue specificity,115
+ENSG00000102898,NUTF2,nuclear transport factor 2,ENSG00000102898,P61970,10204,HGNC:13722,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000102977,ACD,ACD shelterin complex subunit and telomerase recruitment factor,ENSG00000102977,Q96AP0,65057,HGNC:25070,Reactome,1,True,True,True,Low tissue specificity,13
+ENSG00000103196,CRISPLD2,cysteine rich secretory protein LCCL domain containing 2,ENSG00000103196,Q9H0B8,83716,HGNC:25248,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000103264,FBXO31,F-box protein 31,ENSG00000103264,Q5XUX0,79791,HGNC:16510,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000103266,STUB1,STIP1 homology and U-box containing protein 1,ENSG00000103266,Q9UNE7,10273,HGNC:11427,CellAge|GenAge,2,True,True,True,Low tissue specificity,41
+ENSG00000103275,UBE2I,ubiquitin conjugating enzyme E2 I,ENSG00000103275,P63279,7329,HGNC:12485,CellAge|GenAge,2,True,True,True,Low tissue specificity,63
+ENSG00000103449,SALL1,spalt like transcription factor 1,ENSG00000103449,Q9NSC2,6299,HGNC:10524,CellAge,1,True,True,True,Tissue enhanced,5
+ENSG00000103479,RBL2,RB transcriptional corepressor like 2,ENSG00000103479,Q08999,5934,HGNC:9894,CellAge,1,True,True,True,Low tissue specificity,35
+ENSG00000104320,NBN,nibrin,ENSG00000104320,O60934,4683,HGNC:7652,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,34
+ENSG00000104332,SFRP1,secreted frizzled related protein 1,ENSG00000104332,Q8N474,6422,HGNC:10776,CellAge,1,True,True,True,Tissue enhanced,7
+ENSG00000104365,IKBKB,inhibitor of nuclear factor kappa B kinase subunit beta,ENSG00000104365,O14920,3551,HGNC:5960,GenAge,1,True,True,True,Low tissue specificity,55
+ENSG00000104368,PLAT,"plasminogen activator, tissue type",ENSG00000104368,P00750,5327,HGNC:9051,SenMayo,1,True,True,True,Tissue enhanced,14
+ENSG00000104419,NDRG1,N-myc downstream regulated 1,ENSG00000104419,Q92597,10397,HGNC:7679,CellAge,1,True,True,True,Low tissue specificity,6
+ENSG00000104432,IL7,interleukin 7,ENSG00000104432,P13232,3574,HGNC:6023,GenAge|SenMayo,2,True,False,True,Low tissue specificity,39
+ENSG00000104687,GSR,glutathione-disulfide reductase,ENSG00000104687,P00390,2936,HGNC:4623,GenAge,1,True,True,True,Low tissue specificity,16
+ENSG00000104763,ASAH1,N-acylsphingosine amidohydrolase 1,ENSG00000104763,Q13510,427,HGNC:735,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000104765,BNIP3L,BCL2 interacting protein 3 like,ENSG00000104765,O60238,665,HGNC:1085,CellAge,1,True,True,True,Low tissue specificity,11
+ENSG00000104814,MAP4K1,mitogen-activated protein kinase kinase kinase kinase 1,ENSG00000104814,Q92918,11184,HGNC:6863,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000104856,RELB,"RELB proto-oncogene, NF-kB subunit",ENSG00000104856,Q01201,5971,HGNC:9956,CellAge,1,True,True,True,Low tissue specificity,14
+ENSG00000104884,ERCC2,"ERCC excision repair 2, TFIIH core complex helicase subunit",ENSG00000104884,P18074,2068,HGNC:3434,GenAge,1,True,True,True,Low tissue specificity,35
+ENSG00000104885,DOT1L,DOT1 like histone lysine methyltransferase,ENSG00000104885,Q8TEK3,84444,HGNC:24948,CellAge,1,True,True,True,Tissue enhanced,25
+ENSG00000104889,RNASEH2A,ribonuclease H2 subunit A,ENSG00000104889,O75792,10535,HGNC:18518,CellAge,1,True,True,True,Low tissue specificity,13
+ENSG00000105173,CCNE1,cyclin E1,ENSG00000105173,P24864,898,HGNC:1589,Reactome,1,True,True,True,Tissue enhanced,45
+ENSG00000105287,PRKD2,protein kinase D2,ENSG00000105287,Q9BZL6,25865,HGNC:17293,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000105325,FZR1,fizzy and cell division cycle 20 related 1,ENSG00000105325,Q9UM11,51343,HGNC:24824,Reactome,1,True,True,True,Low tissue specificity,45
+ENSG00000105329,TGFB1,transforming growth factor beta 1,ENSG00000105329,P01137,7040,HGNC:11766,GenAge,1,True,True,True,Low tissue specificity,85
+ENSG00000105397,TYK2,tyrosine kinase 2,ENSG00000105397,P29597,7297,HGNC:12440,CellAge,1,True,True,True,Low tissue specificity,38
+ENSG00000105509,HAS1,hyaluronan synthase 1,ENSG00000105509,Q92839,3036,HGNC:4818,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000105550,FGF21,fibroblast growth factor 21,ENSG00000105550,Q9NSA1,26291,HGNC:3678,CellAge|GenAge,2,True,False,True,Tissue enriched,18
+ENSG00000105568,PPP2R1A,protein phosphatase 2 scaffold subunit Aalpha,ENSG00000105568,P30153,5518,HGNC:9302,CellAge,1,False,False,True,Low tissue specificity,32
+ENSG00000105613,MAST1,microtubule associated serine/threonine kinase 1,ENSG00000105613,Q9Y2H9,22983,HGNC:19034,CellAge,1,True,True,True,Tissue enriched,0
+ENSG00000105722,ERF,ETS2 repressor factor,ENSG00000105722,P50548,2077,HGNC:3444,Reactome,1,True,True,True,Low tissue specificity,3
+ENSG00000105723,GSK3A,glycogen synthase kinase 3 alpha,ENSG00000105723,P49840,2931,HGNC:4616,CellAge|GenAge,2,True,True,True,Low tissue specificity,12
+ENSG00000105810,CDK6,cyclin dependent kinase 6,ENSG00000105810,Q00534,1021,HGNC:1777,CellAge|Reactome,2,True,True,True,Tissue enhanced,44
+ENSG00000105835,NAMPT,nicotinamide phosphoribosyltransferase,ENSG00000105835,P43490,10135,HGNC:30092,CellAge,1,True,True,True,Tissue enhanced,13
+ENSG00000105856,HBP1,HMG-box transcription factor 1,ENSG00000105856,O60381,26959,HGNC:23200,CellAge|GenAge,2,True,True,True,Low tissue specificity,1
+ENSG00000105968,H2AZ2,H2A.Z variant histone 2,ENSG00000105968,Q71UI9,94239,HGNC:20664,Reactome,1,True,True,True,Low tissue specificity,28
+ENSG00000105974,CAV1,caveolin 1,ENSG00000105974,Q03135,857,HGNC:1527,CellAge,1,True,True,True,Low tissue specificity,56
+ENSG00000105976,MET,"MET proto-oncogene, receptor tyrosine kinase",ENSG00000105976,P08581,4233,HGNC:7029,CellAge,1,True,True,True,Tissue enhanced,56
+ENSG00000105989,WNT2,Wnt family member 2,ENSG00000105989,P09544,7472,HGNC:12780,CellAge|SenMayo,2,True,True,True,Tissue enriched,9
+ENSG00000106128,GHRHR,growth hormone releasing hormone receptor,ENSG00000106128,Q02643,2692,HGNC:4266,GenAge,1,True,True,True,Tissue enriched,7
+ENSG00000106144,CASP2,caspase 2,ENSG00000106144,P42575,835,HGNC:1503,CellAge,1,True,True,True,Low tissue specificity,7
+ENSG00000106178,CCL24,C-C motif chemokine ligand 24,ENSG00000106178,O00175,6369,HGNC:10623,SenMayo,1,True,True,True,Group enriched,8
+ENSG00000106211,HSPB1,heat shock protein family B (small) member 1,ENSG00000106211,P04792,3315,HGNC:5246,CellAge,1,True,True,True,Tissue enhanced,31
+ENSG00000106268,NUDT1,nudix hydrolase 1,ENSG00000106268,P36639,4521,HGNC:8048,GenAge,1,True,True,True,Tissue enhanced,2
+ENSG00000106366,SERPINE1,serpin family E member 1,ENSG00000106366,P05121,5054,HGNC:8583,CellAge|GenAge|SenMayo,3,True,True,True,Tissue enhanced,40
+ENSG00000106459,NRF1,nuclear respiratory factor 1,ENSG00000106459,Q16656,4899,HGNC:7996,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000106462,EZH2,enhancer of zeste 2 polycomb repressive complex 2 subunit,ENSG00000106462,Q15910,2146,HGNC:3527,CellAge|Reactome,2,True,True,True,Tissue enhanced,115
+ENSG00000106541,AGR2,"anterior gradient 2, protein disulphide isomerase family member",ENSG00000106541,O95994,10551,HGNC:328,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000106546,AHR,aryl hydrocarbon receptor,ENSG00000106546,P35869,196,HGNC:348,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000106588,PSMA2,proteasome 20S subunit alpha 2,ENSG00000106588,P25787,5683,HGNC:9531,CellAge,1,True,True,True,Low tissue specificity,16
+ENSG00000106605,BLVRA,biliverdin reductase A,ENSG00000106605,P53004,644,HGNC:1062,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000106683,LIMK1,LIM domain kinase 1,ENSG00000106683,P53667,3984,HGNC:6613,CellAge,1,True,True,True,Tissue enhanced,9
+ENSG00000106723,SPIN1,spindlin 1,ENSG00000106723,Q9Y657,10927,HGNC:11243,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000106799,TGFBR1,transforming growth factor beta receptor 1,ENSG00000106799,P36897,7046,HGNC:11772,CellAge,1,True,True,True,Low tissue specificity,29
+ENSG00000106991,ENG,endoglin,ENSG00000106991,P17813,2022,HGNC:3349,CellAge,1,True,True,True,Tissue enhanced,20
+ENSG00000107077,KDM4C,lysine demethylase 4C,ENSG00000107077,Q9H3R0,23081,HGNC:17071,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000107551,RASSF4,Ras association domain family member 4,ENSG00000107551,Q9H2L5,83937,HGNC:20793,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000107562,CXCL12,C-X-C motif chemokine ligand 12,ENSG00000107562,P48061,6387,HGNC:10672,SenMayo,1,True,True,True,Low tissue specificity,56
+ENSG00000107614,TRDMT1,tRNA aspartic acid methyltransferase 1,ENSG00000107614,O14717,1787,HGNC:2977,CellAge,1,True,True,True,Low tissue specificity,3
+ENSG00000107643,MAPK8,mitogen-activated protein kinase 8,ENSG00000107643,P45983,5599,HGNC:6881,GenAge|Reactome,2,True,True,True,Low tissue specificity,81
+ENSG00000107960,STN1,STN1 subunit of CST complex,ENSG00000107960,Q9H668,79991,HGNC:26200,CellAge,1,True,True,True,Low tissue specificity,22
+ENSG00000107984,DKK1,dickkopf Wnt signaling pathway inhibitor 1,ENSG00000107984,O94907,22943,HGNC:2891,SenMayo,1,True,False,True,Tissue enhanced,10
+ENSG00000108106,UBE2S,ubiquitin conjugating enzyme E2 S,ENSG00000108106,Q16763,27338,HGNC:17895,Reactome,1,True,True,True,Tissue enhanced,55
+ENSG00000108384,RAD51C,RAD51 paralog C,ENSG00000108384,O43502,5889,HGNC:9820,CellAge,1,True,True,True,Low tissue specificity,27
+ENSG00000108443,RPS6KB1,ribosomal protein S6 kinase B1,ENSG00000108443,P23443,6198,HGNC:10436,CellAge,1,True,False,True,Low tissue specificity,42
+ENSG00000108651,UTP6,UTP6 small subunit processome component,ENSG00000108651,Q9NYH9,55813,HGNC:18279,CellAge,1,True,True,True,Low tissue specificity,8
+ENSG00000108688,CCL7,C-C motif chemokine ligand 7,ENSG00000108688,P80098,6354,HGNC:10634,SenMayo,1,True,True,True,Tissue enriched,14
+ENSG00000108691,CCL2,C-C motif chemokine ligand 2,ENSG00000108691,P13500,6347,HGNC:10618,CellAge|SenMayo,2,True,True,True,Tissue enhanced,81
+ENSG00000108700,CCL8,C-C motif chemokine ligand 8,ENSG00000108700,P80075,6355,HGNC:10635,SenMayo,1,True,True,True,Low tissue specificity,10
+ENSG00000108702,CCL1,C-C motif chemokine ligand 1,ENSG00000108702,P22362,6346,HGNC:10609,SenMayo,1,False,True,True,Group enriched,15
+ENSG00000108798,ABI3,ABI family member 3,ENSG00000108798,Q9P2A4,51225,HGNC:29859,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000108854,SMURF2,SMAD specific E3 ubiquitin protein ligase 2,ENSG00000108854,Q9HAU4,64750,HGNC:16809,CellAge,1,True,True,True,Low tissue specificity,19
+ENSG00000108861,DUSP3,dual specificity phosphatase 3,ENSG00000108861,P51452,1845,HGNC:3069,CellAge,1,False,False,True,Tissue enhanced,7
+ENSG00000108984,MAP2K6,mitogen-activated protein kinase kinase 6,ENSG00000108984,P52564,5608,HGNC:6846,CellAge|Reactome,2,True,True,True,Tissue enhanced,16
+ENSG00000109046,WSB1,WD repeat and SOCS box containing 1,ENSG00000109046,Q9Y6I7,26118,HGNC:19221,CellAge,1,True,True,True,Low tissue specificity,3
+ENSG00000109320,NFKB1,nuclear factor kappa B subunit 1,ENSG00000109320,P19838,4790,HGNC:7794,GenAge|Reactome,2,True,True,True,Low tissue specificity,126
+ENSG00000109321,AREG,amphiregulin,ENSG00000109321,P15514,374,HGNC:651,SenMayo,1,True,False,True,Tissue enhanced,16
+ENSG00000109339,MAPK10,mitogen-activated protein kinase 10,ENSG00000109339,P53779,5602,HGNC:6872,Reactome,1,True,True,True,Tissue enhanced,0
+ENSG00000109424,UCP1,uncoupling protein 1,ENSG00000109424,P25874,7350,HGNC:12517,GenAge,1,True,True,True,Tissue enhanced,7
+ENSG00000109452,INPP4B,inositol polyphosphate-4-phosphatase type II B,ENSG00000109452,O15327,8821,HGNC:6075,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000109471,IL2,interleukin 2,ENSG00000109471,P60568,3558,HGNC:6001,GenAge|SenMayo,2,True,False,True,Not detected,61
+ENSG00000109819,PPARGC1A,PPARG coactivator 1 alpha,ENSG00000109819,Q9UBK2,10891,HGNC:9237,CellAge|GenAge,2,True,True,True,Tissue enhanced,56
+ENSG00000109971,HSPA8,heat shock protein family A (Hsp70) member 8,ENSG00000109971,P11142,3312,HGNC:5241,GenAge,1,False,True,True,Low tissue specificity,61
+ENSG00000110092,CCND1,cyclin D1,ENSG00000110092,P24385,595,HGNC:1582,CellAge,1,True,True,True,Low tissue specificity,116
+ENSG00000110107,PRPF19,pre-mRNA processing factor 19,ENSG00000110107,Q9UMS4,27339,HGNC:17896,CellAge,1,True,True,True,Low tissue specificity,13
+ENSG00000110200,ANAPC15,anaphase promoting complex subunit 15,ENSG00000110200,P60006,25906,HGNC:24531,Reactome,1,True,True,True,Low tissue specificity,41
+ENSG00000110245,APOC3,apolipoprotein C3,ENSG00000110245,P02656,345,HGNC:610,GenAge,1,True,False,True,Tissue enriched,8
+ENSG00000110321,EIF4G2,eukaryotic translation initiation factor 4 gamma 2,ENSG00000110321,P78344,1982,HGNC:3297,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000110492,MDK,midkine,ENSG00000110492,P21741,4192,HGNC:6972,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000110876,SELPLG,selectin P ligand,ENSG00000110876,Q14242,6404,HGNC:10722,SenMayo,1,True,False,True,Tissue enhanced,6
+ENSG00000110887,DAO,D-amino acid oxidase,ENSG00000110887,P14920,1610,HGNC:2671,CellAge,1,True,True,True,Group enriched,2
+ENSG00000110921,MVK,mevalonate kinase,ENSG00000110921,Q03426,4598,HGNC:7530,CellAge,1,True,True,True,Tissue enhanced,7
+ENSG00000111087,GLI1,GLI family zinc finger 1,ENSG00000111087,P08151,2735,HGNC:4317,CellAge,1,True,True,True,Tissue enhanced,13
+ENSG00000111196,MAGOHB,"mago homolog B, exon junction complex subunit",ENSG00000111196,Q96A72,55110,HGNC:25504,CellAge,1,True,True,True,Low tissue specificity,7
+ENSG00000111206,FOXM1,forkhead box M1,ENSG00000111206,Q08050,2305,HGNC:3818,CellAge|GenAge,2,True,True,True,Tissue enhanced,51
+ENSG00000111262,KCNA1,potassium voltage-gated channel subfamily A member 1,ENSG00000111262,Q09470,3736,HGNC:6218,CellAge,1,True,True,True,Tissue enriched,2
+ENSG00000111275,ALDH2,aldehyde dehydrogenase 2 family member,ENSG00000111275,P05091,217,HGNC:404,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000111276,CDKN1B,cyclin dependent kinase inhibitor 1B,ENSG00000111276,P46527,1027,HGNC:1785,CellAge|Reactome,2,True,True,True,Low tissue specificity,62
+ENSG00000111328,CDK2AP1,cyclin dependent kinase 2 associated protein 1,ENSG00000111328,O14519,8099,HGNC:14002,CellAge,1,True,True,True,Tissue enhanced,5
+ENSG00000111424,VDR,vitamin D receptor,ENSG00000111424,P11473,7421,HGNC:12679,CellAge,1,True,True,True,Tissue enriched,0
+ENSG00000111537,IFNG,interferon gamma,ENSG00000111537,P01579,3458,HGNC:5438,CellAge,1,True,True,True,Group enriched,88
+ENSG00000111602,TIMELESS,timeless circadian regulator,ENSG00000111602,Q9UNS1,8914,HGNC:11813,CellAge,1,True,True,True,Low tissue specificity,23
+ENSG00000111640,GAPDH,glyceraldehyde-3-phosphate dehydrogenase,ENSG00000111640,P04406,2597,HGNC:4141,CellAge,1,True,True,True,Group enriched,116
+ENSG00000111679,PTPN6,protein tyrosine phosphatase non-receptor type 6,ENSG00000111679,P29350,5777,HGNC:9658,CellAge,1,True,True,True,Tissue enhanced,21
+ENSG00000111704,NANOG,Nanog homeobox,ENSG00000111704,Q9H9S0,79923,HGNC:20857,CellAge,1,True,True,True,Not detected,45
+ENSG00000111752,PHC1,polyhomeotic homolog 1,ENSG00000111752,P78364,1911,HGNC:3182,Reactome,1,True,False,True,Low tissue specificity,40
+ENSG00000111875,ASF1A,anti-silencing function 1A histone chaperone,ENSG00000111875,Q9Y294,25842,HGNC:20995,CellAge|Reactome,2,True,False,True,Low tissue specificity,18
+ENSG00000112029,FBXO5,F-box protein 5,ENSG00000112029,Q9UKT4,26271,HGNC:13584,CellAge,1,True,True,True,Group enriched,28
+ENSG00000112062,MAPK14,mitogen-activated protein kinase 14,ENSG00000112062,Q16539,1432,HGNC:6876,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,73
+ENSG00000112081,SRSF3,serine and arginine rich splicing factor 3,ENSG00000112081,P84103,6428,HGNC:10785,CellAge,1,True,True,True,Low tissue specificity,16
+ENSG00000112242,E2F3,E2F transcription factor 3,ENSG00000112242,O00716,1871,HGNC:3115,CellAge|Reactome,2,True,True,True,Low tissue specificity,26
+ENSG00000112312,GMNN,geminin DNA replication inhibitor,ENSG00000112312,O75496,51053,HGNC:17493,CellAge,1,True,True,True,Tissue enhanced,10
+ENSG00000112333,NR2E1,nuclear receptor subfamily 2 group E member 1,ENSG00000112333,Q9Y466,7101,HGNC:7973,CellAge,1,True,True,True,Group enriched,4
+ENSG00000112576,CCND3,cyclin D3,ENSG00000112576,P30281,896,HGNC:1585,CellAge,1,True,True,True,Tissue enhanced,26
+ENSG00000112592,TBP,TATA-box binding protein,ENSG00000112592,P20226,6908,HGNC:11588,GenAge,1,True,True,True,Low tissue specificity,45
+ENSG00000112658,SRF,serum response factor,ENSG00000112658,P11831,6722,HGNC:11291,CellAge,1,True,True,True,Low tissue specificity,19
+ENSG00000112715,VEGFA,vascular endothelial growth factor A,ENSG00000112715,P15692,7422,HGNC:12680,CellAge|GenAge|SenMayo,3,True,True,True,Low tissue specificity,0
+ENSG00000112742,TTK,TTK protein kinase,ENSG00000112742,P33981,7272,HGNC:12401,CellAge,1,True,True,True,Group enriched,42
+ENSG00000112761,CCN6,cellular communication network factor 6,ENSG00000112761,O95389,8838,HGNC:12771,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000112964,GHR,growth hormone receptor,ENSG00000112964,P10912,2690,HGNC:4263,GenAge,1,True,True,True,Tissue enhanced,24
+ENSG00000112984,KIF20A,kinesin family member 20A,ENSG00000112984,O95235,10112,HGNC:9787,CellAge,1,True,True,True,Tissue enhanced,36
+ENSG00000113013,HSPA9,heat shock protein family A (Hsp70) member 9,ENSG00000113013,P38646,3313,HGNC:5244,CellAge|GenAge,2,True,True,True,Low tissue specificity,33
+ENSG00000113083,LOX,lysyl oxidase,ENSG00000113083,P28300,4015,HGNC:6664,CellAge,1,True,True,True,Low tissue specificity,12
+ENSG00000113140,SPARC,secreted protein acidic and cysteine rich,ENSG00000113140,P09486,6678,HGNC:11219,CellAge,1,True,True,True,Low tissue specificity,7
+ENSG00000113161,HMGCR,3-hydroxy-3-methylglutaryl-CoA reductase,ENSG00000113161,P04035,3156,HGNC:5006,CellAge,1,True,True,True,Tissue enhanced,15
+ENSG00000113300,CNOT6,CCR4-NOT transcription complex subunit 6,ENSG00000113300,Q9ULM6,57472,HGNC:14099,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000113368,LMNB1,lamin B1,ENSG00000113368,P20700,4001,HGNC:6637,CellAge|GenAge|Reactome,3,True,True,True,Tissue enhanced,19
+ENSG00000113522,RAD50,RAD50 double strand break repair protein,ENSG00000113522,Q92878,10111,HGNC:9816,Reactome,1,True,True,True,Low tissue specificity,27
+ENSG00000113578,FGF1,fibroblast growth factor 1,ENSG00000113578,P05230,2246,HGNC:3665,SenMayo,1,True,False,True,Tissue enriched,24
+ENSG00000113580,NR3C1,nuclear receptor subfamily 3 group C member 1,ENSG00000113580,P04150,2908,HGNC:7978,GenAge,1,True,True,True,Low tissue specificity,47
+ENSG00000113658,SMAD5,SMAD family member 5,ENSG00000113658,Q99717,4090,HGNC:6771,CellAge,1,True,True,True,Low tissue specificity,17
+ENSG00000113712,CSNK1A1,casein kinase 1 alpha 1,ENSG00000113712,P48729,1452,HGNC:2451,CellAge,1,True,True,True,Low tissue specificity,12
+ENSG00000113721,PDGFRB,platelet derived growth factor receptor beta,ENSG00000113721,P09619,5159,HGNC:8804,GenAge,1,True,True,True,Low tissue specificity,63
+ENSG00000113758,DBN1,drebrin 1,ENSG00000113758,Q16643,1627,HGNC:2695,GenAge,1,True,True,True,Low tissue specificity,1
+ENSG00000113916,BCL6,BCL6 transcription repressor,ENSG00000113916,P41182,604,HGNC:1001,CellAge,1,True,True,True,Tissue enhanced,28
+ENSG00000114026,OGG1,8-oxoguanine DNA glycosylase,ENSG00000114026,O15527,4968,HGNC:8125,CellAge,1,True,True,True,Low tissue specificity,13
+ENSG00000114062,UBE3A,ubiquitin protein ligase E3A,ENSG00000114062,Q05086,7337,HGNC:12496,CellAge,1,True,True,True,Low tissue specificity,21
+ENSG00000114113,RBP2,retinol binding protein 2,ENSG00000114113,P50120,5948,HGNC:9920,CellAge,1,True,True,True,Tissue enriched,1
+ENSG00000114115,RBP1,retinol binding protein 1,ENSG00000114115,P09455,5947,HGNC:9919,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000114126,TFDP2,transcription factor Dp-2,ENSG00000114126,Q14188,7029,HGNC:11751,Reactome,1,True,True,True,Tissue enhanced,17
+ENSG00000114209,PDCD10,programmed cell death 10,ENSG00000114209,Q9BUL8,11235,HGNC:8761,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000114251,WNT5A,Wnt family member 5A,ENSG00000114251,P41221,7474,HGNC:12784,CellAge,1,True,True,True,Tissue enhanced,13
+ENSG00000114346,ECT2,epithelial cell transforming 2,ENSG00000114346,Q9H8V3,1894,HGNC:3155,CellAge,1,True,True,True,Low tissue specificity,26
+ENSG00000114354,TFG,trafficking from ER to golgi regulator,ENSG00000114354,Q92734,10342,HGNC:11758,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000114416,FXR1,FMR1 autosomal homolog 1,ENSG00000114416,P51114,8087,HGNC:4023,CellAge,1,True,True,True,Group enriched,9
+ENSG00000114738,MAPKAPK3,MAPK activated protein kinase 3,ENSG00000114738,Q16644,7867,HGNC:6888,Reactome,1,True,True,True,Tissue enhanced,7
+ENSG00000114861,FOXP1,forkhead box P1,ENSG00000114861,Q9H334,27086,HGNC:3823,CellAge,1,True,False,True,Low tissue specificity,8
+ENSG00000114904,NEK4,NIMA related kinase 4,ENSG00000114904,P51957,6787,HGNC:11399,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000115008,IL1A,interleukin 1 alpha,ENSG00000115008,P01583,3552,HGNC:5991,CellAge|Reactome|SenMayo,3,True,False,True,Tissue enhanced,63
+ENSG00000115009,CCL20,C-C motif chemokine ligand 20,ENSG00000115009,P78556,6364,HGNC:10619,SenMayo,1,True,False,True,Group enriched,29
+ENSG00000115129,TP53I3,tumor protein p53 inducible protein 3,ENSG00000115129,Q53FA7,9540,HGNC:19373,CellAge,1,False,True,True,Tissue enhanced,2
+ENSG00000115163,CENPA,centromere protein A,ENSG00000115163,P49450,1058,HGNC:1851,CellAge,1,True,True,True,Tissue enhanced,60
+ENSG00000115233,PSMD14,"proteasome 26S subunit, non-ATPase 14",ENSG00000115233,O00487,10213,HGNC:16889,CellAge,1,True,True,True,Low tissue specificity,21
+ENSG00000115310,RTN4,reticulon 4,ENSG00000115310,Q9NQC3,57142,HGNC:14085,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000115317,HTRA2,HtrA serine peptidase 2,ENSG00000115317,O43464,27429,HGNC:14348,GenAge,1,True,True,True,Low tissue specificity,12
+ENSG00000115380,EFEMP1,EGF-like fibulin extracellular matrix protein 1,ENSG00000115380,Q12805,2202,HGNC:3218,GenAge,1,True,True,True,Tissue enhanced,1
+ENSG00000115415,STAT1,signal transducer and activator of transcription 1,ENSG00000115415,P42224,6772,HGNC:11362,CellAge,1,True,True,True,Low tissue specificity,96
+ENSG00000115457,IGFBP2,insulin like growth factor binding protein 2,ENSG00000115457,P18065,3485,HGNC:5471,GenAge|SenMayo,2,True,True,True,Tissue enhanced,7
+ENSG00000115461,IGFBP5,insulin like growth factor binding protein 5,ENSG00000115461,P24593,3488,HGNC:5474,CellAge|SenMayo,2,True,True,True,Tissue enhanced,8
+ENSG00000115594,IL1R1,interleukin 1 receptor type 1,ENSG00000115594,P14778,3554,HGNC:5993,CellAge,1,True,True,True,Low tissue specificity,28
+ENSG00000115884,SDC1,syndecan 1,ENSG00000115884,P18827,6382,HGNC:10658,CellAge,1,True,False,True,Tissue enhanced,27
+ENSG00000115966,ATF2,activating transcription factor 2,ENSG00000115966,P15336,1386,HGNC:784,GenAge,1,True,True,True,Low tissue specificity,37
+ENSG00000115977,AAK1,AP2 associated kinase 1,ENSG00000115977,Q2M2I8,22848,HGNC:19679,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000116016,EPAS1,endothelial PAS domain protein 1,ENSG00000116016,Q99814,2034,HGNC:3374,CellAge,1,True,True,True,Tissue enhanced,28
+ENSG00000116017,ARID3A,AT-rich interaction domain 3A,ENSG00000116017,Q99856,1820,HGNC:3031,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000116030,SUMO1,small ubiquitin like modifier 1,ENSG00000116030,P63165,7341,HGNC:12502,GenAge,1,True,True,True,Low tissue specificity,53
+ENSG00000116044,NFE2L2,NFE2 like bZIP transcription factor 2,ENSG00000116044,Q16236,4780,HGNC:7782,CellAge|GenAge,2,True,True,True,Low tissue specificity,46
+ENSG00000116133,DHCR24,24-dehydrocholesterol reductase,ENSG00000116133,Q15392,1718,HGNC:2859,CellAge,1,True,True,True,Tissue enhanced,5
+ENSG00000116254,CHD5,chromodomain helicase DNA binding protein 5,ENSG00000116254,Q8TDI0,26038,HGNC:16816,CellAge,1,True,True,True,Group enriched,6
+ENSG00000116285,ERRFI1,ERBB receptor feedback inhibitor 1,ENSG00000116285,Q9UJM3,54206,HGNC:18185,CellAge,1,True,True,True,Tissue enhanced,3
+ENSG00000116288,PARK7,Parkinsonism associated deglycase,ENSG00000116288,Q99497,11315,HGNC:16369,CellAge,1,True,True,True,Low tissue specificity,28
+ENSG00000116478,HDAC1,histone deacetylase 1,ENSG00000116478,Q13547,3065,HGNC:4852,CellAge|GenAge,2,True,True,True,Low tissue specificity,157
+ENSG00000116678,LEPR,leptin receptor,ENSG00000116678,P48357,3953,HGNC:6554,GenAge,1,True,True,True,Tissue enriched,22
+ENSG00000116761,CTH,cystathionine gamma-lyase,ENSG00000116761,P32929,1491,HGNC:2501,CellAge,1,True,True,True,Tissue enriched,6
+ENSG00000117139,KDM5B,lysine demethylase 5B,ENSG00000117139,Q9UGL1,10765,HGNC:18039,CellAge,1,True,True,True,Tissue enhanced,10
+ENSG00000117266,CDK18,cyclin dependent kinase 18,ENSG00000117266,Q07002,5129,HGNC:8751,CellAge,1,True,True,True,Group enriched,0
+ENSG00000117385,P3H1,prolyl 3-hydroxylase 1,ENSG00000117385,Q32P28,64175,HGNC:19316,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000117450,PRDX1,peroxiredoxin 1,ENSG00000117450,Q06830,5052,HGNC:9352,GenAge,1,True,True,True,Low tissue specificity,21
+ENSG00000117650,NEK2,NIMA related kinase 2,ENSG00000117650,P51955,4751,HGNC:7745,CellAge,1,True,True,True,Group enriched,45
+ENSG00000117707,PROX1,prospero homeobox 1,ENSG00000117707,Q92786,5629,HGNC:9459,CellAge,1,True,True,True,Tissue enriched,2
+ENSG00000117713,ARID1A,AT-rich interaction domain 1A,ENSG00000117713,O14497,8289,HGNC:11110,CellAge,1,True,True,True,Low tissue specificity,34
+ENSG00000117984,CTSD,cathepsin D,ENSG00000117984,P07339,1509,HGNC:2529,CellAge,1,True,True,True,Low tissue specificity,13
+ENSG00000118046,STK11,serine/threonine kinase 11,ENSG00000118046,Q15831,6794,HGNC:11389,GenAge,1,True,True,True,Low tissue specificity,27
+ENSG00000118217,ATF6,activating transcription factor 6,ENSG00000118217,P18850,22926,HGNC:791,CellAge,1,True,True,True,Low tissue specificity,13
+ENSG00000118260,CREB1,cAMP responsive element binding protein 1,ENSG00000118260,P16220,1385,HGNC:2345,GenAge,1,True,True,True,Low tissue specificity,76
+ENSG00000118432,CNR1,cannabinoid receptor 1,ENSG00000118432,P21554,1268,HGNC:2159,GenAge,1,True,True,True,Tissue enhanced,4
+ENSG00000118515,SGK1,serum/glucocorticoid regulated kinase 1,ENSG00000118515,O00141,6446,HGNC:10810,CellAge,1,True,False,True,Tissue enhanced,16
+ENSG00000118523,CCN2,cellular communication network factor 2,ENSG00000118523,P29279,1490,HGNC:2500,CellAge|GenAge,2,True,True,True,Tissue enhanced,35
+ENSG00000118596,SLC16A7,solute carrier family 16 member 7,ENSG00000118596,O60669,9194,HGNC:10928,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000118689,FOXO3,forkhead box O3,ENSG00000118689,O43524,2309,HGNC:3821,CellAge|GenAge,2,True,False,True,Low tissue specificity,83
+ENSG00000118785,SPP1,secreted phosphoprotein 1,ENSG00000118785,P10451,6696,HGNC:11255,SenMayo,1,True,False,True,Tissue enhanced,29
+ENSG00000118900,UBN1,ubinuclein 1,ENSG00000118900,Q9NPG3,29855,HGNC:12506,Reactome,1,True,True,True,Low tissue specificity,4
+ENSG00000118972,FGF23,fibroblast growth factor 23,ENSG00000118972,Q9GZV9,8074,HGNC:3680,GenAge,1,True,True,True,Tissue enhanced,13
+ENSG00000119318,RAD23B,RAD23 nucleotide excision repair protein B,ENSG00000119318,P54727,5887,HGNC:9813,CellAge,1,True,True,True,Low tissue specificity,39
+ENSG00000119326,CTNNAL1,catenin alpha like 1,ENSG00000119326,Q9UBT7,8727,HGNC:2512,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000119408,NEK6,NIMA related kinase 6,ENSG00000119408,Q9HC98,10783,HGNC:7749,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000119630,PGF,placental growth factor,ENSG00000119630,P49763,5228,HGNC:8893,SenMayo,1,True,True,True,Tissue enhanced,21
+ENSG00000119638,NEK9,NIMA related kinase 9,ENSG00000119638,Q8TD19,91754,HGNC:18591,CellAge,1,True,False,True,Low tissue specificity,2
+ENSG00000119715,ESRRB,estrogen related receptor beta,ENSG00000119715,O95718,2103,HGNC:3473,CellAge,1,True,True,True,Group enriched,8
+ENSG00000119772,DNMT3A,DNA methyltransferase 3 alpha,ENSG00000119772,Q9Y6K1,1788,HGNC:2978,CellAge,1,True,True,True,Low tissue specificity,42
+ENSG00000119950,MXI1,"MAX interactor 1, dimerization protein",ENSG00000119950,P50539,4601,HGNC:7534,GenAge,1,True,True,True,Low tissue specificity,10
+ENSG00000119969,HELLS,"helicase, lymphoid specific",ENSG00000119969,Q9NRZ9,3070,HGNC:4861,CellAge|GenAge,2,True,True,True,Tissue enhanced,11
+ENSG00000120129,DUSP1,dual specificity phosphatase 1,ENSG00000120129,P28562,1843,HGNC:3064,CellAge,1,True,True,True,Low tissue specificity,17
+ENSG00000120265,PCMT1,protein-L-isoaspartate (D-aspartate) O-methyltransferase,ENSG00000120265,P22061,5110,HGNC:8728,GenAge,1,True,True,True,Low tissue specificity,0
+ENSG00000120708,TGFBI,transforming growth factor beta induced,ENSG00000120708,Q15582,7045,HGNC:11771,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000120738,EGR1,early growth response 1,ENSG00000120738,P18146,1958,HGNC:3238,GenAge,1,True,False,True,Low tissue specificity,41
+ENSG00000120833,SOCS2,suppressor of cytokine signaling 2,ENSG00000120833,O14508,8835,HGNC:19382,GenAge,1,True,True,True,Low tissue specificity,14
+ENSG00000120885,CLU,clusterin,ENSG00000120885,P10909,1191,HGNC:2095,CellAge|GenAge,2,True,True,True,Tissue enhanced,19
+ENSG00000120899,PTK2B,protein tyrosine kinase 2 beta,ENSG00000120899,Q14289,2185,HGNC:9612,GenAge,1,True,True,True,Tissue enhanced,9
+ENSG00000121067,SPOP,speckle type BTB/POZ protein,ENSG00000121067,O43791,8405,HGNC:11254,CellAge,1,True,True,True,Low tissue specificity,17
+ENSG00000121068,TBX2,T-box transcription factor 2,ENSG00000121068,Q13207,6909,HGNC:11597,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000121481,RNF2,ring finger protein 2,ENSG00000121481,Q99496,6045,HGNC:10061,Reactome,1,True,True,True,Low tissue specificity,63
+ENSG00000121691,CAT,catalase,ENSG00000121691,P04040,847,HGNC:1516,GenAge,1,True,True,True,Tissue enhanced,4
+ENSG00000121879,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",ENSG00000121879,P42336,5290,HGNC:8975,CellAge|GenAge,2,True,True,True,Low tissue specificity,82
+ENSG00000122691,TWIST1,twist family bHLH transcription factor 1,ENSG00000122691,Q15672,7291,HGNC:12428,CellAge,1,True,False,True,Tissue enhanced,24
+ENSG00000122707,RECK,reversion inducing cysteine rich protein with kazal motifs,ENSG00000122707,O95980,8434,HGNC:11345,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000122861,PLAU,"plasminogen activator, urokinase",ENSG00000122861,P00749,5328,HGNC:9052,GenAge|SenMayo,2,True,True,True,Tissue enhanced,23
+ENSG00000122877,EGR2,early growth response 2,ENSG00000122877,P11161,1959,HGNC:3239,CellAge,1,True,True,True,Tissue enhanced,20
+ENSG00000122966,CIT,citron rho-interacting serine/threonine kinase,ENSG00000122966,O14578,11113,HGNC:1985,CellAge,1,True,True,True,Tissue enhanced,4
+ENSG00000123080,CDKN2C,cyclin dependent kinase inhibitor 2C,ENSG00000123080,P42773,1031,HGNC:1789,Reactome,1,True,True,True,Tissue enhanced,12
+ENSG00000123104,ITPR2,"inositol 1,4,5-trisphosphate receptor type 2",ENSG00000123104,Q14571,3709,HGNC:6181,CellAge,1,True,True,True,Tissue enhanced,8
+ENSG00000123124,WWP1,WW domain containing E3 ubiquitin protein ligase 1,ENSG00000123124,Q9H0M0,11059,HGNC:17004,CellAge,1,True,True,True,Tissue enhanced,12
+ENSG00000123374,CDK2,cyclin dependent kinase 2,ENSG00000123374,P24941,1017,HGNC:1771,CellAge|Reactome,2,True,True,True,Low tissue specificity,114
+ENSG00000123485,HJURP,Holliday junction recognition protein,ENSG00000123485,Q8NCD3,55355,HGNC:25444,CellAge,1,True,False,True,Tissue enhanced,32
+ENSG00000123908,AGO2,argonaute RISC catalytic component 2,ENSG00000123908,Q9UKV8,27161,HGNC:3263,CellAge,1,True,True,True,Low tissue specificity,43
+ENSG00000123933,MXD4,MAX dimerization protein 4,ENSG00000123933,Q14582,10608,HGNC:13906,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000123999,INHA,inhibin subunit alpha,ENSG00000123999,P05111,3623,HGNC:6065,SenMayo,1,True,True,True,Group enriched,0
+ENSG00000124216,SNAI1,snail family transcriptional repressor 1,ENSG00000124216,O95863,6615,HGNC:11128,CellAge,1,True,True,True,Tissue enhanced,54
+ENSG00000124253,PCK1,phosphoenolpyruvate carboxykinase 1,ENSG00000124253,P35558,5105,HGNC:8724,GenAge,1,True,True,True,Tissue enhanced,8
+ENSG00000124575,H1-3,"H1.3 linker histone, cluster member",ENSG00000124575,P16402,3007,HGNC:4717,Reactome,1,True,True,True,Tissue enhanced,7
+ENSG00000124610,H1-1,"H1.1 linker histone, cluster member",ENSG00000124610,Q02539,3024,HGNC:4715,Reactome,1,True,False,True,Not detected,13
+ENSG00000124635,H2BC11,H2B clustered histone 11,ENSG00000124635,P06899,8970,HGNC:4761,Reactome,1,True,False,True,Tissue enhanced,55
+ENSG00000124713,GNMT,glycine N-methyltransferase,ENSG00000124713,Q14749,27232,HGNC:4415,CellAge,1,True,True,True,Group enriched,3
+ENSG00000124762,CDKN1A,cyclin dependent kinase inhibitor 1A,ENSG00000124762,P38936,1026,HGNC:1784,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,89
+ENSG00000124766,SOX4,SRY-box transcription factor 4,ENSG00000124766,Q06945,6659,HGNC:11200,CellAge,1,True,True,True,Tissue enhanced,6
+ENSG00000124795,DEK,DEK proto-oncogene,ENSG00000124795,P35659,7913,HGNC:2768,CellAge,1,True,True,True,Low tissue specificity,11
+ENSG00000124802,EEF1E1,eukaryotic translation elongation factor 1 epsilon 1,ENSG00000124802,O43324,9521,HGNC:3212,CellAge|GenAge,2,True,True,True,Low tissue specificity,1
+ENSG00000124882,EREG,epiregulin,ENSG00000124882,O14944,2069,HGNC:3443,SenMayo,1,True,False,True,Tissue enriched,15
+ENSG00000125144,MT1G,metallothionein 1G,ENSG00000125144,P13640,4495,HGNC:7399,CellAge,1,False,True,True,Tissue enhanced,1
+ENSG00000125347,IRF1,interferon regulatory factor 1,ENSG00000125347,P10914,3659,HGNC:6116,CellAge,1,True,True,True,Tissue enhanced,31
+ENSG00000125378,BMP4,bone morphogenetic protein 4,ENSG00000125378,P12644,652,HGNC:1071,CellAge,1,True,True,True,Tissue enhanced,20
+ENSG00000125384,PTGER2,prostaglandin E receptor 2,ENSG00000125384,P43116,5732,HGNC:9594,SenMayo,1,True,True,True,Tissue enhanced,2
+ENSG00000125388,GRK4,G protein-coupled receptor kinase 4,ENSG00000125388,P32298,2868,HGNC:4543,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000125538,IL1B,interleukin 1 beta,ENSG00000125538,P01584,3553,HGNC:5992,SenMayo,1,True,True,True,Tissue enhanced,122
+ENSG00000125618,PAX8,paired box 8,ENSG00000125618,Q06710,7849,HGNC:8622,CellAge,1,True,True,True,Group enriched,10
+ENSG00000125656,CLPP,caseinolytic mitochondrial matrix peptidase proteolytic subunit,ENSG00000125656,Q16740,8192,HGNC:2084,CellAge,1,True,True,True,Low tissue specificity,6
+ENSG00000125686,MED1,mediator complex subunit 1,ENSG00000125686,Q15648,5469,HGNC:9234,GenAge,1,True,True,True,Low tissue specificity,50
+ENSG00000125730,C3,complement C3,ENSG00000125730,P01024,718,HGNC:1318,SenMayo,1,True,True,True,Tissue enriched,12
+ENSG00000125841,NRSN2,neurensin 2,ENSG00000125841,Q9GZP1,80023,HGNC:16229,CellAge,1,True,False,True,Tissue enhanced,0
+ENSG00000125845,BMP2,bone morphogenetic protein 2,ENSG00000125845,P12643,650,HGNC:1069,SenMayo,1,True,True,True,Low tissue specificity,21
+ENSG00000125952,MAX,MYC associated transcriptional regulator X,ENSG00000125952,P61244,4149,HGNC:6913,GenAge,1,True,False,True,Low tissue specificity,21
+ENSG00000125968,ID1,inhibitor of DNA binding 1,ENSG00000125968,P41134,3397,HGNC:5360,CellAge|Reactome,2,True,True,True,Low tissue specificity,4
+ENSG00000125995,ROMO1,reactive oxygen species modulator 1,ENSG00000125995,P60602,140823,HGNC:16185,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000126010,GRPR,gastrin releasing peptide receptor,ENSG00000126010,P30550,2925,HGNC:4609,CellAge,1,True,True,True,Tissue enriched,1
+ENSG00000126070,AGO3,argonaute RISC catalytic component 3,ENSG00000126070,Q9H9G7,192669,HGNC:18421,Reactome,1,True,True,True,Low tissue specificity,11
+ENSG00000126247,CAPNS1,calpain small subunit 1,ENSG00000126247,P04632,826,HGNC:1481,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000126456,IRF3,interferon regulatory factor 3,ENSG00000126456,Q14653,3661,HGNC:6118,CellAge,1,True,True,True,Low tissue specificity,44
+ENSG00000126457,PRMT1,protein arginine methyltransferase 1,ENSG00000126457,Q99873,3276,HGNC:5187,CellAge,1,True,True,True,Low tissue specificity,26
+ENSG00000126561,STAT5A,signal transducer and activator of transcription 5A,ENSG00000126561,P42229,6776,HGNC:11366,CellAge|GenAge,2,True,True,True,Tissue enhanced,63
+ENSG00000126581,BECN1,beclin 1,ENSG00000126581,Q14457,8678,HGNC:1034,CellAge,1,True,True,True,Low tissue specificity,52
+ENSG00000126602,TRAP1,TNF receptor associated protein 1,ENSG00000126602,Q12931,10131,HGNC:16264,GenAge,1,True,True,True,Low tissue specificity,5
+ENSG00000126778,SIX1,SIX homeobox 1,ENSG00000126778,Q15475,6495,HGNC:10887,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000126803,HSPA2,heat shock protein family A (Hsp70) member 2,ENSG00000126803,P54652,3306,HGNC:5235,CellAge,1,True,True,True,Tissue enhanced,13
+ENSG00000126934,MAP2K2,mitogen-activated protein kinase kinase 2,ENSG00000126934,P36507,5605,HGNC:6842,CellAge,1,True,True,True,Low tissue specificity,24
+ENSG00000127152,BCL11B,BCL11 transcription factor B,ENSG00000127152,Q9C0K0,64919,HGNC:13222,CellAge,1,True,True,True,Group enriched,14
+ENSG00000127337,YEATS4,YEATS domain containing 4,ENSG00000127337,O95619,8089,HGNC:24859,CellAge,1,True,True,True,Low tissue specificity,17
+ENSG00000127445,PIN1,"peptidylprolyl cis/trans isomerase, NIMA-interacting 1",ENSG00000127445,Q13526,5300,HGNC:8988,CellAge|GenAge,2,True,True,True,Tissue enhanced,10
+ENSG00000127511,SIN3B,SIN3 transcription regulator family member B,ENSG00000127511,O75182,23309,HGNC:19354,CellAge,1,True,True,True,Low tissue specificity,15
+ENSG00000127616,SMARCA4,SWI/SNF related BAF chromatin remodeling complex subunit ATPase 4,ENSG00000127616,P51532,6597,HGNC:11100,CellAge,1,True,True,True,Low tissue specificity,86
+ENSG00000127920,GNG11,G protein subunit gamma 11,ENSG00000127920,P61952,2791,HGNC:4403,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000128016,ZFP36,ZFP36 zinc finger CCCH-type,ENSG00000128016,P26651,7538,HGNC:12862,CellAge,1,True,True,True,Low tissue specificity,15
+ENSG00000128052,KDR,kinase insert domain receptor,ENSG00000128052,P35968,3791,HGNC:6307,CellAge,1,True,True,True,Low tissue specificity,61
+ENSG00000128191,DGCR8,DGCR8 microprocessor complex subunit,ENSG00000128191,Q8WYQ5,54487,HGNC:2847,CellAge,1,True,True,True,Low tissue specificity,13
+ENSG00000128513,POT1,protection of telomeres 1,ENSG00000128513,Q9NUX5,25913,HGNC:17284,CellAge|Reactome,2,True,True,True,Low tissue specificity,17
+ENSG00000128564,VGF,VGF nerve growth factor inducible,ENSG00000128564,O15240,7425,HGNC:12684,SenMayo,1,True,False,True,Group enriched,3
+ENSG00000128604,IRF5,interferon regulatory factor 5,ENSG00000128604,Q13568,3663,HGNC:6120,CellAge,1,True,True,True,Low tissue specificity,10
+ENSG00000129219,PLD2,phospholipase D2,ENSG00000129219,O14939,5338,HGNC:9068,CellAge,1,True,True,True,Tissue enhanced,11
+ENSG00000129351,ILF3,interleukin enhancer binding factor 3,ENSG00000129351,Q12906,3609,HGNC:6038,CellAge,1,True,True,True,Low tissue specificity,18
+ENSG00000129355,CDKN2D,cyclin dependent kinase inhibitor 2D,ENSG00000129355,P55273,1032,HGNC:1790,Reactome,1,True,True,True,Group enriched,10
+ENSG00000129473,BCL2L2,BCL2 like 2,ENSG00000129473,Q92843,599,HGNC:995,CellAge,1,True,False,True,Low tissue specificity,7
+ENSG00000129514,FOXA1,forkhead box A1,ENSG00000129514,P55317,3169,HGNC:5021,CellAge,1,True,True,True,Tissue enhanced,23
+ENSG00000129757,CDKN1C,cyclin dependent kinase inhibitor 1C,ENSG00000129757,P49918,1028,HGNC:1786,CellAge,1,True,True,True,Tissue enhanced,29
+ENSG00000130177,CDC16,cell division cycle 16,ENSG00000130177,Q13042,8881,HGNC:1720,Reactome,1,True,True,True,Low tissue specificity,51
+ENSG00000130203,APOE,apolipoprotein E,ENSG00000130203,P02649,348,HGNC:613,GenAge,1,True,True,True,Tissue enhanced,40
+ENSG00000130222,GADD45G,growth arrest and DNA damage inducible gamma,ENSG00000130222,O95257,10912,HGNC:4097,CellAge,1,True,True,True,Tissue enhanced,5
+ENSG00000130429,ARPC1B,actin related protein 2/3 complex subunit 1B,ENSG00000130429,O15143,10095,HGNC:704,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000130513,GDF15,growth differentiation factor 15,ENSG00000130513,Q99988,9518,HGNC:30142,CellAge|SenMayo,2,True,False,True,Tissue enhanced,3
+ENSG00000130522,JUND,"JunD proto-oncogene, AP-1 transcription factor subunit",ENSG00000130522,P17535,3727,HGNC:6206,GenAge,1,True,True,True,Low tissue specificity,22
+ENSG00000130638,ATXN10,ataxin 10,ENSG00000130638,Q9UBB4,25814,HGNC:10549,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000130640,TUBGCP2,tubulin gamma complex component 2,ENSG00000130640,Q9BSJ2,10844,HGNC:18599,SenMayo,1,True,True,True,Low tissue specificity,0
+ENSG00000130669,PAK4,p21 (RAC1) activated kinase 4,ENSG00000130669,O96013,10298,HGNC:16059,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000130675,MNX1,motor neuron and pancreas homeobox 1,ENSG00000130675,P50219,3110,HGNC:4979,CellAge,1,True,True,True,Group enriched,1
+ENSG00000130726,TRIM28,tripartite motif containing 28,ENSG00000130726,Q13263,10155,HGNC:16384,CellAge,1,True,True,True,Low tissue specificity,32
+ENSG00000130734,ATG4D,autophagy related 4D cysteine peptidase,ENSG00000130734,Q86TL0,84971,HGNC:20789,CellAge,1,True,True,True,Low tissue specificity,7
+ENSG00000130755,GMFG,glia maturation factor gamma,ENSG00000130755,O60234,9535,HGNC:4374,SenMayo,1,True,False,True,Tissue enhanced,1
+ENSG00000130816,DNMT1,DNA methyltransferase 1,ENSG00000130816,P26358,1786,HGNC:2976,CellAge,1,True,True,True,Low tissue specificity,63
+ENSG00000130826,DKC1,dyskerin pseudouridine synthase 1,ENSG00000130826,O60832,1736,HGNC:2890,CellAge,1,True,True,True,Low tissue specificity,18
+ENSG00000130988,RGN,regucalcin,ENSG00000130988,Q15493,9104,HGNC:9989,GenAge,1,True,True,True,Group enriched,2
+ENSG00000131023,LATS1,large tumor suppressor kinase 1,ENSG00000131023,O95835,9113,HGNC:6514,CellAge,1,True,True,True,Low tissue specificity,10
+ENSG00000131051,RBM39,RNA binding motif protein 39,ENSG00000131051,Q14498,9584,HGNC:15923,CellAge,1,True,True,True,Tissue enhanced,9
+ENSG00000131408,NR1H2,nuclear receptor subfamily 1 group H member 2,ENSG00000131408,P55055,7376,HGNC:7965,CellAge,1,True,False,True,Low tissue specificity,7
+ENSG00000131473,ACLY,ATP citrate lyase,ENSG00000131473,P53396,47,HGNC:115,CellAge,1,True,True,True,Low tissue specificity,10
+ENSG00000131669,NINJ1,ninjurin 1,ENSG00000131669,Q92982,4814,HGNC:7824,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000131747,TOP2A,DNA topoisomerase II alpha,ENSG00000131747,P11388,7153,HGNC:11989,GenAge,1,True,True,True,Tissue enhanced,63
+ENSG00000131981,LGALS3,galectin 3,ENSG00000131981,P17931,3958,HGNC:6563,CellAge,1,True,True,True,Tissue enhanced,19
+ENSG00000132155,RAF1,"Raf-1 proto-oncogene, serine/threonine kinase",ENSG00000132155,P04049,5894,HGNC:9829,CellAge,1,True,True,True,Tissue enhanced,46
+ENSG00000132170,PPARG,peroxisome proliferator activated receptor gamma,ENSG00000132170,P37231,5468,HGNC:9236,CellAge|GenAge,2,True,False,True,Tissue enhanced,83
+ENSG00000132275,RRP8,ribosomal RNA processing 8,ENSG00000132275,O43159,23378,HGNC:29030,CellAge,1,True,True,True,Low tissue specificity,8
+ENSG00000132305,IMMT,inner membrane mitochondrial protein,ENSG00000132305,Q16891,10989,HGNC:6047,CellAge,1,True,True,True,Tissue enhanced,9
+ENSG00000132341,RAN,"RAN, member RAS oncogene family",ENSG00000132341,P62826,5901,HGNC:9846,CellAge,1,True,True,True,Low tissue specificity,12
+ENSG00000132382,MYBBP1A,MYB binding protein 1a,ENSG00000132382,Q9BQG0,10514,HGNC:7546,CellAge,1,True,True,True,Low tissue specificity,11
+ENSG00000132383,RPA1,replication protein A1,ENSG00000132383,P27694,6117,HGNC:10289,GenAge,1,True,True,True,Low tissue specificity,60
+ENSG00000132463,GRSF1,G-rich RNA sequence binding factor 1,ENSG00000132463,Q12849,2926,HGNC:4610,CellAge,1,True,False,True,Tissue enhanced,2
+ENSG00000132470,ITGB4,integrin subunit beta 4,ENSG00000132470,P16144,3691,HGNC:6158,CellAge,1,True,False,True,Tissue enhanced,12
+ENSG00000132510,KDM6B,lysine demethylase 6B,ENSG00000132510,O15054,23135,HGNC:29012,CellAge|Reactome,2,True,True,True,Low tissue specificity,32
+ENSG00000132517,SLC52A1,solute carrier family 52 member 1,ENSG00000132517,Q9NWF4,55065,HGNC:30225,CellAge,1,True,True,True,Group enriched,0
+ENSG00000132530,XAF1,XIAP associated factor 1,ENSG00000132530,Q6GPH4,54739,HGNC:30932,CellAge,1,True,True,True,Low tissue specificity,6
+ENSG00000132604,TERF2,telomeric repeat binding factor 2,ENSG00000132604,Q15554,7014,HGNC:11729,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,24
+ENSG00000132646,PCNA,proliferating cell nuclear antigen,ENSG00000132646,P12004,5111,HGNC:8729,GenAge,1,True,True,True,Tissue enhanced,61
+ENSG00000132819,RBM38,RNA binding motif protein 38,ENSG00000132819,Q9H0Z9,55544,HGNC:15818,CellAge,1,True,True,True,Tissue enhanced,3
+ENSG00000133101,CCNA1,cyclin A1,ENSG00000133101,P78396,8900,HGNC:1577,Reactome,1,True,True,True,Tissue enhanced,54
+ENSG00000133116,KL,klotho,ENSG00000133116,Q9UEF7,9365,HGNC:6344,CellAge|GenAge,2,True,True,True,Group enriched,12
+ENSG00000133401,PDZD2,PDZ domain containing 2,ENSG00000133401,O15018,23037,HGNC:18486,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000133606,MKRN1,makorin ring finger protein 1,ENSG00000133606,Q9UHC7,23608,HGNC:7112,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000133639,BTG1,BTG anti-proliferation factor 1,ENSG00000133639,P62324,694,HGNC:1130,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000133794,BMAL1,basic helix-loop-helix ARNT like 1,ENSG00000133794,O00327,406,HGNC:701,GenAge,1,True,True,True,Low tissue specificity,0
+ENSG00000133818,RRAS2,RAS related 2,ENSG00000133818,P62070,22800,HGNC:17271,CellAge,1,True,True,True,Low tissue specificity,12
+ENSG00000133895,MEN1,menin 1,ENSG00000133895,O00255,4221,HGNC:7010,CellAge,1,True,True,True,Low tissue specificity,19
+ENSG00000134013,LOXL2,lysyl oxidase like 2,ENSG00000134013,Q9Y4K0,4017,HGNC:6666,CellAge,1,True,True,True,Tissue enhanced,3
+ENSG00000134057,CCNB1,cyclin B1,ENSG00000134057,P14635,891,HGNC:1579,CellAge,1,True,True,True,Tissue enhanced,103
+ENSG00000134058,CDK7,cyclin dependent kinase 7,ENSG00000134058,P50613,1022,HGNC:1778,GenAge,1,True,True,True,Low tissue specificity,36
+ENSG00000134107,BHLHE40,basic helix-loop-helix family member e40,ENSG00000134107,O14503,8553,HGNC:1046,CellAge,1,True,True,True,Low tissue specificity,6
+ENSG00000134138,MEIS2,Meis homeobox 2,ENSG00000134138,O14770,4212,HGNC:7001,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000134259,NGF,nerve growth factor,ENSG00000134259,P01138,4803,HGNC:7808,GenAge,1,True,True,True,Tissue enhanced,39
+ENSG00000134323,MYCN,"MYCN proto-oncogene, bHLH transcription factor",ENSG00000134323,P04198,4613,HGNC:7559,CellAge,1,True,True,True,Tissue enhanced,28
+ENSG00000134352,IL6ST,interleukin 6 cytokine family signal transducer,ENSG00000134352,P40189,3572,HGNC:6021,SenMayo,1,True,False,True,Low tissue specificity,23
+ENSG00000134532,SOX5,SRY-box transcription factor 5,ENSG00000134532,P35711,6660,HGNC:11201,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000134548,SPX,spexin hormone,ENSG00000134548,Q9BT56,80763,HGNC:28139,SenMayo,1,True,True,True,Tissue enhanced,1
+ENSG00000134574,DDB2,damage specific DNA binding protein 2,ENSG00000134574,Q92466,1643,HGNC:2718,CellAge,1,True,True,True,Low tissue specificity,30
+ENSG00000134686,PHC2,polyhomeotic homolog 2,ENSG00000134686,Q8IXK0,1912,HGNC:3183,Reactome,1,True,False,True,Low tissue specificity,40
+ENSG00000134698,AGO4,argonaute RISC component 4,ENSG00000134698,Q9HCK5,192670,HGNC:18424,Reactome,1,True,True,True,Low tissue specificity,12
+ENSG00000134852,CLOCK,clock circadian regulator,ENSG00000134852,O15516,9575,HGNC:2082,GenAge,1,True,True,True,Low tissue specificity,14
+ENSG00000134853,PDGFRA,platelet derived growth factor receptor alpha,ENSG00000134853,P16234,5156,HGNC:8803,GenAge,1,True,True,True,Tissue enhanced,62
+ENSG00000134899,ERCC5,"ERCC excision repair 5, endonuclease",ENSG00000134899,P28715,2073,HGNC:3437,GenAge,1,True,True,True,Low tissue specificity,33
+ENSG00000134900,TPP2,tripeptidyl peptidase 2,ENSG00000134900,P29144,7174,HGNC:12016,GenAge,1,True,True,True,Low tissue specificity,1
+ENSG00000134954,ETS1,"ETS proto-oncogene 1, transcription factor",ENSG00000134954,P14921,2113,HGNC:3488,CellAge|Reactome,2,True,True,True,Tissue enhanced,21
+ENSG00000135111,TBX3,T-box transcription factor 3,ENSG00000135111,O15119,6926,HGNC:11602,CellAge,1,True,True,True,Tissue enhanced,9
+ENSG00000135164,DMTF1,cyclin D binding myb like transcription factor 1,ENSG00000135164,Q9Y222,9988,HGNC:14603,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000135341,MAP3K7,mitogen-activated protein kinase kinase kinase 7,ENSG00000135341,O43318,6885,HGNC:6859,CellAge,1,True,True,True,Low tissue specificity,46
+ENSG00000135373,EHF,ETS homologous factor,ENSG00000135373,Q9NZC4,26298,HGNC:3246,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000135414,GDF11,growth differentiation factor 11,ENSG00000135414,O95390,10220,HGNC:4216,GenAge,1,True,False,True,Tissue enhanced,4
+ENSG00000135446,CDK4,cyclin dependent kinase 4,ENSG00000135446,P11802,1019,HGNC:1773,CellAge|Reactome,2,True,True,True,Low tissue specificity,80
+ENSG00000135476,ESPL1,"extra spindle pole bodies like 1, separase",ENSG00000135476,Q14674,9700,HGNC:16856,CellAge,1,True,True,True,Tissue enhanced,43
+ENSG00000135486,HNRNPA1,heterogeneous nuclear ribonucleoprotein A1,ENSG00000135486,P09651,3178,HGNC:5031,CellAge,1,True,True,True,Low tissue specificity,28
+ENSG00000135503,ACVR1B,activin A receptor type 1B,ENSG00000135503,P36896,91,HGNC:172,SenMayo,1,True,True,True,Low tissue specificity,8
+ENSG00000135679,MDM2,MDM2 proto-oncogene,ENSG00000135679,Q00987,4193,HGNC:6973,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,111
+ENSG00000135744,AGT,angiotensinogen,ENSG00000135744,P01019,183,HGNC:333,CellAge,1,True,True,True,Tissue enriched,34
+ENSG00000135766,EGLN1,egl-9 family hypoxia inducible factor 1,ENSG00000135766,Q9GZT9,54583,HGNC:1232,CellAge,1,True,True,True,Group enriched,7
+ENSG00000135828,RNASEL,ribonuclease L,ENSG00000135828,Q05823,6041,HGNC:10050,CellAge,1,True,False,True,Low tissue specificity,7
+ENSG00000135829,DHX9,DExH-box helicase 9,ENSG00000135829,Q08211,1660,HGNC:2750,CellAge,1,True,True,True,Low tissue specificity,38
+ENSG00000135919,SERPINE2,serpin family E member 2,ENSG00000135919,P07093,5270,HGNC:8951,SenMayo,1,True,True,True,Group enriched,3
+ENSG00000135940,COX5B,cytochrome c oxidase subunit 5B,ENSG00000135940,P10606,1329,HGNC:2269,CellAge,1,True,True,True,Tissue enhanced,6
+ENSG00000136104,RNASEH2B,ribonuclease H2 subunit B,ENSG00000136104,Q5TBB1,79621,HGNC:25671,CellAge,1,True,True,True,Tissue enhanced,4
+ENSG00000136108,CKAP2,cytoskeleton associated protein 2,ENSG00000136108,Q8WWK9,26586,HGNC:1990,CellAge,1,True,True,True,Tissue enhanced,14
+ENSG00000136167,LCP1,lymphocyte cytosolic protein 1,ENSG00000136167,P13796,3936,HGNC:6528,SenMayo,1,True,True,True,Tissue enhanced,1
+ENSG00000136244,IL6,interleukin 6,ENSG00000136244,P05231,3569,HGNC:6018,CellAge|GenAge|Reactome|SenMayo,4,True,False,True,Tissue enhanced,156
+ENSG00000136450,SRSF1,serine and arginine rich splicing factor 1,ENSG00000136450,Q07955,6426,HGNC:10780,CellAge,1,True,True,True,Low tissue specificity,26
+ENSG00000136492,BRIP1,BRCA1 interacting DNA helicase 1,ENSG00000136492,Q9BX63,83990,HGNC:20473,CellAge,1,True,True,True,Tissue enhanced,25
+ENSG00000136527,TRA2B,transformer 2 beta homolog,ENSG00000136527,P62995,6434,HGNC:10781,CellAge,1,True,True,True,Low tissue specificity,10
+ENSG00000136573,BLK,"BLK proto-oncogene, Src family tyrosine kinase",ENSG00000136573,P51451,640,HGNC:1057,CellAge,1,True,True,True,Group enriched,2
+ENSG00000136574,GATA4,GATA binding protein 4,ENSG00000136574,P43694,2626,HGNC:4173,CellAge,1,True,True,True,Tissue enhanced,14
+ENSG00000136634,IL10,interleukin 10,ENSG00000136634,P22301,3586,HGNC:5962,SenMayo,1,True,True,True,Tissue enhanced,92
+ENSG00000136689,IL1RN,interleukin 1 receptor antagonist,ENSG00000136689,P18510,3557,HGNC:6000,CellAge,1,True,True,True,Tissue enriched,15
+ENSG00000136717,BIN1,bridging integrator 1,ENSG00000136717,O00499,274,HGNC:1052,CellAge,1,True,True,True,Group enriched,8
+ENSG00000136810,TXN,thioredoxin,ENSG00000136810,P10599,7295,HGNC:12435,CellAge|GenAge|Reactome,3,True,True,True,Tissue enhanced,29
+ENSG00000136824,SMC2,structural maintenance of chromosomes 2,ENSG00000136824,O95347,10592,HGNC:14011,CellAge,1,True,True,True,Tissue enhanced,20
+ENSG00000136826,KLF4,KLF transcription factor 4,ENSG00000136826,O43474,9314,HGNC:6348,CellAge,1,True,True,True,Tissue enhanced,31
+ENSG00000136867,SLC31A2,solute carrier family 31 member 2,ENSG00000136867,O15432,1318,HGNC:11017,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000136869,TLR4,toll like receptor 4,ENSG00000136869,O00206,7099,HGNC:11850,CellAge,1,True,False,True,Low tissue specificity,80
+ENSG00000136936,XPA,"XPA, DNA damage recognition and repair factor",ENSG00000136936,P23025,7507,HGNC:12814,GenAge,1,True,True,True,Low tissue specificity,43
+ENSG00000136997,MYC,"MYC proto-oncogene, bHLH transcription factor",ENSG00000136997,P01106,4609,HGNC:7553,CellAge|GenAge,2,True,True,True,Tissue enhanced,206
+ENSG00000137074,APTX,aprataxin,ENSG00000137074,Q7Z2E3,54840,HGNC:15984,GenAge,1,True,True,True,Low tissue specificity,12
+ENSG00000137193,PIM1,"Pim-1 proto-oncogene, serine/threonine kinase",ENSG00000137193,P11309,5292,HGNC:8986,CellAge,1,True,True,True,Tissue enhanced,4
+ENSG00000137203,TFAP2A,transcription factor AP-2 alpha,ENSG00000137203,P05549,7020,HGNC:11742,GenAge,1,True,True,True,Tissue enhanced,16
+ENSG00000137309,HMGA1,high mobility group AT-hook 1,ENSG00000137309,P17096,3159,HGNC:5010,CellAge|Reactome,2,True,True,True,Tissue enhanced,11
+ENSG00000137462,TLR2,toll like receptor 2,ENSG00000137462,O60603,7097,HGNC:11848,CellAge,1,True,True,True,Tissue enhanced,55
+ENSG00000137486,ARRB1,arrestin beta 1,ENSG00000137486,P49407,408,HGNC:711,CellAge,1,True,True,True,Low tissue specificity,30
+ENSG00000137601,NEK1,NIMA related kinase 1,ENSG00000137601,Q96PY6,4750,HGNC:7744,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000137673,MMP7,matrix metallopeptidase 7,ENSG00000137673,P09237,4316,HGNC:7174,CellAge,1,True,True,True,Tissue enhanced,18
+ENSG00000137693,YAP1,Yes1 associated transcriptional regulator,ENSG00000137693,P46937,10413,HGNC:16262,CellAge,1,True,True,True,Low tissue specificity,42
+ENSG00000137745,MMP13,matrix metallopeptidase 13,ENSG00000137745,P45452,4322,HGNC:7159,SenMayo,1,True,True,True,Tissue enriched,10
+ENSG00000137825,ITPKA,inositol-trisphosphate 3-kinase A,ENSG00000137825,P23677,3706,HGNC:6178,SenMayo,1,True,True,True,Tissue enhanced,3
+ENSG00000137834,SMAD6,SMAD family member 6,ENSG00000137834,O43541,4091,HGNC:6772,CellAge,1,True,True,True,Tissue enhanced,14
+ENSG00000137975,CLCA2,chloride channel accessory 2,ENSG00000137975,Q9UQC9,9635,HGNC:2016,CellAge,1,True,False,True,Tissue enhanced,0
+ENSG00000138032,PPM1B,"protein phosphatase, Mg2+/Mn2+ dependent 1B",ENSG00000138032,O75688,5495,HGNC:9276,CellAge,1,True,True,True,Low tissue specificity,3
+ENSG00000138035,PNPT1,polyribonucleotide nucleotidyltransferase 1,ENSG00000138035,Q8TCS8,87178,HGNC:23166,CellAge,1,True,False,True,Low tissue specificity,6
+ENSG00000138085,ATRAID,all-trans retinoic acid induced differentiation factor,ENSG00000138085,Q6UW56,51374,HGNC:24090,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000138160,KIF11,kinesin family member 11,ENSG00000138160,P52732,3832,HGNC:6388,CellAge,1,True,True,True,Tissue enhanced,46
+ENSG00000138380,CARF,calcium responsive transcription factor,ENSG00000138380,Q8N187,79800,HGNC:14435,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000138468,SENP7,SUMO specific peptidase 7,ENSG00000138468,Q9BQF6,57337,HGNC:30402,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000138668,HNRNPD,heterogeneous nuclear ribonucleoprotein D,ENSG00000138668,Q14103,3184,HGNC:5036,CellAge,1,True,True,True,Low tissue specificity,22
+ENSG00000138685,FGF2,fibroblast growth factor 2,ENSG00000138685,P09038,2247,HGNC:3676,SenMayo,1,True,False,True,Low tissue specificity,74
+ENSG00000138767,CNOT6L,CCR4-NOT transcription complex subunit 6 like,ENSG00000138767,Q96LI5,246175,HGNC:18042,CellAge,1,True,True,True,Low tissue specificity,7
+ENSG00000138798,EGF,epidermal growth factor,ENSG00000138798,P01133,1950,HGNC:3229,GenAge|SenMayo,2,True,True,True,Group enriched,98
+ENSG00000139083,ETV6,ETS variant transcription factor 6,ENSG00000139083,P41212,2120,HGNC:3495,CellAge,1,True,False,True,Low tissue specificity,13
+ENSG00000139318,DUSP6,dual specificity phosphatase 6,ENSG00000139318,Q16828,1848,HGNC:3072,CellAge,1,True,True,True,Tissue enhanced,5
+ENSG00000139618,BRCA2,BRCA2 DNA repair associated,ENSG00000139618,P51587,675,HGNC:1101,GenAge,1,True,True,True,Tissue enhanced,89
+ENSG00000139687,RB1,RB transcriptional corepressor 1,ENSG00000139687,P06400,5925,HGNC:9884,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,75
+ENSG00000140157,NIPA2,NIPA magnesium transporter 2,ENSG00000140157,Q8N8Q9,81614,HGNC:17044,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000140285,FGF7,fibroblast growth factor 7,ENSG00000140285,P21781,2252,HGNC:3685,SenMayo,1,True,True,True,Low tissue specificity,40
+ENSG00000140443,IGF1R,insulin like growth factor 1 receptor,ENSG00000140443,P08069,3480,HGNC:5465,GenAge,1,True,True,True,Low tissue specificity,77
+ENSG00000140464,PML,PML nuclear body scaffold,ENSG00000140464,P29590,5371,HGNC:9113,CellAge|GenAge,2,True,False,True,Low tissue specificity,33
+ENSG00000140474,ULK3,unc-51 like kinase 3,ENSG00000140474,Q6PHR2,25989,HGNC:19703,CellAge,1,True,True,True,Low tissue specificity,6
+ENSG00000140521,POLG,"DNA polymerase gamma, catalytic subunit",ENSG00000140521,P54098,5428,HGNC:9179,GenAge,1,True,True,True,Low tissue specificity,4
+ENSG00000140675,SLC5A2,solute carrier family 5 member 2,ENSG00000140675,P31639,6524,HGNC:11037,CellAge,1,True,True,True,Tissue enriched,2
+ENSG00000140682,TGFB1I1,transforming growth factor beta 1 induced transcript 1,ENSG00000140682,O43294,7041,HGNC:11767,CellAge,1,True,False,True,Tissue enhanced,6
+ENSG00000140992,PDPK1,3-phosphoinositide dependent protein kinase 1,ENSG00000140992,O15530,5170,HGNC:8816,CellAge|GenAge,2,True,True,True,Low tissue specificity,23
+ENSG00000141027,NCOR1,nuclear receptor corepressor 1,ENSG00000141027,O75376,9611,HGNC:7672,GenAge,1,True,True,True,Low tissue specificity,67
+ENSG00000141456,PELP1,"proline, glutamate and leucine rich protein 1",ENSG00000141456,Q8IZL8,27043,HGNC:30134,CellAge,1,True,False,True,Low tissue specificity,13
+ENSG00000141503,MINK1,misshapen like kinase 1,ENSG00000141503,Q8N4C8,50488,HGNC:17565,CellAge|Reactome,2,True,True,True,Low tissue specificity,2
+ENSG00000141504,SAT2,spermidine/spermine N1-acetyltransferase family member 2,ENSG00000141504,Q96F10,112483,HGNC:23160,CellAge,1,True,False,True,Low tissue specificity,1
+ENSG00000141506,PIK3R5,phosphoinositide-3-kinase regulatory subunit 5,ENSG00000141506,Q8WYR1,23533,HGNC:30035,CellAge,1,True,True,True,Tissue enhanced,15
+ENSG00000141510,TP53,tumor protein p53,ENSG00000141510,P04637,7157,HGNC:11998,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,368
+ENSG00000141552,ANAPC11,anaphase promoting complex subunit 11,ENSG00000141552,Q9NYG5,51529,HGNC:14452,Reactome,1,True,True,True,Low tissue specificity,41
+ENSG00000141564,RPTOR,regulatory associated protein of MTOR complex 1,ENSG00000141564,Q8N122,57521,HGNC:30287,CellAge,1,True,True,True,Low tissue specificity,27
+ENSG00000141570,CBX8,chromobox 8,ENSG00000141570,Q9HC52,57332,HGNC:15962,CellAge|Reactome,2,True,True,True,Low tissue specificity,44
+ENSG00000141582,CBX4,chromobox 4,ENSG00000141582,O00257,8535,HGNC:1554,Reactome,1,True,True,True,Tissue enriched,43
+ENSG00000141736,ERBB2,erb-b2 receptor tyrosine kinase 2,ENSG00000141736,P04626,2064,HGNC:3430,CellAge|GenAge,2,True,True,True,Low tissue specificity,92
+ENSG00000141753,IGFBP4,insulin like growth factor binding protein 4,ENSG00000141753,P22692,3487,HGNC:5473,SenMayo,1,True,False,True,Low tissue specificity,4
+ENSG00000141837,CACNA1A,calcium voltage-gated channel subunit alpha1 A,ENSG00000141837,O00555,773,HGNC:1388,GenAge,1,True,True,True,Tissue enriched,7
+ENSG00000141867,BRD4,bromodomain containing 4,ENSG00000141867,O60885,23476,HGNC:13575,CellAge,1,False,False,True,Low tissue specificity,47
+ENSG00000142082,SIRT3,sirtuin 3,ENSG00000142082,Q9NTG7,23410,HGNC:14931,CellAge|GenAge,2,True,True,True,Low tissue specificity,14
+ENSG00000142168,SOD1,superoxide dismutase 1,ENSG00000142168,P00441,6647,HGNC:11179,CellAge|GenAge,2,True,True,True,Tissue enhanced,34
+ENSG00000142178,SIK1,salt inducible kinase 1,ENSG00000142178,P57059,150094,HGNC:11142,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000142192,APP,amyloid beta precursor protein,ENSG00000142192,P05067,351,HGNC:620,GenAge,1,True,True,True,Low tissue specificity,63
+ENSG00000142208,AKT1,AKT serine/threonine kinase 1,ENSG00000142208,P31749,207,HGNC:391,CellAge|GenAge,2,True,True,True,Low tissue specificity,202
+ENSG00000142453,CARM1,coactivator associated arginine methyltransferase 1,ENSG00000142453,Q86X55,10498,HGNC:23393,CellAge,1,True,True,True,Tissue enhanced,30
+ENSG00000142676,RPL11,ribosomal protein L11,ENSG00000142676,P62913,6135,HGNC:10301,CellAge,1,True,True,True,Low tissue specificity,25
+ENSG00000142733,MAP3K6,mitogen-activated protein kinase kinase kinase 6,ENSG00000142733,O95382,9064,HGNC:6858,CellAge,1,True,True,True,Low tissue specificity,3
+ENSG00000142945,KIF2C,kinesin family member 2C,ENSG00000142945,Q99661,11004,HGNC:6393,CellAge,1,True,False,True,Group enriched,37
+ENSG00000143106,PSMA5,proteasome 20S subunit alpha 5,ENSG00000143106,P28066,5686,HGNC:9534,CellAge,1,True,True,True,Low tissue specificity,14
+ENSG00000143162,CREG1,cellular repressor of E1A stimulated genes 1,ENSG00000143162,O75629,8804,HGNC:2351,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000143194,MAEL,maelstrom spermatogenic transposon silencer,ENSG00000143194,Q96JY0,84944,HGNC:25929,CellAge,1,True,False,True,Tissue enriched,0
+ENSG00000143252,SDHC,succinate dehydrogenase complex subunit C,ENSG00000143252,Q99643,6391,HGNC:10682,GenAge,1,True,True,True,Low tissue specificity,7
+ENSG00000143384,MCL1,"MCL1 apoptosis regulator, BCL2 family member",ENSG00000143384,Q07820,4170,HGNC:6943,CellAge,1,True,True,True,Tissue enhanced,35
+ENSG00000143393,PI4KB,phosphatidylinositol 4-kinase beta,ENSG00000143393,Q9UBF8,5298,HGNC:8984,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000143416,SELENBP1,selenium binding protein 1,ENSG00000143416,Q13228,8991,HGNC:10719,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000143476,DTL,denticleless E3 ubiquitin protein ligase adapter,ENSG00000143476,Q9NZJ0,51514,HGNC:30288,CellAge,1,True,True,True,Group enriched,27
+ENSG00000143514,TP53BP2,tumor protein p53 binding protein 2,ENSG00000143514,Q13625,7159,HGNC:12000,CellAge,1,True,True,True,Low tissue specificity,9
+ENSG00000143761,ARF1,ARF GTPase 1,ENSG00000143761,P84077,375,HGNC:652,CellAge,1,True,True,True,Low tissue specificity,6
+ENSG00000143772,ITPKB,inositol-trisphosphate 3-kinase B,ENSG00000143772,P27987,3707,HGNC:6179,CellAge,1,True,True,True,Tissue enhanced,3
+ENSG00000143799,PARP1,poly(ADP-ribose) polymerase 1,ENSG00000143799,P09874,142,HGNC:270,CellAge|GenAge,2,True,True,True,Low tissue specificity,93
+ENSG00000143815,LBR,lamin B receptor,ENSG00000143815,Q14739,3930,HGNC:6518,CellAge,1,True,True,True,Low tissue specificity,8
+ENSG00000143947,RPS27A,ribosomal protein S27a,ENSG00000143947,P62979,6233,HGNC:10417,Reactome,1,True,False,True,Low tissue specificity,102
+ENSG00000143970,ASXL2,ASXL transcriptional regulator 2,ENSG00000143970,Q76L83,55252,HGNC:23805,CellAge,1,True,True,True,Low tissue specificity,9
+ENSG00000144381,HSPD1,heat shock protein family D (Hsp60) member 1,ENSG00000144381,P10809,3329,HGNC:5261,GenAge,1,True,True,True,Tissue enhanced,19
+ENSG00000144481,TRPM8,transient receptor potential cation channel subfamily M member 8,ENSG00000144481,Q7Z2W7,79054,HGNC:17961,CellAge,1,True,False,True,Group enriched,3
+ENSG00000144554,FANCD2,FA complementation group D2,ENSG00000144554,Q9BXW9,2177,HGNC:3585,CellAge,1,True,True,True,Tissue enhanced,48
+ENSG00000144891,AGTR1,angiotensin II receptor type 1,ENSG00000144891,P30556,185,HGNC:336,GenAge,1,True,True,True,Tissue enhanced,9
+ENSG00000145242,EPHA5,EPH receptor A5,ENSG00000145242,P54756,2044,HGNC:3389,CellAge,1,True,False,True,Tissue enriched,2
+ENSG00000145354,CISD2,CDGSH iron sulfur domain 2,ENSG00000145354,Q8N5K1,493856,HGNC:24212,GenAge,1,True,True,True,Low tissue specificity,2
+ENSG00000145386,CCNA2,cyclin A2,ENSG00000145386,P20248,890,HGNC:1578,CellAge|GenAge|Reactome,3,True,True,True,Tissue enhanced,116
+ENSG00000145388,METTL14,"methyltransferase 14, N6-adenosine-methyltransferase non-catalytic subunit",ENSG00000145388,Q9HCE5,57721,HGNC:29330,CellAge,1,True,True,True,Low tissue specificity,6
+ENSG00000145604,SKP2,S-phase kinase associated protein 2,ENSG00000145604,Q13309,6502,HGNC:10901,CellAge,1,True,True,True,Tissue enhanced,45
+ENSG00000145675,PIK3R1,phosphoinositide-3-kinase regulatory subunit 1,ENSG00000145675,P27986,5295,HGNC:8979,GenAge,1,True,True,True,Low tissue specificity,76
+ENSG00000145703,IQGAP2,IQ motif containing GTPase activating protein 2,ENSG00000145703,Q13576,10788,HGNC:6111,SenMayo,1,True,True,True,Tissue enhanced,1
+ENSG00000145736,GTF2H2,general transcription factor IIH subunit 2,ENSG00000145736,Q13888,2966,HGNC:4656,GenAge,1,True,True,True,Low tissue specificity,16
+ENSG00000145782,ATG12,autophagy related 12,ENSG00000145782,O94817,9140,HGNC:588,CellAge,1,True,True,True,Low tissue specificity,20
+ENSG00000146047,H2BC1,H2B clustered histone 1,ENSG00000146047,Q96A08,255626,HGNC:18730,Reactome,1,True,True,True,Tissue enriched,30
+ENSG00000146648,EGFR,epidermal growth factor receptor,ENSG00000146648,P00533,1956,HGNC:3236,CellAge|GenAge|SenMayo,3,True,True,True,Tissue enhanced,184
+ENSG00000146674,IGFBP3,insulin like growth factor binding protein 3,ENSG00000146674,P17936,3486,HGNC:5472,CellAge|GenAge|SenMayo,3,True,True,True,Tissue enhanced,21
+ENSG00000146676,PURB,purine rich element binding protein B,ENSG00000146676,Q96QR8,5814,HGNC:9702,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000146678,IGFBP1,insulin like growth factor binding protein 1,ENSG00000146678,P08833,3484,HGNC:5469,CellAge|SenMayo,2,True,True,True,Tissue enriched,8
+ENSG00000146918,NCAPG2,non-SMC condensin II complex subunit G2,ENSG00000146918,Q86XI2,54892,HGNC:21904,CellAge,1,True,True,True,Tissue enhanced,17
+ENSG00000147065,MSN,moesin,ENSG00000147065,P26038,4478,HGNC:7373,CellAge,1,True,True,True,Low tissue specificity,12
+ENSG00000147081,AKAP4,A-kinase anchoring protein 4,ENSG00000147081,Q5JQC9,8852,HGNC:374,CellAge,1,True,False,True,Tissue enriched,0
+ENSG00000147133,TAF1,TATA-box binding protein associated factor 1,ENSG00000147133,P21675,6872,HGNC:11535,GenAge,1,True,True,True,Low tissue specificity,24
+ENSG00000147162,OGT,O-linked N-acetylglucosamine (GlcNAc) transferase,ENSG00000147162,O15294,8473,HGNC:8127,CellAge,1,True,True,True,Low tissue specificity,28
+ENSG00000147168,IL2RG,interleukin 2 receptor subunit gamma,ENSG00000147168,P31785,3561,HGNC:6010,GenAge,1,True,True,True,Tissue enhanced,22
+ENSG00000147257,GPC3,glypican 3,ENSG00000147257,P51654,2719,HGNC:4451,CellAge,1,True,True,True,Tissue enriched,9
+ENSG00000147601,TERF1,telomeric repeat binding factor 1,ENSG00000147601,P54274,7013,HGNC:11728,GenAge|Reactome,2,True,True,True,Low tissue specificity,31
+ENSG00000147649,MTDH,metadherin,ENSG00000147649,Q86UE4,92140,HGNC:29608,CellAge,1,True,True,True,Low tissue specificity,3
+ENSG00000147883,CDKN2B,cyclin dependent kinase inhibitor 2B,ENSG00000147883,P42772,1030,HGNC:1788,CellAge|GenAge|Reactome,3,True,False,True,Tissue enhanced,18
+ENSG00000147889,CDKN2A,cyclin dependent kinase inhibitor 2A,ENSG00000147889,P42771,1029,HGNC:1787,CellAge|GenAge|Reactome,3,True,False,True,Tissue enhanced,95
+ENSG00000148344,PTGES,prostaglandin E synthase,ENSG00000148344,O14684,9536,HGNC:9599,SenMayo,1,True,True,True,Tissue enhanced,3
+ENSG00000148346,LCN2,lipocalin 2,ENSG00000148346,P80188,3934,HGNC:6526,CellAge,1,True,True,True,Tissue enhanced,14
+ENSG00000148400,NOTCH1,notch receptor 1,ENSG00000148400,P46531,4851,HGNC:7881,CellAge,1,True,True,True,Low tissue specificity,39
+ENSG00000148516,ZEB1,zinc finger E-box binding homeobox 1,ENSG00000148516,P37275,6935,HGNC:11642,CellAge,1,True,True,True,Low tissue specificity,28
+ENSG00000148843,PDCD11,programmed cell death 11,ENSG00000148843,Q14690,22984,HGNC:13408,CellAge,1,True,True,True,Low tissue specificity,16
+ENSG00000149311,ATM,ATM serine/threonine kinase,ENSG00000149311,Q13315,472,HGNC:795,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,112
+ENSG00000149428,HYOU1,hypoxia up-regulated 1,ENSG00000149428,Q9Y4L1,10525,HGNC:16931,CellAge,1,True,True,True,Low tissue specificity,8
+ENSG00000149503,INCENP,inner centromere protein,ENSG00000149503,Q9NQS7,3619,HGNC:6058,CellAge,1,True,True,True,Tissue enhanced,24
+ENSG00000149554,CHEK1,checkpoint kinase 1,ENSG00000149554,O14757,1111,HGNC:1925,CellAge,1,True,True,True,Tissue enhanced,83
+ENSG00000149591,TAGLN,transgelin,ENSG00000149591,Q01995,6876,HGNC:11553,CellAge,1,True,True,True,Tissue enhanced,3
+ENSG00000149925,ALDOA,"aldolase, fructose-bisphosphate A",ENSG00000149925,P04075,226,HGNC:414,CellAge,1,True,True,True,Group enriched,4
+ENSG00000149948,HMGA2,high mobility group AT-hook 2,ENSG00000149948,P52926,8091,HGNC:5009,CellAge|Reactome,2,True,True,True,Tissue enhanced,11
+ENSG00000149968,MMP3,matrix metallopeptidase 3,ENSG00000149968,P08254,4314,HGNC:7173,SenMayo,1,True,True,True,Tissue enhanced,35
+ENSG00000150281,CTF1,cardiotrophin 1,ENSG00000150281,Q16619,1489,HGNC:2499,GenAge,1,True,False,True,Low tissue specificity,4
+ENSG00000150457,LATS2,large tumor suppressor kinase 2,ENSG00000150457,Q9NRM7,26524,HGNC:6515,CellAge,1,True,True,True,Low tissue specificity,13
+ENSG00000150593,PDCD4,programmed cell death 4,ENSG00000150593,Q53EL6,27250,HGNC:8763,CellAge,1,True,True,True,Tissue enhanced,8
+ENSG00000150630,VEGFC,vascular endothelial growth factor C,ENSG00000150630,P49767,7424,HGNC:12682,SenMayo,1,True,True,True,Low tissue specificity,20
+ENSG00000150782,IL18,interleukin 18,ENSG00000150782,Q14116,3606,HGNC:5986,SenMayo,1,True,False,True,Tissue enhanced,37
+ENSG00000150907,FOXO1,forkhead box O1,ENSG00000150907,Q12778,2308,HGNC:3819,CellAge|GenAge,2,True,True,True,Tissue enhanced,97
+ENSG00000150991,UBC,ubiquitin C,ENSG00000150991,P0CG48,7316,HGNC:12468,Reactome,1,True,True,True,Low tissue specificity,106
+ENSG00000150995,ITPR1,"inositol 1,4,5-trisphosphate receptor type 1",ENSG00000150995,Q14643,3708,HGNC:6180,CellAge,1,True,True,True,Low tissue specificity,22
+ENSG00000151090,THRB,thyroid hormone receptor beta,ENSG00000151090,P10828,7068,HGNC:11799,CellAge,1,True,True,True,Low tissue specificity,12
+ENSG00000151247,EIF4E,eukaryotic translation initiation factor 4E,ENSG00000151247,P06730,1977,HGNC:3287,CellAge,1,True,True,True,Low tissue specificity,31
+ENSG00000151491,EPS8,"EGFR pathway substrate 8, signaling adaptor",ENSG00000151491,Q12929,2059,HGNC:3420,GenAge,1,True,True,True,Low tissue specificity,3
+ENSG00000151650,VENTX,VENT homeobox,ENSG00000151650,O95231,27287,HGNC:13639,CellAge|Reactome,2,False,True,True,Low tissue specificity,2
+ENSG00000151665,PIGF,phosphatidylinositol glycan anchor biosynthesis class F,ENSG00000151665,Q07326,5281,HGNC:8962,SenMayo,1,True,True,True,Low tissue specificity,0
+ENSG00000151876,FBXO4,F-box protein 4,ENSG00000151876,Q9UKT5,26272,HGNC:13583,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000151929,BAG3,BAG cochaperone 3,ENSG00000151929,O95817,9531,HGNC:939,CellAge,1,True,True,True,Tissue enhanced,15
+ENSG00000152348,ATG10,autophagy related 10,ENSG00000152348,Q9H0Y0,83734,HGNC:20315,CellAge,1,True,True,True,Low tissue specificity,8
+ENSG00000152661,GJA1,gap junction protein alpha 1,ENSG00000152661,P17302,2697,HGNC:4274,CellAge,1,True,True,True,Low tissue specificity,14
+ENSG00000153107,ANAPC1,anaphase promoting complex subunit 1,ENSG00000153107,Q9H1A4,64682,HGNC:19988,CellAge|Reactome,2,True,True,True,Low tissue specificity,48
+ENSG00000153162,BMP6,bone morphogenetic protein 6,ENSG00000153162,P22004,654,HGNC:1073,SenMayo,1,True,True,True,Tissue enhanced,6
+ENSG00000153246,PLA2R1,phospholipase A2 receptor 1,ENSG00000153246,Q13018,22925,HGNC:9042,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000153487,ING1,inhibitor of growth family member 1,ENSG00000153487,Q9UK53,3621,HGNC:6062,CellAge,1,True,True,True,Low tissue specificity,16
+ENSG00000153879,CEBPG,CCAAT enhancer binding protein gamma,ENSG00000153879,P53567,1054,HGNC:1837,CellAge,1,True,False,True,Low tissue specificity,7
+ENSG00000153936,HS2ST1,heparan sulfate 2-O-sulfotransferase 1,ENSG00000153936,Q7LGA3,9653,HGNC:5193,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000154175,ABI3BP,ABI family member 3 binding protein,ENSG00000154175,Q7Z7G0,25890,HGNC:17265,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000154188,ANGPT1,angiopoietin 1,ENSG00000154188,Q15389,284,HGNC:484,SenMayo,1,True,True,True,Tissue enhanced,20
+ENSG00000154229,PRKCA,protein kinase C alpha,ENSG00000154229,P17252,5578,HGNC:9393,GenAge,1,True,True,True,Tissue enhanced,50
+ENSG00000154277,UCHL1,ubiquitin C-terminal hydrolase L1,ENSG00000154277,P09936,7345,HGNC:12513,GenAge,1,True,True,True,Group enriched,20
+ENSG00000154310,TNIK,TRAF2 and NCK interacting kinase,ENSG00000154310,Q9UKE5,23043,HGNC:30765,Reactome,1,True,True,True,Low tissue specificity,2
+ENSG00000154473,BUB3,BUB3 mitotic checkpoint protein,ENSG00000154473,O43684,9184,HGNC:1151,GenAge,1,True,True,True,Low tissue specificity,37
+ENSG00000154556,SORBS2,sorbin and SH3 domain containing 2,ENSG00000154556,O94875,8470,HGNC:24098,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000154640,BTG3,BTG anti-proliferation factor 3,ENSG00000154640,Q14201,10950,HGNC:1132,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000154767,XPC,"XPC complex subunit, DNA damage recognition and repair factor",ENSG00000154767,Q01831,7508,HGNC:12816,CellAge,1,True,True,True,Low tissue specificity,30
+ENSG00000155329,ZCCHC10,zinc finger CCHC-type containing 10,ENSG00000155329,Q8TBK6,54819,HGNC:25954,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000155363,MOV10,Mov10 RNA helicase,ENSG00000155363,Q9HCE1,4343,HGNC:7200,Reactome,1,True,True,True,Low tissue specificity,13
+ENSG00000155792,DEPTOR,DEP domain containing MTOR interacting protein,ENSG00000155792,Q8TB45,64798,HGNC:22953,CellAge,1,True,True,True,Tissue enhanced,6
+ENSG00000156026,MCU,mitochondrial calcium uniporter,ENSG00000156026,Q8NE86,90550,HGNC:23526,CellAge,1,True,True,True,Tissue enhanced,4
+ENSG00000156076,WIF1,Wnt inhibitory factor 1,ENSG00000156076,Q9Y5W5,11197,HGNC:18081,CellAge,1,True,True,True,Tissue enriched,8
+ENSG00000156508,EEF1A1,eukaryotic translation elongation factor 1 alpha 1,ENSG00000156508,P68104,1915,HGNC:3189,GenAge,1,True,True,True,Low tissue specificity,24
+ENSG00000156709,AIFM1,apoptosis inducing factor mitochondria associated 1,ENSG00000156709,O95831,9131,HGNC:8768,GenAge,1,True,True,True,Low tissue specificity,4
+ENSG00000156970,BUB1B,BUB1 mitotic checkpoint serine/threonine kinase B,ENSG00000156970,O60566,701,HGNC:1149,CellAge|GenAge,2,True,True,True,Tissue enhanced,76
+ENSG00000157005,SST,somatostatin,ENSG00000157005,P61278,6750,HGNC:11329,GenAge,1,True,True,True,Group enriched,16
+ENSG00000157106,SMG1,SMG1 nonsense mediated mRNA decay associated PI3K related kinase,ENSG00000157106,Q96Q15,23049,HGNC:30045,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000157168,NRG1,neuregulin 1,ENSG00000157168,Q02297,3084,HGNC:7997,GenAge|SenMayo,2,True,True,True,Tissue enhanced,10
+ENSG00000157227,MMP14,matrix metallopeptidase 14,ENSG00000157227,P50281,4323,HGNC:7160,SenMayo,1,True,True,True,Low tissue specificity,9
+ENSG00000157540,DYRK1A,dual specificity tyrosine phosphorylation regulated kinase 1A,ENSG00000157540,Q13627,1859,HGNC:3091,CellAge,1,True,True,True,Low tissue specificity,6
+ENSG00000157557,ETS2,"ETS proto-oncogene 2, transcription factor",ENSG00000157557,P15036,2114,HGNC:3489,CellAge|Reactome|SenMayo,3,True,False,True,Low tissue specificity,12
+ENSG00000157764,BRAF,"B-Raf proto-oncogene, serine/threonine kinase",ENSG00000157764,P15056,673,HGNC:1097,CellAge,1,True,True,True,Low tissue specificity,41
+ENSG00000158290,CUL4B,cullin 4B,ENSG00000158290,Q13620,8450,HGNC:2555,CellAge,1,True,True,True,Low tissue specificity,11
+ENSG00000158296,SLC13A3,solute carrier family 13 member 3,ENSG00000158296,Q8WWT9,64849,HGNC:14430,CellAge,1,True,True,True,Tissue enriched,0
+ENSG00000158373,H2BC5,H2B clustered histone 5,ENSG00000158373,P58876,3017,HGNC:4747,Reactome,1,True,False,True,Low tissue specificity,31
+ENSG00000158828,PINK1,PTEN induced kinase 1,ENSG00000158828,Q9BXM7,65018,HGNC:14581,CellAge,1,True,True,True,Tissue enhanced,33
+ENSG00000159216,RUNX1,RUNX family transcription factor 1,ENSG00000159216,Q01196,861,HGNC:10471,CellAge,1,True,True,True,Tissue enhanced,56
+ENSG00000159256,MORC3,MORC family CW-type zinc finger 3,ENSG00000159256,Q14149,23515,HGNC:23572,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000159259,CHAF1B,chromatin assembly factor 1 subunit B,ENSG00000159259,Q13112,8208,HGNC:1911,CellAge,1,True,True,True,Tissue enhanced,9
+ENSG00000159388,BTG2,BTG anti-proliferation factor 2,ENSG00000159388,P78543,7832,HGNC:1131,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000160200,CBS,cystathionine beta-synthase,ENSG00000160200,P35520,875,HGNC:1550,CellAge,1,True,True,True,Tissue enhanced,5
+ENSG00000160211,G6PD,glucose-6-phosphate dehydrogenase,ENSG00000160211,P11413,2539,HGNC:4057,CellAge,1,True,True,True,Low tissue specificity,11
+ENSG00000160294,MCM3AP,minichromosome maintenance complex component 3 associated protein,ENSG00000160294,O60318,8888,HGNC:6946,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000160307,S100B,S100 calcium binding protein B,ENSG00000160307,P04271,6285,HGNC:10500,GenAge,1,True,True,True,Tissue enriched,10
+ENSG00000160691,SHC1,SHC adaptor protein 1,ENSG00000160691,P29353,6464,HGNC:10840,GenAge,1,True,True,True,Low tissue specificity,57
+ENSG00000160703,NLRX1,NLR family member X1,ENSG00000160703,Q86UT6,79671,HGNC:29890,CellAge,1,True,True,True,Tissue enhanced,10
+ENSG00000160752,FDPS,farnesyl diphosphate synthase,ENSG00000160752,P14324,2224,HGNC:3631,CellAge,1,True,True,True,Tissue enhanced,7
+ENSG00000160789,LMNA,lamin A/C,ENSG00000160789,P02545,4000,HGNC:6636,CellAge|GenAge,2,True,True,True,Low tissue specificity,19
+ENSG00000160877,NACC1,nucleus accumbens associated 1,ENSG00000160877,Q96RE7,112939,HGNC:20967,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000160883,HK3,hexokinase 3,ENSG00000160883,P52790,3101,HGNC:4925,CellAge,1,True,False,True,Group enriched,6
+ENSG00000160957,RECQL4,RecQ like helicase 4,ENSG00000160957,O94761,9401,HGNC:9949,CellAge|GenAge,2,True,True,True,Tissue enhanced,34
+ENSG00000161011,SQSTM1,sequestosome 1,ENSG00000161011,Q13501,8878,HGNC:11280,GenAge,1,True,True,True,Tissue enhanced,53
+ENSG00000161547,SRSF2,serine and arginine rich splicing factor 2,ENSG00000161547,Q01130,6427,HGNC:10783,CellAge,1,True,True,True,Low tissue specificity,20
+ENSG00000161800,RACGAP1,Rac GTPase activating protein 1,ENSG00000161800,Q9H0H5,29127,HGNC:9804,CellAge,1,True,True,True,Tissue enhanced,32
+ENSG00000161921,CXCL16,C-X-C motif chemokine ligand 16,ENSG00000161921,Q9H2A7,58191,HGNC:16642,SenMayo,1,True,False,True,Low tissue specificity,15
+ENSG00000161955,TNFSF13,TNF superfamily member 13,ENSG00000161955,O75888,8741,HGNC:11928,CellAge,1,True,False,True,Tissue enhanced,2
+ENSG00000162409,PRKAA2,protein kinase AMP-activated catalytic subunit alpha 2,ENSG00000162409,P54646,5563,HGNC:9377,CellAge,1,True,True,True,Tissue enhanced,11
+ENSG00000162521,RBBP4,"RB binding protein 4, chromatin remodeling factor",ENSG00000162521,Q09028,5928,HGNC:9887,CellAge|Reactome,2,True,True,True,Low tissue specificity,74
+ENSG00000162595,DIRAS3,DIRAS family GTPase 3,ENSG00000162595,O95661,9077,HGNC:687,CellAge,1,False,False,True,Group enriched,1
+ENSG00000162607,USP1,ubiquitin specific peptidase 1,ENSG00000162607,O94782,7398,HGNC:12607,CellAge,1,True,True,True,Low tissue specificity,8
+ENSG00000162734,PEA15,proliferation and apoptosis adaptor protein 15,ENSG00000162734,Q15121,8682,HGNC:8822,CellAge,1,True,True,True,Tissue enriched,3
+ENSG00000162735,PEX19,peroxisomal biogenesis factor 19,ENSG00000162735,P40855,5824,HGNC:9713,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000162772,ATF3,activating transcription factor 3,ENSG00000162772,P18847,467,HGNC:785,CellAge,1,True,True,True,Low tissue specificity,28
+ENSG00000162889,MAPKAPK2,MAPK activated protein kinase 2,ENSG00000162889,P49137,9261,HGNC:6887,Reactome,1,True,True,True,Low tissue specificity,13
+ENSG00000162892,IL24,interleukin 24,ENSG00000162892,Q13007,11009,HGNC:11346,CellAge,1,True,False,True,Tissue enhanced,5
+ENSG00000162961,DPY30,dpy-30 histone methyltransferase complex regulatory subunit,ENSG00000162961,Q9C005,84661,HGNC:24590,CellAge,1,True,True,True,Low tissue specificity,16
+ENSG00000163041,H3-3A,H3.3 histone A,ENSG00000163041,P84243,3020,HGNC:4764,Reactome,1,True,True,True,Low tissue specificity,35
+ENSG00000163161,ERCC3,"ERCC excision repair 3, TFIIH core complex helicase subunit",ENSG00000163161,P19447,2071,HGNC:3435,GenAge,1,True,True,True,Low tissue specificity,37
+ENSG00000163344,PMVK,phosphomevalonate kinase,ENSG00000163344,Q15126,10654,HGNC:9141,CellAge,1,True,True,True,Low tissue specificity,6
+ENSG00000163453,IGFBP7,insulin like growth factor binding protein 7,ENSG00000163453,Q16270,3490,HGNC:5476,CellAge|Reactome|SenMayo,3,True,True,True,Tissue enhanced,12
+ENSG00000163507,CIP2A,cellular inhibitor of PP2A,ENSG00000163507,Q8TCG1,57650,HGNC:29302,CellAge,1,True,True,True,Low tissue specificity,3
+ENSG00000163513,TGFBR2,transforming growth factor beta receptor 2,ENSG00000163513,P37173,7048,HGNC:11773,CellAge,1,True,True,True,Low tissue specificity,23
+ENSG00000163545,NUAK2,NUAK family kinase 2,ENSG00000163545,Q9H093,81788,HGNC:29558,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000163565,IFI16,interferon gamma inducible protein 16,ENSG00000163565,Q16666,3428,HGNC:5395,CellAge,1,True,False,True,Low tissue specificity,9
+ENSG00000163577,EIF5A2,eukaryotic translation initiation factor 5A2,ENSG00000163577,Q9GZV4,56648,HGNC:3301,GenAge,1,True,True,True,Tissue enhanced,8
+ENSG00000163655,GMPS,guanosine monophosphate synthase,ENSG00000163655,P49915,8833,HGNC:4378,CellAge,1,True,True,True,Tissue enhanced,5
+ENSG00000163666,HESX1,HESX homeobox 1,ENSG00000163666,Q9UBX0,8820,HGNC:4877,GenAge,1,True,False,True,Low tissue specificity,3
+ENSG00000163734,CXCL3,C-X-C motif chemokine ligand 3,ENSG00000163734,P19876,2921,HGNC:4604,SenMayo,1,True,False,True,Tissue enhanced,22
+ENSG00000163739,CXCL1,C-X-C motif chemokine ligand 1,ENSG00000163739,P09341,2919,HGNC:4602,CellAge|SenMayo,2,False,False,True,Tissue enhanced,45
+ENSG00000163781,TOPBP1,DNA topoisomerase II binding protein 1,ENSG00000163781,Q92547,11073,HGNC:17008,CellAge,1,True,True,True,Low tissue specificity,33
+ENSG00000163812,ZDHHC3,zDHHC palmitoyltransferase 3,ENSG00000163812,Q9NYG2,51304,HGNC:18470,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000163848,ZNF148,zinc finger protein 148,ENSG00000163848,Q9UQR1,7707,HGNC:12933,CellAge,1,True,True,True,Low tissue specificity,3
+ENSG00000163930,BAP1,BRCA1 associated deubiquitinase 1,ENSG00000163930,Q92560,8314,HGNC:950,CellAge,1,True,True,True,Low tissue specificity,29
+ENSG00000163932,PRKCD,protein kinase C delta,ENSG00000163932,Q05655,5580,HGNC:9399,CellAge|GenAge,2,True,True,True,Low tissue specificity,29
+ENSG00000163939,PBRM1,polybromo 1,ENSG00000163939,Q86U86,55193,HGNC:30064,CellAge,1,True,True,True,Low tissue specificity,21
+ENSG00000164045,CDC25A,cell division cycle 25A,ENSG00000164045,P30304,993,HGNC:1725,CellAge,1,True,True,True,Tissue enhanced,46
+ENSG00000164104,HMGB2,high mobility group box 2,ENSG00000164104,P26583,3148,HGNC:5000,CellAge|GenAge,2,True,True,True,Group enriched,1
+ENSG00000164109,MAD2L1,mitotic arrest deficient 2 like 1,ENSG00000164109,Q13257,4085,HGNC:6763,CellAge,1,True,True,True,Tissue enhanced,58
+ENSG00000164111,ANXA5,annexin A5,ENSG00000164111,P08758,308,HGNC:543,CellAge,1,True,True,True,Low tissue specificity,21
+ENSG00000164136,IL15,interleukin 15,ENSG00000164136,P40933,3600,HGNC:5977,SenMayo,1,True,True,True,Low tissue specificity,35
+ENSG00000164162,ANAPC10,anaphase promoting complex subunit 10,ENSG00000164162,Q9UM13,10393,HGNC:24077,Reactome,1,True,True,True,Low tissue specificity,49
+ENSG00000164171,ITGA2,integrin subunit alpha 2,ENSG00000164171,P17301,3673,HGNC:6137,SenMayo,1,True,True,True,Low tissue specificity,12
+ENSG00000164283,ESM1,endothelial cell specific molecule 1,ENSG00000164283,Q9NQ30,11082,HGNC:3466,SenMayo,1,True,True,True,Tissue enhanced,0
+ENSG00000164327,RICTOR,RPTOR independent companion of MTOR complex 2,ENSG00000164327,Q6R327,253260,HGNC:28611,GenAge,1,True,True,True,Low tissue specificity,29
+ENSG00000164342,TLR3,toll like receptor 3,ENSG00000164342,O15455,7098,HGNC:11849,CellAge,1,True,True,True,Low tissue specificity,38
+ENSG00000164362,TERT,telomerase reverse transcriptase,ENSG00000164362,O14746,7015,HGNC:11730,CellAge|GenAge,2,True,True,True,Not detected,43
+ENSG00000164379,FOXQ1,forkhead box Q1,ENSG00000164379,Q9C009,94234,HGNC:20951,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000164400,CSF2,colony stimulating factor 2,ENSG00000164400,P04141,1437,HGNC:2434,SenMayo,1,True,False,True,Tissue enhanced,54
+ENSG00000164418,GRIK2,glutamate ionotropic receptor kainate type subunit 2,ENSG00000164418,Q13002,2898,HGNC:4580,CellAge,1,True,True,True,Group enriched,1
+ENSG00000164587,RPS14,ribosomal protein S14,ENSG00000164587,P62263,6208,HGNC:10387,CellAge,1,True,True,True,Low tissue specificity,17
+ENSG00000164611,PTTG1,"PTTG1 regulator of sister chromatid separation, securin",ENSG00000164611,O95997,9232,HGNC:9690,CellAge,1,True,True,True,Tissue enhanced,45
+ENSG00000164733,CTSB,cathepsin B,ENSG00000164733,P07858,1508,HGNC:2527,CellAge|SenMayo,2,True,True,True,Tissue enhanced,13
+ENSG00000164741,DLC1,DLC1 Rho GTPase activating protein,ENSG00000164741,Q96QB1,10395,HGNC:2897,CellAge,1,True,True,True,Low tissue specificity,3
+ENSG00000164754,RAD21,RAD21 cohesin complex component,ENSG00000164754,O60216,5885,HGNC:9811,CellAge,1,True,True,True,Low tissue specificity,26
+ENSG00000164761,TNFRSF11B,TNF receptor superfamily member 11b,ENSG00000164761,O00300,4982,HGNC:11909,SenMayo,1,True,False,True,Group enriched,0
+ENSG00000164828,SUN1,Sad1 and UNC84 domain containing 1,ENSG00000164828,O94901,23353,HGNC:18587,GenAge,1,True,True,True,Low tissue specificity,6
+ENSG00000164885,CDK5,cyclin dependent kinase 5,ENSG00000164885,Q00535,1020,HGNC:1774,CellAge,1,True,True,True,Tissue enhanced,28
+ENSG00000164896,FASTK,Fas activated serine/threonine kinase,ENSG00000164896,Q14296,10922,HGNC:24676,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000164924,YWHAZ,tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein zeta,ENSG00000164924,P63104,7534,HGNC:12855,CellAge|GenAge,2,True,False,True,Low tissue specificity,44
+ENSG00000164938,TP53INP1,tumor protein p53 inducible nuclear protein 1,ENSG00000164938,Q96A56,94241,HGNC:18022,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000164949,GEM,GTP binding protein overexpressed in skeletal muscle,ENSG00000164949,P55040,2669,HGNC:4234,SenMayo,1,True,True,True,Tissue enhanced,0
+ENSG00000165025,SYK,spleen associated tyrosine kinase,ENSG00000165025,P43405,6850,HGNC:11491,CellAge,1,True,True,True,Tissue enhanced,32
+ENSG00000165060,FXN,frataxin,ENSG00000165060,Q16595,2395,HGNC:3951,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000165168,CYBB,cytochrome b-245 beta chain,ENSG00000165168,P04839,1536,HGNC:2578,CellAge,1,True,True,True,Tissue enhanced,23
+ENSG00000165280,VCP,valosin containing protein,ENSG00000165280,P55072,7415,HGNC:12666,GenAge,1,True,True,True,Low tissue specificity,39
+ENSG00000165392,WRN,WRN RecQ like helicase,ENSG00000165392,Q14191,7486,HGNC:12791,CellAge|GenAge,2,True,True,True,Low tissue specificity,60
+ENSG00000165478,HEPACAM,hepatic and glial cell adhesion molecule,ENSG00000165478,Q14CZ8,220296,HGNC:26361,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000165588,OTX2,orthodenticle homeobox 2,ENSG00000165588,P32243,5015,HGNC:8522,CellAge,1,True,True,True,Group enriched,5
+ENSG00000165609,NUDT5,nudix hydrolase 5,ENSG00000165609,Q9UKK9,11164,HGNC:8052,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000165731,RET,ret proto-oncogene,ENSG00000165731,P07949,5979,HGNC:9967,GenAge,1,True,True,True,Tissue enhanced,21
+ENSG00000165733,BMS1,BMS1 ribosome biogenesis factor,ENSG00000165733,Q14692,9790,HGNC:23505,CellAge,1,True,True,True,Low tissue specificity,10
+ENSG00000165752,STK32C,serine/threonine kinase 32C,ENSG00000165752,Q86UX6,282974,HGNC:21332,CellAge,1,True,False,True,Tissue enhanced,0
+ENSG00000165886,UBTD1,ubiquitin domain containing 1,ENSG00000165886,Q9HAC8,80019,HGNC:25683,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000165891,E2F7,E2F transcription factor 7,ENSG00000165891,Q96AV8,144455,HGNC:23820,CellAge,1,True,True,True,Tissue enhanced,4
+ENSG00000166033,HTRA1,HtrA serine peptidase 1,ENSG00000166033,Q92743,5654,HGNC:9476,CellAge,1,True,True,True,Tissue enhanced,3
+ENSG00000166164,BRD7,bromodomain containing 7,ENSG00000166164,Q9NPI1,29117,HGNC:14310,CellAge,1,True,True,True,Low tissue specificity,16
+ENSG00000166165,CKB,creatine kinase B,ENSG00000166165,P12277,1152,HGNC:1991,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000166197,NOLC1,nucleolar and coiled-body phosphoprotein 1,ENSG00000166197,Q14978,9221,HGNC:15608,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000166199,ALKBH3,"alkB homolog 3, alpha-ketoglutarate dependent dioxygenase",ENSG00000166199,Q96Q83,221120,HGNC:30141,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000166295,ANAPC16,anaphase promoting complex subunit 16,ENSG00000166295,Q96DE5,119504,HGNC:26976,Reactome,1,True,True,True,Low tissue specificity,40
+ENSG00000166333,ILK,integrin linked kinase,ENSG00000166333,Q13418,3611,HGNC:6040,CellAge,1,True,True,True,Low tissue specificity,19
+ENSG00000166340,TPP1,tripeptidyl peptidase 1,ENSG00000166340,O14773,1200,HGNC:2073,CellAge,1,True,True,True,Low tissue specificity,6
+ENSG00000166477,LEO1,LEO1 component of Paf1/RNA polymerase II complex,ENSG00000166477,Q8WVC0,123169,HGNC:30401,CellAge,1,True,True,True,Low tissue specificity,21
+ENSG00000166483,WEE1,WEE1 G2 checkpoint kinase,ENSG00000166483,P30291,7465,HGNC:12761,CellAge,1,True,True,True,Low tissue specificity,24
+ENSG00000166484,MAPK7,mitogen-activated protein kinase 7,ENSG00000166484,Q13164,5598,HGNC:6880,Reactome,1,True,True,True,Low tissue specificity,8
+ENSG00000166507,NDST2,N-deacetylase and N-sulfotransferase 2,ENSG00000166507,P52849,8509,HGNC:7681,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000166508,MCM7,minichromosome maintenance complex component 7,ENSG00000166508,P33993,4176,HGNC:6950,CellAge,1,True,True,True,Tissue enhanced,44
+ENSG00000166592,RRAD,"RRAD, Ras related glycolysis inhibitor and calcium channel regulator",ENSG00000166592,P55042,6236,HGNC:10446,CellAge,1,True,True,True,Group enriched,2
+ENSG00000166670,MMP10,matrix metallopeptidase 10,ENSG00000166670,P09238,4319,HGNC:7156,SenMayo,1,False,True,True,Tissue enriched,7
+ENSG00000166681,BEX3,brain expressed X-linked 3,ENSG00000166681,Q00994,27018,HGNC:13388,SenMayo,1,True,False,True,Tissue enhanced,3
+ENSG00000166794,PPIB,peptidylprolyl isomerase B,ENSG00000166794,P23284,5479,HGNC:9255,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000166848,TERF2IP,TERF2 interacting protein,ENSG00000166848,Q9NYB0,54386,HGNC:19246,Reactome,1,True,True,True,Low tissue specificity,16
+ENSG00000166851,PLK1,polo like kinase 1,ENSG00000166851,P53350,5347,HGNC:9077,CellAge,1,True,False,True,Tissue enhanced,88
+ENSG00000166888,STAT6,signal transducer and activator of transcription 6,ENSG00000166888,P42226,6778,HGNC:11368,CellAge,1,True,True,True,Low tissue specificity,36
+ENSG00000166913,YWHAB,tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein beta,ENSG00000166913,P31946,7529,HGNC:12849,CellAge,1,True,True,True,Low tissue specificity,34
+ENSG00000166949,SMAD3,SMAD family member 3,ENSG00000166949,P84022,4088,HGNC:6769,CellAge,1,True,True,True,Low tissue specificity,94
+ENSG00000166971,AKTIP,AKT interacting protein,ENSG00000166971,Q9H8T0,64400,HGNC:16710,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000167085,PHB1,prohibitin 1,ENSG00000167085,P35232,5245,HGNC:8912,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000167136,ENDOG,endonuclease G,ENSG00000167136,Q14249,2021,HGNC:3346,CellAge,1,True,True,True,Tissue enhanced,4
+ENSG00000167186,COQ7,"coenzyme Q7, hydroxylase",ENSG00000167186,Q99807,10229,HGNC:2244,GenAge,1,True,True,True,Low tissue specificity,1
+ENSG00000167196,FBXO22,F-box protein 22,ENSG00000167196,Q8NEZ5,26263,HGNC:13593,CellAge,1,True,True,True,Low tissue specificity,3
+ENSG00000167244,IGF2,insulin like growth factor 2,ENSG00000167244,P01344,3481,HGNC:5466,GenAge,1,True,True,True,Tissue enriched,39
+ENSG00000167323,STIM1,stromal interaction molecule 1,ENSG00000167323,Q13586,6786,HGNC:11386,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000167325,RRM1,ribonucleotide reductase catalytic subunit M1,ENSG00000167325,P23921,6240,HGNC:10451,CellAge,1,True,True,True,Low tissue specificity,18
+ENSG00000167468,GPX4,glutathione peroxidase 4,ENSG00000167468,P36969,2879,HGNC:4556,GenAge,1,True,True,True,Low tissue specificity,12
+ENSG00000167601,AXL,AXL receptor tyrosine kinase,ENSG00000167601,P30530,558,HGNC:905,CellAge|SenMayo,2,True,True,True,Low tissue specificity,13
+ENSG00000167656,LY6D,lymphocyte antigen 6 family member D,ENSG00000167656,Q14210,8581,HGNC:13348,CellAge,1,False,False,True,Tissue enhanced,0
+ENSG00000167658,EEF2,eukaryotic translation elongation factor 2,ENSG00000167658,P13639,1938,HGNC:3214,GenAge,1,True,True,True,Low tissue specificity,21
+ENSG00000167772,ANGPTL4,angiopoietin like 4,ENSG00000167772,Q9BY76,51129,HGNC:16039,SenMayo,1,True,True,True,Tissue enhanced,7
+ENSG00000167779,IGFBP6,insulin like growth factor binding protein 6,ENSG00000167779,P24592,3489,HGNC:5475,SenMayo,1,True,True,True,Tissue enhanced,8
+ENSG00000167986,DDB1,damage specific DNA binding protein 1,ENSG00000167986,Q16531,1642,HGNC:2717,CellAge,1,True,True,True,Low tissue specificity,44
+ENSG00000168000,BSCL2,"BSCL2 lipid droplet biogenesis associated, seipin",ENSG00000168000,Q96G97,26580,HGNC:15832,GenAge,1,True,True,True,Tissue enhanced,5
+ENSG00000168036,CTNNB1,catenin beta 1,ENSG00000168036,P35222,1499,HGNC:2514,CellAge|GenAge|SenMayo,3,True,True,True,Low tissue specificity,188
+ENSG00000168148,H3-4,"H3.4 histone, cluster member",ENSG00000168148,Q16695,8290,HGNC:4778,Reactome,1,True,False,True,Tissue enriched,146
+ENSG00000168209,DDIT4,DNA damage inducible transcript 4,ENSG00000168209,Q9NX09,54541,HGNC:24944,CellAge,1,True,True,True,Low tissue specificity,8
+ENSG00000168214,RBPJ,recombination signal binding protein for immunoglobulin kappa J region,ENSG00000168214,Q06330,3516,HGNC:5724,CellAge,1,True,True,True,Low tissue specificity,22
+ENSG00000168283,BMI1,"BMI1 proto-oncogene, polycomb ring finger",ENSG00000168283,P35226,648,HGNC:1066,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,71
+ENSG00000168298,H1-4,"H1.4 linker histone, cluster member",ENSG00000168298,P10412,3008,HGNC:4718,Reactome,1,True,True,True,Tissue enriched,15
+ENSG00000168395,ING5,inhibitor of growth family member 5,ENSG00000168395,Q8WYH8,84289,HGNC:19421,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000168496,FEN1,flap structure-specific endonuclease 1,ENSG00000168496,P39748,2237,HGNC:3650,GenAge,1,True,True,True,Tissue enhanced,61
+ENSG00000168556,ING2,inhibitor of growth family member 2,ENSG00000168556,Q9H160,3622,HGNC:6063,CellAge,1,True,True,True,Low tissue specificity,17
+ENSG00000168564,CDKN2AIP,CDKN2A interacting protein,ENSG00000168564,Q9NXV6,55602,HGNC:24325,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000168610,STAT3,signal transducer and activator of transcription 3,ENSG00000168610,P40763,6774,HGNC:11364,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,176
+ENSG00000168685,IL7R,interleukin 7 receptor,ENSG00000168685,P16871,3575,HGNC:6024,GenAge,1,True,False,True,Tissue enhanced,26
+ENSG00000169032,MAP2K1,mitogen-activated protein kinase kinase 1,ENSG00000169032,Q02750,5604,HGNC:6840,CellAge,1,True,True,True,Low tissue specificity,43
+ENSG00000169047,IRS1,insulin receptor substrate 1,ENSG00000169047,P35568,3667,HGNC:6125,GenAge,1,True,True,True,Low tissue specificity,66
+ENSG00000169057,MECP2,methyl-CpG binding protein 2,ENSG00000169057,P51608,4204,HGNC:6990,CellAge,1,True,True,True,Low tissue specificity,44
+ENSG00000169083,AR,androgen receptor,ENSG00000169083,P10275,367,HGNC:644,CellAge|GenAge,2,True,True,True,Tissue enhanced,61
+ENSG00000169139,UBE2V2,ubiquitin conjugating enzyme E2 V2,ENSG00000169139,Q15819,7336,HGNC:12495,CellAge,1,True,True,True,Low tissue specificity,23
+ENSG00000169169,CPT1C,carnitine palmitoyltransferase 1C,ENSG00000169169,Q8TCG5,126129,HGNC:18540,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000169194,IL13,interleukin 13,ENSG00000169194,P35225,3596,HGNC:5973,SenMayo,1,True,False,True,Tissue enriched,46
+ENSG00000169245,CXCL10,C-X-C motif chemokine ligand 10,ENSG00000169245,P02778,3627,HGNC:10637,SenMayo,1,True,False,True,Tissue enhanced,52
+ENSG00000169375,SIN3A,SIN3 transcription regulator family member A,ENSG00000169375,Q96ST3,25942,HGNC:19353,GenAge,1,True,True,True,Low tissue specificity,56
+ENSG00000169398,PTK2,protein tyrosine kinase 2,ENSG00000169398,Q05397,5747,HGNC:9611,CellAge|GenAge,2,True,True,True,Low tissue specificity,42
+ENSG00000169429,CXCL8,C-X-C motif chemokine ligand 8,ENSG00000169429,P10145,3576,HGNC:6025,Reactome|SenMayo,2,False,False,True,Tissue enriched,91
+ENSG00000169605,GKN1,gastrokine 1,ENSG00000169605,Q9NS71,56287,HGNC:23217,CellAge,1,True,False,True,Tissue enriched,0
+ENSG00000169679,BUB1,BUB1 mitotic checkpoint serine/threonine kinase,ENSG00000169679,O43683,699,HGNC:1148,CellAge,1,True,True,True,Group enriched,63
+ENSG00000169692,AGPAT2,1-acylglycerol-3-phosphate O-acyltransferase 2,ENSG00000169692,O15120,10555,HGNC:325,GenAge,1,True,True,True,Tissue enhanced,6
+ENSG00000169710,FASN,fatty acid synthase,ENSG00000169710,P49327,2194,HGNC:3594,CellAge,1,True,True,True,Tissue enhanced,12
+ENSG00000169715,MT1E,metallothionein 1E,ENSG00000169715,P04732,4493,HGNC:7397,GenAge,1,False,True,True,Tissue enhanced,3
+ENSG00000170142,UBE2E1,ubiquitin conjugating enzyme E2 E1,ENSG00000170142,P51965,7324,HGNC:12477,Reactome,1,True,False,True,Low tissue specificity,27
+ENSG00000170144,HNRNPA3,heterogeneous nuclear ribonucleoprotein A3,ENSG00000170144,P51991,220988,HGNC:24941,CellAge,1,False,True,True,Low tissue specificity,15
+ENSG00000170312,CDK1,cyclin dependent kinase 1,ENSG00000170312,P06493,983,HGNC:1722,CellAge|GenAge,2,True,True,True,Tissue enhanced,125
+ENSG00000170315,UBB,ubiquitin B,ENSG00000170315,P0CG47,7314,HGNC:12463,GenAge|Reactome,2,True,True,True,Low tissue specificity,81
+ENSG00000170345,FOS,"Fos proto-oncogene, AP-1 transcription factor subunit",ENSG00000170345,P01100,2353,HGNC:3796,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,95
+ENSG00000170365,SMAD1,SMAD family member 1,ENSG00000170365,Q15797,4086,HGNC:6767,CellAge,1,True,True,True,Low tissue specificity,14
+ENSG00000170779,CDCA4,cell division cycle associated 4,ENSG00000170779,Q9BXL8,55038,HGNC:14625,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000170836,PPM1D,"protein phosphatase, Mg2+/Mn2+ dependent 1D",ENSG00000170836,O15297,8493,HGNC:9277,CellAge|GenAge,2,True,True,True,Low tissue specificity,7
+ENSG00000170899,GSTA4,glutathione S-transferase alpha 4,ENSG00000170899,O15217,2941,HGNC:4629,GenAge,1,False,True,True,Tissue enhanced,4
+ENSG00000171105,INSR,insulin receptor,ENSG00000171105,P06213,3643,HGNC:6091,GenAge,1,True,True,True,Low tissue specificity,34
+ENSG00000171223,JUNB,"JunB proto-oncogene, AP-1 transcription factor subunit",ENSG00000171223,P17275,3726,HGNC:6205,CellAge,1,True,True,True,Tissue enhanced,20
+ENSG00000171345,KRT19,keratin 19,ENSG00000171345,P08727,3880,HGNC:6436,CellAge,1,True,True,True,Tissue enhanced,4
+ENSG00000171435,KSR2,kinase suppressor of ras 2,ENSG00000171435,Q6VAB6,283455,HGNC:18610,CellAge,1,True,True,True,Tissue enhanced,4
+ENSG00000171476,HOPX,HOP homeobox,ENSG00000171476,Q9BPY8,84525,HGNC:24961,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000171517,LPAR3,lysophosphatidic acid receptor 3,ENSG00000171517,Q9UBY5,23566,HGNC:14298,CellAge,1,True,True,True,Tissue enhanced,3
+ENSG00000171552,BCL2L1,BCL2 like 1,ENSG00000171552,Q07817,598,HGNC:992,CellAge,1,True,True,True,Low tissue specificity,64
+ENSG00000171681,ATF7IP,activating transcription factor 7 interacting protein,ENSG00000171681,Q6VMQ6,55729,HGNC:20092,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000171720,HDAC3,histone deacetylase 3,ENSG00000171720,O15379,8841,HGNC:4854,CellAge|GenAge,2,True,False,True,Low tissue specificity,59
+ENSG00000171791,BCL2,BCL2 apoptosis regulator,ENSG00000171791,P10415,596,HGNC:990,CellAge|GenAge,2,True,True,True,Low tissue specificity,130
+ENSG00000171798,KNDC1,kinase non-catalytic C-lobe domain containing 1,ENSG00000171798,Q76NI1,85442,HGNC:29374,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000171848,RRM2,ribonucleotide reductase regulatory subunit M2,ENSG00000171848,P31350,6241,HGNC:10452,CellAge,1,True,True,True,Tissue enhanced,47
+ENSG00000171855,IFNB1,interferon beta 1,ENSG00000171855,P01574,3456,HGNC:5434,GenAge|Reactome,2,True,True,True,Not detected,44
+ENSG00000171862,PTEN,phosphatase and tensin homolog,ENSG00000171862,P60484,5728,HGNC:9588,CellAge|GenAge,2,False,True,True,Low tissue specificity,122
+ENSG00000171940,ZNF217,zinc finger protein 217,ENSG00000171940,O75362,7764,HGNC:13009,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000172071,EIF2AK3,eukaryotic translation initiation factor 2 alpha kinase 3,ENSG00000172071,Q9NZJ5,9451,HGNC:3255,CellAge,1,True,True,True,Tissue enhanced,17
+ENSG00000172081,MOB3A,MOB kinase activator 3A,ENSG00000172081,Q96BX8,126308,HGNC:29802,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000172216,CEBPB,CCAAT enhancer binding protein beta,ENSG00000172216,P17676,1051,HGNC:1834,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,58
+ENSG00000172531,PPP1CA,protein phosphatase 1 catalytic subunit alpha,ENSG00000172531,P62136,5499,HGNC:9281,GenAge,1,True,True,True,Low tissue specificity,18
+ENSG00000172667,ZMAT3,zinc finger matrin-type 3,ENSG00000172667,Q9HA38,64393,HGNC:29983,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000172680,MOS,"MOS proto-oncogene, serine/threonine kinase",ENSG00000172680,P00540,4342,HGNC:7199,CellAge,1,True,True,True,Not detected,5
+ENSG00000172732,MUS81,MUS81 structure-specific endonuclease subunit,ENSG00000172732,Q96NY9,80198,HGNC:29814,CellAge,1,True,True,True,Low tissue specificity,33
+ENSG00000172936,MYD88,MYD88 innate immune signal transduction adaptor,ENSG00000172936,Q99836,4615,HGNC:7562,CellAge,1,True,True,True,Low tissue specificity,61
+ENSG00000172977,KAT5,lysine acetyltransferase 5,ENSG00000172977,Q92993,10524,HGNC:5275,CellAge|Reactome,2,True,False,True,Low tissue specificity,64
+ENSG00000173039,RELA,"RELA proto-oncogene, NF-kB subunit",ENSG00000173039,Q04206,5970,HGNC:9955,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,103
+ENSG00000173175,ADCY5,adenylate cyclase 5,ENSG00000173175,O95622,111,HGNC:236,GenAge,1,True,True,True,Tissue enhanced,7
+ENSG00000173267,SNCG,synuclein gamma,ENSG00000173267,O76070,6623,HGNC:11141,GenAge,1,True,True,True,Tissue enhanced,0
+ENSG00000173372,C1QA,complement C1q A chain,ENSG00000173372,P02745,712,HGNC:1241,GenAge,1,True,True,True,Tissue enhanced,1
+ENSG00000173531,MST1,macrophage stimulating 1,ENSG00000173531,P26927,4485,HGNC:7380,CellAge,1,True,True,True,Tissue enriched,1
+ENSG00000173535,TNFRSF10C,TNF receptor superfamily member 10c,ENSG00000173535,O14798,8794,HGNC:11906,SenMayo,1,True,True,True,Tissue enhanced,0
+ENSG00000173757,STAT5B,signal transducer and activator of transcription 5B,ENSG00000173757,P51692,6777,HGNC:11367,CellAge|GenAge,2,True,True,True,Low tissue specificity,55
+ENSG00000173889,PHC3,polyhomeotic homolog 3,ENSG00000173889,Q8NDX5,80012,HGNC:15682,Reactome,1,True,True,True,Tissue enhanced,40
+ENSG00000173894,CBX2,chromobox 2,ENSG00000173894,Q14781,84733,HGNC:1552,Reactome,1,True,True,True,Tissue enhanced,43
+ENSG00000174059,CD34,CD34 molecule,ENSG00000174059,P28906,947,HGNC:1662,CellAge,1,True,True,True,Low tissue specificity,32
+ENSG00000174123,TLR10,toll like receptor 10,ENSG00000174123,Q9BXR5,81793,HGNC:15634,CellAge,1,False,False,True,Tissue enriched,2
+ENSG00000174697,LEP,leptin,ENSG00000174697,P41159,3952,HGNC:6553,GenAge,1,True,False,True,Group enriched,50
+ENSG00000174775,HRAS,"HRas proto-oncogene, GTPase",ENSG00000174775,P01112,3265,HGNC:5173,CellAge|GenAge,2,True,True,True,Tissue enhanced,62
+ENSG00000174944,P2RY14,purinergic receptor P2Y14,ENSG00000174944,Q15391,9934,HGNC:16442,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000175054,ATR,ATR checkpoint kinase,ENSG00000175054,Q13535,545,HGNC:882,CellAge|GenAge,2,True,True,True,Low tissue specificity,48
+ENSG00000175063,UBE2C,ubiquitin conjugating enzyme E2 C,ENSG00000175063,O00762,11065,HGNC:15937,CellAge|Reactome,2,True,True,True,Tissue enhanced,73
+ENSG00000175087,PDIK1L,PDLIM1 interacting kinase 1 like,ENSG00000175087,Q8N165,149420,HGNC:18981,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000175197,DDIT3,DNA damage inducible transcript 3,ENSG00000175197,P35638,1649,HGNC:2726,GenAge,1,True,True,True,Low tissue specificity,18
+ENSG00000175220,ARHGAP1,Rho GTPase activating protein 1,ENSG00000175220,Q07960,392,HGNC:673,GenAge,1,True,True,True,Low tissue specificity,2
+ENSG00000175305,CCNE2,cyclin E2,ENSG00000175305,O96020,9134,HGNC:1590,Reactome,1,True,True,True,Tissue enhanced,34
+ENSG00000175325,PROP1,PROP paired-like homeobox 1,ENSG00000175325,O75360,5626,HGNC:9455,GenAge,1,True,False,True,Tissue enriched,6
+ENSG00000175348,TMEM9B,TMEM9 domain family member B,ENSG00000175348,Q9NQ34,56674,HGNC:1168,CellAge,1,True,True,True,Low tissue specificity,0
+ENSG00000175387,SMAD2,SMAD family member 2,ENSG00000175387,Q15796,4087,HGNC:6768,CellAge,1,True,False,True,Low tissue specificity,67
+ENSG00000175564,UCP3,uncoupling protein 3,ENSG00000175564,P55916,7352,HGNC:12519,GenAge,1,True,False,True,Group enriched,4
+ENSG00000175567,UCP2,uncoupling protein 2,ENSG00000175567,P55851,7351,HGNC:12518,GenAge,1,True,True,True,Tissue enhanced,8
+ENSG00000175595,ERCC4,"ERCC excision repair 4, endonuclease catalytic subunit",ENSG00000175595,Q92889,2072,HGNC:3436,GenAge,1,True,True,True,Tissue enhanced,41
+ENSG00000175793,SFN,stratifin,ENSG00000175793,P31947,2810,HGNC:10773,CellAge,1,True,False,True,Tissue enhanced,26
+ENSG00000175806,MSRA,methionine sulfoxide reductase A,ENSG00000175806,Q9UJ68,4482,HGNC:7377,GenAge,1,True,False,True,Tissue enhanced,1
+ENSG00000175899,A2M,alpha-2-macroglobulin,ENSG00000175899,P01023,2,HGNC:7,GenAge,1,True,False,True,Tissue enhanced,19
+ENSG00000176170,SPHK1,sphingosine kinase 1,ENSG00000176170,Q9NYA1,8877,HGNC:11240,CellAge,1,True,True,True,Low tissue specificity,8
+ENSG00000176248,ANAPC2,anaphase promoting complex subunit 2,ENSG00000176248,Q9UJX6,29882,HGNC:19989,Reactome,1,True,True,True,Low tissue specificity,47
+ENSG00000176386,CDC26,cell division cycle 26,ENSG00000176386,Q8NHZ8,246184,HGNC:17839,Reactome,1,True,True,True,Low tissue specificity,43
+ENSG00000176697,BDNF,brain derived neurotrophic factor,ENSG00000176697,P23560,627,HGNC:1033,GenAge,1,True,True,True,Tissue enhanced,49
+ENSG00000176749,CDK5R1,cyclin dependent kinase 5 regulatory subunit 1,ENSG00000176749,Q15078,8851,HGNC:1775,CellAge,1,True,True,True,Tissue enriched,13
+ENSG00000176890,TYMS,thymidylate synthetase,ENSG00000176890,P04818,7298,HGNC:12441,CellAge,1,True,True,True,Tissue enhanced,31
+ENSG00000177076,ACER2,alkaline ceramidase 2,ENSG00000177076,Q5QJU3,340485,HGNC:23675,CellAge,1,True,True,True,Group enriched,2
+ENSG00000177189,RPS6KA3,ribosomal protein S6 kinase A3,ENSG00000177189,P51812,6197,HGNC:10432,Reactome,1,True,True,True,Low tissue specificity,14
+ENSG00000177272,KCNA3,potassium voltage-gated channel subfamily A member 3,ENSG00000177272,P22001,3738,HGNC:6221,GenAge,1,True,False,True,Tissue enhanced,2
+ENSG00000177302,TOP3A,DNA topoisomerase III alpha,ENSG00000177302,Q13472,7156,HGNC:11992,CellAge,1,True,True,True,Low tissue specificity,29
+ENSG00000177374,HIC1,HIC ZBTB transcriptional repressor 1,ENSG00000177374,Q14526,3090,HGNC:4909,GenAge,1,True,True,True,Low tissue specificity,5
+ENSG00000177469,CAVIN1,caveolae associated protein 1,ENSG00000177469,Q6NZI2,284119,HGNC:9688,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000177606,JUN,"Jun proto-oncogene, AP-1 transcription factor subunit",ENSG00000177606,P05412,3725,HGNC:6204,CellAge|GenAge|Reactome|SenMayo,4,True,True,True,Low tissue specificity,155
+ENSG00000177885,GRB2,growth factor receptor bound protein 2,ENSG00000177885,P62993,2885,HGNC:4566,GenAge,1,True,True,True,Low tissue specificity,77
+ENSG00000177889,UBE2N,ubiquitin conjugating enzyme E2 N,ENSG00000177889,P61088,7334,HGNC:12492,CellAge,1,True,True,True,Low tissue specificity,41
+ENSG00000178562,CD28,CD28 molecule,ENSG00000178562,P10747,940,HGNC:1653,CellAge,1,True,False,True,Group enriched,25
+ENSG00000178573,MAF,MAF bZIP transcription factor,ENSG00000178573,O75444,4094,HGNC:6776,CellAge,1,True,True,True,Low tissue specificity,9
+ENSG00000178691,SUZ12,SUZ12 polycomb repressive complex 2 subunit,ENSG00000178691,Q15022,23512,HGNC:17101,CellAge|Reactome,2,True,True,True,Low tissue specificity,57
+ENSG00000178999,AURKB,aurora kinase B,ENSG00000178999,Q96GD4,9212,HGNC:11390,CellAge,1,True,True,True,Tissue enhanced,63
+ENSG00000179218,CALR,calreticulin,ENSG00000179218,P27797,811,HGNC:1455,CellAge,1,True,False,True,Low tissue specificity,22
+ENSG00000179295,PTPN11,protein tyrosine phosphatase non-receptor type 11,ENSG00000179295,Q06124,5781,HGNC:9644,GenAge,1,True,True,True,Low tissue specificity,65
+ENSG00000179593,ALOX15B,arachidonate 15-lipoxygenase type B,ENSG00000179593,O15296,247,HGNC:434,CellAge,1,True,False,True,Tissue enhanced,3
+ENSG00000180198,RCC1,regulator of chromosome condensation 1,ENSG00000180198,P18754,1104,HGNC:1913,CellAge,1,True,True,True,Low tissue specificity,9
+ENSG00000180370,PAK2,p21 (RAC1) activated kinase 2,ENSG00000180370,Q13177,5062,HGNC:8591,CellAge,1,True,True,True,Low tissue specificity,7
+ENSG00000180573,H2AC6,H2A clustered histone 6,ENSG00000180573,Q93077,8334,HGNC:4733,Reactome,1,False,False,True,Low tissue specificity,36
+ENSG00000180596,H2BC4,H2B clustered histone 4,ENSG00000180596,P62807,8347,HGNC:4757,Reactome,1,False,False,True,Low tissue specificity,43
+ENSG00000180871,CXCR2,C-X-C motif chemokine receptor 2,ENSG00000180871,P25025,3579,HGNC:6027,CellAge|SenMayo,2,True,True,True,Tissue enhanced,34
+ENSG00000180914,OXTR,oxytocin receptor,ENSG00000180914,P30559,5021,HGNC:8529,CellAge,1,True,True,True,Tissue enriched,4
+ENSG00000181019,NQO1,NAD(P)H quinone dehydrogenase 1,ENSG00000181019,P15559,1728,HGNC:2874,CellAge,1,True,True,True,Tissue enhanced,11
+ENSG00000181090,EHMT1,euchromatic histone lysine methyltransferase 1,ENSG00000181090,Q9H9B1,79813,HGNC:24650,Reactome,1,True,True,True,Low tissue specificity,17
+ENSG00000181163,NPM1,nucleophosmin 1,ENSG00000181163,P06748,4869,HGNC:7910,CellAge,1,True,True,True,Low tissue specificity,72
+ENSG00000181374,CCL13,C-C motif chemokine ligand 13,ENSG00000181374,Q99616,6357,HGNC:10611,SenMayo,1,False,True,True,Tissue enhanced,17
+ENSG00000181449,SOX2,SRY-box transcription factor 2,ENSG00000181449,P48431,6657,HGNC:11195,CellAge,1,True,True,True,Tissue enhanced,64
+ENSG00000181634,TNFSF15,TNF superfamily member 15,ENSG00000181634,O95150,9966,HGNC:11931,CellAge,1,True,False,True,Tissue enhanced,1
+ENSG00000182752,PAPPA,pappalysin 1,ENSG00000182752,Q13219,5069,HGNC:8602,GenAge|SenMayo,2,True,True,True,Tissue enriched,6
+ENSG00000182944,EWSR1,EWS RNA binding protein 1,ENSG00000182944,Q01844,2130,HGNC:3508,CellAge,1,True,True,True,Low tissue specificity,22
+ENSG00000182968,SOX1,SRY-box transcription factor 1,ENSG00000182968,O00570,6656,HGNC:11189,CellAge,1,True,True,True,Tissue enriched,5
+ENSG00000183010,PYCR1,pyrroline-5-carboxylate reductase 1,ENSG00000183010,P32322,5831,HGNC:9721,GenAge,1,True,True,True,Tissue enhanced,3
+ENSG00000183207,RUVBL2,RuvB like AAA ATPase 2,ENSG00000183207,Q9Y230,10856,HGNC:10475,CellAge,1,True,True,True,Tissue enhanced,39
+ENSG00000183395,PMCH,pro-melanin concentrating hormone,ENSG00000183395,P20382,5367,HGNC:9109,GenAge,1,True,True,True,Tissue enriched,3
+ENSG00000183495,EP400,E1A binding protein p400,ENSG00000183495,Q96L91,57634,HGNC:11958,Reactome,1,True,True,True,Low tissue specificity,20
+ENSG00000183691,NOG,noggin,ENSG00000183691,Q13253,9241,HGNC:7866,GenAge,1,True,True,True,Tissue enhanced,8
+ENSG00000183735,TBK1,TANK binding kinase 1,ENSG00000183735,Q9UHD2,29110,HGNC:11584,CellAge,1,True,True,True,Low tissue specificity,32
+ENSG00000183741,CBX6,chromobox 6,ENSG00000183741,O95503,23466,HGNC:1556,Reactome,1,True,True,True,Tissue enhanced,23
+ENSG00000183765,CHEK2,checkpoint kinase 2,ENSG00000183765,O96017,11200,HGNC:16627,CellAge|GenAge,2,True,True,True,Low tissue specificity,54
+ENSG00000183814,LIN9,lin-9 DREAM MuvB core complex component,ENSG00000183814,Q5TKA1,286826,HGNC:30830,CellAge,1,True,True,True,Low tissue specificity,16
+ENSG00000184185,KCNJ12,potassium inwardly rectifying channel subfamily J member 12,ENSG00000184185,Q14500,3768,HGNC:6258,CellAge,1,True,True,True,Group enriched,0
+ENSG00000184260,H2AC20,H2A clustered histone 20,ENSG00000184260,Q16777,8338,HGNC:4738,Reactome,1,True,True,True,Tissue enriched,85
+ENSG00000184302,SIX6,SIX homeobox 6,ENSG00000184302,O95475,4990,HGNC:10892,CellAge,1,True,True,True,Tissue enriched,1
+ENSG00000184304,PRKD1,protein kinase D1,ENSG00000184304,Q15139,5587,HGNC:9407,CellAge,1,True,True,True,Low tissue specificity,6
+ENSG00000184357,H1-5,"H1.5 linker histone, cluster member",ENSG00000184357,P16401,3009,HGNC:4719,Reactome,1,True,True,True,Group enriched,13
+ENSG00000184371,CSF1,colony stimulating factor 1,ENSG00000184371,P09603,1435,HGNC:2432,SenMayo,1,True,True,True,Low tissue specificity,40
+ENSG00000184481,FOXO4,forkhead box O4,ENSG00000184481,P98177,4303,HGNC:7139,CellAge|GenAge,2,True,True,True,Tissue enhanced,36
+ENSG00000184634,MED12,mediator complex subunit 12,ENSG00000184634,Q93074,9968,HGNC:11957,CellAge,1,True,True,True,Low tissue specificity,9
+ENSG00000184661,CDCA2,cell division cycle associated 2,ENSG00000184661,Q69YH5,157313,HGNC:14623,CellAge,1,True,True,True,Group enriched,17
+ENSG00000184678,H2BC21,H2B clustered histone 21,ENSG00000184678,Q16778,8349,HGNC:4760,Reactome,1,False,False,True,Low tissue specificity,106
+ENSG00000184900,SUMO3,small ubiquitin like modifier 3,ENSG00000184900,P55854,6612,HGNC:11124,CellAge,1,True,False,True,Low tissue specificity,10
+ENSG00000184937,WT1,WT1 transcription factor,ENSG00000184937,P19544,7490,HGNC:12796,CellAge,1,True,True,True,Tissue enhanced,13
+ENSG00000185000,DGAT1,diacylglycerol O-acyltransferase 1,ENSG00000185000,O75907,8694,HGNC:2843,GenAge,1,True,True,True,Tissue enhanced,4
+ENSG00000185122,HSF1,heat shock transcription factor 1,ENSG00000185122,Q00613,3297,HGNC:5224,CellAge|GenAge,2,True,False,True,Low tissue specificity,19
+ENSG00000185130,H2BC13,H2B clustered histone 13,ENSG00000185130,Q99880,8340,HGNC:4748,Reactome,1,False,False,True,Tissue enriched,21
+ENSG00000185338,SOCS1,suppressor of cytokine signaling 1,ENSG00000185338,O15524,8651,HGNC:19383,CellAge,1,True,True,True,Low tissue specificity,36
+ENSG00000185344,ATP6V0A2,ATPase H+ transporting V0 subunit a2,ENSG00000185344,Q9Y487,23545,HGNC:18481,CellAge,1,True,True,True,Low tissue specificity,3
+ENSG00000185345,PRKN,parkin RBR E3 ubiquitin protein ligase,ENSG00000185345,O60260,5071,HGNC:8607,CellAge,1,True,True,True,Tissue enhanced,46
+ENSG00000185386,MAPK11,mitogen-activated protein kinase 11,ENSG00000185386,Q15759,5600,HGNC:6873,Reactome,1,True,True,True,Tissue enhanced,48
+ENSG00000185507,IRF7,interferon regulatory factor 7,ENSG00000185507,Q92985,3665,HGNC:6122,CellAge,1,True,True,True,Tissue enhanced,33
+ENSG00000185591,SP1,Sp1 transcription factor,ENSG00000185591,P08047,6667,HGNC:11205,CellAge|GenAge|Reactome,3,True,True,True,Low tissue specificity,49
+ENSG00000185668,POU3F1,POU class 3 homeobox 1,ENSG00000185668,Q03052,5453,HGNC:9214,CellAge,1,True,True,True,Group enriched,1
+ENSG00000185787,MORF4L1,mortality factor 4 like 1,ENSG00000185787,Q9UBU8,10933,HGNC:16989,CellAge,1,True,True,True,Low tissue specificity,29
+ENSG00000185883,ATP6V0C,ATPase H+ transporting V0 subunit c,ENSG00000185883,P27449,527,HGNC:855,CellAge,1,True,True,True,Low tissue specificity,3
+ENSG00000185950,IRS2,insulin receptor substrate 2,ENSG00000185950,Q9Y4H2,8660,HGNC:6126,GenAge,1,True,True,True,Tissue enhanced,38
+ENSG00000186260,MRTFB,myocardin related transcription factor B,ENSG00000186260,Q9ULH7,57496,HGNC:29819,CellAge,1,True,False,True,Low tissue specificity,2
+ENSG00000186575,NF2,"NF2, moesin-ezrin-radixin like (MERLIN) tumor suppressor",ENSG00000186575,P35240,4771,HGNC:7773,CellAge,1,True,True,True,Low tissue specificity,15
+ENSG00000186868,MAPT,microtubule associated protein tau,ENSG00000186868,P10636,4137,HGNC:6893,GenAge,1,True,True,True,Tissue enhanced,39
+ENSG00000186951,PPARA,peroxisome proliferator activated receptor alpha,ENSG00000186951,Q07869,5465,HGNC:9232,GenAge,1,True,True,True,Tissue enhanced,33
+ENSG00000187079,TEAD1,TEA domain transcription factor 1,ENSG00000187079,P28347,7003,HGNC:11714,CellAge,1,True,True,True,Low tissue specificity,8
+ENSG00000187098,MITF,melanocyte inducing transcription factor,ENSG00000187098,O75030,4286,HGNC:7105,CellAge,1,True,True,True,Low tissue specificity,10
+ENSG00000187266,EPOR,erythropoietin receptor,ENSG00000187266,P19235,2057,HGNC:3416,CellAge|GenAge,2,True,True,True,Low tissue specificity,23
+ENSG00000187531,SIRT7,sirtuin 7,ENSG00000187531,Q9NRC8,51547,HGNC:14935,CellAge|GenAge,2,True,True,True,Low tissue specificity,10
+ENSG00000187736,NHEJ1,non-homologous end joining factor 1,ENSG00000187736,Q9H9Q4,79840,HGNC:25737,CellAge,1,True,True,True,Low tissue specificity,20
+ENSG00000187778,MCRS1,microspherule protein 1,ENSG00000187778,Q96EZ8,10445,HGNC:6960,CellAge,1,True,True,True,Low tissue specificity,13
+ENSG00000187837,H1-2,"H1.2 linker histone, cluster member",ENSG00000187837,P16403,3006,HGNC:4716,Reactome,1,True,False,True,Low tissue specificity,13
+ENSG00000187840,EIF4EBP1,eukaryotic translation initiation factor 4E binding protein 1,ENSG00000187840,Q13541,1978,HGNC:3288,CellAge,1,True,True,True,Tissue enhanced,13
+ENSG00000188064,WNT7B,Wnt family member 7B,ENSG00000188064,P56706,7477,HGNC:12787,CellAge,1,True,True,True,Tissue enhanced,5
+ENSG00000188130,MAPK12,mitogen-activated protein kinase 12,ENSG00000188130,P53778,6300,HGNC:6874,CellAge,1,True,True,True,Group enriched,48
+ENSG00000188257,PLA2G2A,phospholipase A2 group IIA,ENSG00000188257,P14555,5320,HGNC:9031,CellAge,1,True,False,True,Tissue enhanced,5
+ENSG00000188486,H2AX,H2A.X variant histone,ENSG00000188486,P16104,3014,HGNC:4739,GenAge|Reactome,2,True,True,True,Low tissue specificity,94
+ENSG00000188554,NBR1,NBR1 autophagy cargo receptor,ENSG00000188554,Q14596,4077,HGNC:6746,CellAge,1,True,True,True,Low tissue specificity,19
+ENSG00000188612,SUMO2,small ubiquitin like modifier 2,ENSG00000188612,P61956,6613,HGNC:11125,CellAge,1,False,False,True,Low tissue specificity,43
+ENSG00000188906,LRRK2,leucine rich repeat kinase 2,ENSG00000188906,Q5S007,120892,HGNC:18618,CellAge,1,True,True,True,Tissue enriched,25
+ENSG00000189037,DUSP21,dual specificity phosphatase 21,ENSG00000189037,Q9H596,63904,HGNC:20476,CellAge,1,True,False,True,Tissue enriched,0
+ENSG00000189060,H1-0,H1.0 linker histone,ENSG00000189060,P07305,3005,HGNC:4714,Reactome,1,True,True,True,Tissue enhanced,21
+ENSG00000189159,JPT1,Jupiter microtubule associated homolog 1,ENSG00000189159,Q9UK76,51155,HGNC:14569,CellAge,1,True,False,True,Tissue enhanced,0
+ENSG00000189308,LIN54,lin-54 DREAM MuvB core complex component,ENSG00000189308,Q6MZP7,132660,HGNC:25397,CellAge,1,True,True,True,Low tissue specificity,12
+ENSG00000189403,HMGB1,high mobility group box 1,ENSG00000189403,P09429,3146,HGNC:4983,CellAge|GenAge|SenMayo,3,True,True,True,Low tissue specificity,26
+ENSG00000196182,STK40,serine/threonine kinase 40,ENSG00000196182,Q8N2I9,83931,HGNC:21373,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000196235,SUPT5H,"SPT5 homolog, DSIF elongation factor subunit",ENSG00000196235,O00267,6829,HGNC:11469,CellAge,1,True,True,True,Low tissue specificity,16
+ENSG00000196352,CD55,CD55 molecule (Cromer blood group),ENSG00000196352,P08174,1604,HGNC:2665,SenMayo,1,True,False,True,Low tissue specificity,2
+ENSG00000196367,TRRAP,transformation/transcription domain associated protein,ENSG00000196367,Q9Y4A5,8295,HGNC:12347,CellAge,1,True,True,True,Low tissue specificity,43
+ENSG00000196396,PTPN1,protein tyrosine phosphatase non-receptor type 1,ENSG00000196396,P18031,5770,HGNC:9642,CellAge|GenAge,2,True,True,True,Low tissue specificity,22
+ENSG00000196419,XRCC6,X-ray repair cross complementing 6,ENSG00000196419,P12956,2547,HGNC:4055,GenAge,1,True,True,True,Low tissue specificity,82
+ENSG00000196470,SIAH1,siah E3 ubiquitin protein ligase 1,ENSG00000196470,Q8IUQ4,6477,HGNC:10857,CellAge,1,True,True,True,Low tissue specificity,9
+ENSG00000196498,NCOR2,nuclear receptor corepressor 2,ENSG00000196498,Q9Y618,9612,HGNC:7673,GenAge,1,True,True,True,Low tissue specificity,42
+ENSG00000196510,ANAPC7,anaphase promoting complex subunit 7,ENSG00000196510,Q9UJX3,51434,HGNC:17380,Reactome,1,True,True,True,Low tissue specificity,42
+ENSG00000196549,MME,membrane metalloendopeptidase,ENSG00000196549,P08473,4311,HGNC:7154,CellAge,1,True,True,True,Tissue enhanced,12
+ENSG00000196588,MRTFA,myocardin related transcription factor A,ENSG00000196588,Q969V6,57591,HGNC:14334,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000196591,HDAC2,histone deacetylase 2,ENSG00000196591,Q92769,3066,HGNC:4853,CellAge|GenAge,2,True,False,True,Low tissue specificity,108
+ENSG00000196611,MMP1,matrix metallopeptidase 1,ENSG00000196611,P03956,4312,HGNC:7155,SenMayo,1,True,True,True,Tissue enhanced,30
+ENSG00000196689,TRPV1,transient receptor potential cation channel subfamily V member 1,ENSG00000196689,Q8NER1,7442,HGNC:12716,GenAge,1,True,False,True,Tissue enhanced,6
+ENSG00000196712,NF1,neurofibromin 1,ENSG00000196712,P21359,4763,HGNC:7765,CellAge,1,True,True,True,Low tissue specificity,27
+ENSG00000196866,H2AC7,H2A clustered histone 7,ENSG00000196866,P20671,3013,HGNC:4729,Reactome,1,False,False,True,Low tissue specificity,19
+ENSG00000197122,SRC,"SRC proto-oncogene, non-receptor tyrosine kinase",ENSG00000197122,P12931,6714,HGNC:11283,CellAge,1,True,True,True,Low tissue specificity,137
+ENSG00000197299,BLM,BLM RecQ like helicase,ENSG00000197299,P54132,641,HGNC:1058,GenAge,1,True,True,True,Tissue enhanced,42
+ENSG00000197386,HTT,huntingtin,ENSG00000197386,P42858,3064,HGNC:4851,GenAge,1,True,True,True,Low tissue specificity,37
+ENSG00000197442,MAP3K5,mitogen-activated protein kinase kinase kinase 5,ENSG00000197442,Q99683,4217,HGNC:6857,CellAge|GenAge|Reactome,3,True,True,True,Tissue enhanced,33
+ENSG00000197451,HNRNPAB,heterogeneous nuclear ribonucleoprotein A/B,ENSG00000197451,Q99729,3182,HGNC:5034,CellAge,1,True,True,True,Low tissue specificity,12
+ENSG00000197548,ATG7,autophagy related 7,ENSG00000197548,O95352,10533,HGNC:16935,CellAge,1,True,True,True,Low tissue specificity,25
+ENSG00000197632,SERPINB2,serpin family B member 2,ENSG00000197632,P05120,5055,HGNC:8584,CellAge,1,True,False,True,Tissue enhanced,4
+ENSG00000197635,DPP4,dipeptidyl peptidase 4,ENSG00000197635,P27487,1803,HGNC:3009,CellAge,1,True,True,True,Tissue enhanced,11
+ENSG00000197903,H2BC12,H2B clustered histone 12,ENSG00000197903,O60814,85236,HGNC:13954,Reactome,1,False,False,True,Low tissue specificity,46
+ENSG00000197905,TEAD4,TEA domain transcription factor 4,ENSG00000197905,Q15561,7004,HGNC:11717,CellAge,1,True,False,True,Tissue enhanced,8
+ENSG00000197943,PLCG2,phospholipase C gamma 2,ENSG00000197943,P16885,5336,HGNC:9066,GenAge,1,True,True,True,Tissue enhanced,32
+ENSG00000197956,S100A6,S100 calcium binding protein A6,ENSG00000197956,P06703,6277,HGNC:10496,CellAge,1,True,True,True,Low tissue specificity,5
+ENSG00000198001,IRAK4,interleukin 1 receptor associated kinase 4,ENSG00000198001,Q9NWZ3,51135,HGNC:17967,CellAge,1,True,True,True,Low tissue specificity,23
+ENSG00000198018,ENTPD7,ectonucleoside triphosphate diphosphohydrolase 7,ENSG00000198018,Q9NQZ7,57089,HGNC:19745,CellAge,1,True,False,True,Tissue enhanced,0
+ENSG00000198055,GRK6,G protein-coupled receptor kinase 6,ENSG00000198055,P43250,2870,HGNC:4545,CellAge,1,True,True,True,Tissue enhanced,2
+ENSG00000198060,MARCHF5,membrane associated ring-CH-type finger 5,ENSG00000198060,Q9NX47,54708,HGNC:26025,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000198121,LPAR1,lysophosphatidic acid receptor 1,ENSG00000198121,Q92633,1902,HGNC:3166,CellAge,1,True,True,True,Tissue enriched,3
+ENSG00000198176,TFDP1,transcription factor Dp-1,ENSG00000198176,Q14186,7027,HGNC:11749,CellAge|GenAge|Reactome,3,True,True,True,Tissue enhanced,32
+ENSG00000198353,HOXC4,homeobox C4,ENSG00000198353,P09017,3221,HGNC:5126,GenAge,1,True,True,True,Tissue enhanced,2
+ENSG00000198363,ASPH,aspartate beta-hydroxylase,ENSG00000198363,Q12797,444,HGNC:757,CellAge,1,True,True,True,Tissue enhanced,0
+ENSG00000198399,ITSN2,intersectin 2,ENSG00000198399,Q9NZM3,50618,HGNC:6184,CellAge,1,True,True,True,Low tissue specificity,4
+ENSG00000198604,BAZ1A,bromodomain adjacent to zinc finger domain 1A,ENSG00000198604,Q9NRL2,11177,HGNC:960,CellAge,1,True,True,True,Tissue enhanced,5
+ENSG00000198625,MDM4,MDM4 regulator of p53,ENSG00000198625,O15151,4194,HGNC:6974,Reactome,1,True,True,True,Low tissue specificity,22
+ENSG00000198682,PAPSS2,3'-phosphoadenosine 5'-phosphosulfate synthase 2,ENSG00000198682,O95340,9060,HGNC:8604,CellAge,1,True,True,True,Tissue enhanced,1
+ENSG00000198793,MTOR,mechanistic target of rapamycin kinase,ENSG00000198793,P42345,2475,HGNC:3942,CellAge|GenAge,2,True,True,True,Low tissue specificity,75
+ENSG00000198804,MT-CO1,cytochrome c oxidase subunit I,ENSG00000198804,P00395,4512,HGNC:7419,GenAge,1,True,True,True,Tissue enhanced,8
+ENSG00000198836,OPA1,OPA1 mitochondrial dynamin like GTPase,ENSG00000198836,O60313,4976,HGNC:8140,CellAge,1,True,True,True,Low tissue specificity,7
+ENSG00000198890,PRMT6,protein arginine methyltransferase 6,ENSG00000198890,Q96LA8,55170,HGNC:18241,CellAge,1,True,True,True,Low tissue specificity,9
+ENSG00000198900,TOP1,DNA topoisomerase I,ENSG00000198900,P11387,7150,HGNC:11986,CellAge|GenAge,2,True,True,True,Low tissue specificity,28
+ENSG00000203852,H3C15,H3 clustered histone 15,ENSG00000203852,Q71DI3,333932,HGNC:20505,Reactome,1,True,True,True,Tissue enhanced,65
+ENSG00000204217,BMPR2,bone morphogenetic protein receptor type 2,ENSG00000204217,Q13873,659,HGNC:1078,CellAge,1,True,True,True,Low tissue specificity,14
+ENSG00000204381,LAYN,layilin,ENSG00000204381,Q6UX15,143903,HGNC:29471,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000204388,HSPA1B,heat shock protein family A (Hsp70) member 1B,ENSG00000204388,P0DMV9,3304,HGNC:5233,GenAge,1,True,False,True,Low tissue specificity,28
+ENSG00000204628,RACK1,receptor for activated C kinase 1,ENSG00000204628,P63244,10399,HGNC:4399,CellAge,1,True,True,True,Low tissue specificity,29
+ENSG00000204673,AKT1S1,AKT1 substrate 1,ENSG00000204673,Q96B36,84335,HGNC:28426,CellAge,1,True,True,True,Low tissue specificity,15
+ENSG00000205659,LIN52,lin-52 DREAM MuvB core complex component,ENSG00000205659,Q52LA3,91750,HGNC:19856,CellAge,1,True,True,True,Low tissue specificity,14
+ENSG00000206073,SERPINB4,serpin family B member 4,ENSG00000206073,P48594,6318,HGNC:10570,SenMayo,1,True,False,True,Group enriched,0
+ENSG00000206287,RING1,ring finger protein 1,ENSG00000206287,Q06587,6015,HGNC:10018,Reactome,1,False,False,False,,54
+ENSG00000211450,SELENOH,selenoprotein H,ENSG00000211450,Q8IZQ5,280636,HGNC:18251,CellAge,1,False,False,True,Low tissue specificity,0
+ENSG00000213088,ACKR1,atypical chemokine receptor 1 (Duffy blood group),ENSG00000213088,Q16570,2532,HGNC:4035,CellAge,1,True,False,True,Tissue enhanced,5
+ENSG00000213281,NRAS,"NRAS proto-oncogene, GTPase",ENSG00000213281,P01111,4893,HGNC:7989,CellAge,1,True,True,True,Low tissue specificity,60
+ENSG00000213341,CHUK,component of inhibitor of nuclear factor kappa B kinase complex,ENSG00000213341,O15111,1147,HGNC:1974,CellAge,1,True,True,True,Low tissue specificity,55
+ENSG00000213923,CSNK1E,casein kinase 1 epsilon,ENSG00000213923,P49674,1454,HGNC:2453,GenAge,1,True,True,True,Low tissue specificity,16
+ENSG00000214253,FIS1,"fission, mitochondrial 1",ENSG00000214253,Q9Y3D6,51024,HGNC:21689,CellAge,1,True,True,True,Low tissue specificity,8
+ENSG00000214274,ANG,angiogenin,ENSG00000214274,P03950,283,HGNC:483,SenMayo,1,True,False,True,Tissue enriched,2
+ENSG00000214575,CPEB1,cytoplasmic polyadenylation element binding protein 1,ENSG00000214575,Q9BZB8,64506,HGNC:21744,CellAge,1,True,True,True,Tissue enhanced,8
+ENSG00000215021,PHB2,prohibitin 2,ENSG00000215021,Q99623,11331,HGNC:30306,CellAge,1,True,True,True,Low tissue specificity,12
+ENSG00000221983,UBA52,ubiquitin A-52 residue ribosomal protein fusion product 1,ENSG00000221983,P62987,7311,HGNC:12458,Reactome,1,True,True,True,Low tissue specificity,78
+ENSG00000225830,ERCC6,"ERCC excision repair 6, chromatin remodeling factor",ENSG00000225830,P0DP91,2074,HGNC:3438,GenAge,1,True,True,True,Low tissue specificity,29
+ENSG00000226634,DDAH2,"DDAH family member 2, ADMA-independent",ENSG00000226634,O95865,23564,HGNC:2716,CellAge,1,False,False,False,,1
+ENSG00000227500,SCAMP4,secretory carrier membrane protein 4,ENSG00000227500,Q969E2,113178,HGNC:30385,SenMayo,1,True,True,True,Low tissue specificity,0
+ENSG00000228575,MDC1,mediator of DNA damage checkpoint 1,ENSG00000228575,Q14676,9656,HGNC:21163,CellAge,1,False,False,False,,42
+ENSG00000228849,TNF,tumor necrosis factor,ENSG00000228849,P01375,7124,HGNC:11892,GenAge|SenMayo,2,False,False,False,,138
+ENSG00000232045,EHMT2,euchromatic histone lysine methyltransferase 2,ENSG00000232045,Q96KQ7,10919,HGNC:14129,CellAge|Reactome,2,False,False,False,,47
+ENSG00000233276,GPX1,glutathione peroxidase 1,ENSG00000233276,P07203,2876,HGNC:4553,GenAge,1,True,True,True,Low tissue specificity,0
+ENSG00000233450,KIFC1,kinesin family member C1,ENSG00000233450,Q9BW19,3833,HGNC:6389,CellAge,1,False,False,False,,29
+ENSG00000233608,TWIST2,twist family bHLH transcription factor 2,ENSG00000233608,Q8WVJ9,117581,HGNC:20670,CellAge,1,True,True,True,Tissue enhanced,4
+ENSG00000233822,H2BC15,H2B clustered histone 15,ENSG00000233822,Q99877,8341,HGNC:4749,Reactome,1,False,False,True,Low tissue specificity,28
+ENSG00000233911,POU5F1,POU class 5 homeobox 1,ENSG00000233911,Q01860,5460,HGNC:9221,CellAge,1,False,False,False,,48
+ENSG00000234289,H2BC12L,H2B clustered histone 12 like,ENSG00000234289,P57053,54145,HGNC:4762,Reactome,1,False,False,True,Tissue enhanced,0
+ENSG00000234475,HSPA1A,heat shock protein family A (Hsp70) member 1A,ENSG00000234475,P0DMV9,3303,HGNC:5232,CellAge|GenAge,2,False,False,False,,14
+ENSG00000234546,LNCTAM34A,long non coding transcriptional activator of miR34a,ENSG00000234546,,102724571,HGNC:52548,CellAge,1,False,False,True,,0
+ENSG00000240972,MIF,macrophage migration inhibitory factor,ENSG00000240972,P14174,4282,HGNC:7097,CellAge|GenAge|SenMayo,3,True,True,True,Low tissue specificity,8
+ENSG00000241476,SSX2,SSX family member 2,ENSG00000241476,Q16385,6757,HGNC:11336,CellAge,1,True,False,True,Tissue enriched,1
+ENSG00000241837,ATP5PO,ATP synthase peripheral stalk subunit OSCP,ENSG00000241837,P48047,539,HGNC:850,GenAge,1,True,True,True,Tissue enhanced,8
+ENSG00000242950,ERVW-1,"endogenous retrovirus group W member 1, envelope",ENSG00000242950,Q9UQF0,30816,HGNC:13525,CellAge,1,True,False,True,Tissue enriched,7
+ENSG00000244687,UBE2V1,ubiquitin conjugating enzyme E2 V1,ENSG00000244687,Q13404,7335,HGNC:12494,CellAge,1,True,False,True,Low tissue specificity,19
+ENSG00000245848,CEBPA,CCAAT enhancer binding protein alpha,ENSG00000245848,P49715,1050,HGNC:1833,GenAge,1,True,True,True,Group enriched,41
+ENSG00000246705,H2AJ,H2A.J histone,ENSG00000246705,Q9BTM1,55766,HGNC:14456,Reactome,1,True,True,True,Tissue enhanced,18
+ENSG00000251493,FOXD1,forkhead box D1,ENSG00000251493,Q16676,2297,HGNC:3802,CellAge,1,True,True,True,Low tissue specificity,1
+ENSG00000253729,PRKDC,"protein kinase, DNA-activated, catalytic subunit",ENSG00000253729,P78527,5591,HGNC:9413,CellAge|GenAge,2,True,True,True,Low tissue specificity,60
+ENSG00000254647,INS,insulin,ENSG00000254647,P01308,3630,HGNC:6081,GenAge,1,True,True,True,Tissue enriched,106
+ENSG00000255150,EID3,EP300 interacting inhibitor of differentiation 3,ENSG00000255150,Q8N140,493861,HGNC:32961,CellAge,1,True,True,True,Tissue enriched,2
+ENSG00000257365,FNTB,"farnesyltransferase, CAAX box, subunit beta",ENSG00000257365,P49356,2342,HGNC:3785,CellAge,1,True,True,True,Tissue enriched,4
+ENSG00000257923,CUX1,cut like homeobox 1,ENSG00000257923,P39880,1523,HGNC:2557,CellAge,1,True,True,True,Low tissue specificity,7
+ENSG00000259207,ITGB3,integrin subunit beta 3,ENSG00000259207,P05106,3690,HGNC:6156,CellAge,1,True,True,True,Tissue enhanced,29
+ENSG00000259384,GH1,growth hormone 1,ENSG00000259384,P01241,2688,HGNC:4261,GenAge,1,True,True,True,Tissue enriched,12
+ENSG00000260027,HOXB7,homeobox B7,ENSG00000260027,P09629,3217,HGNC:5118,GenAge,1,True,True,True,Tissue enriched,4
+ENSG00000261371,PECAM1,platelet and endothelial cell adhesion molecule 1,ENSG00000261371,P16284,5175,HGNC:8823,SenMayo,1,True,True,True,Tissue enhanced,32
+ENSG00000262406,MMP12,matrix metallopeptidase 12,ENSG00000262406,P39900,4321,HGNC:7158,SenMayo,1,True,True,True,Tissue enhanced,9
+ENSG00000265972,TXNIP,thioredoxin interacting protein,ENSG00000265972,Q9H3M7,10628,HGNC:16952,CellAge,1,True,True,True,Low tissue specificity,11
+ENSG00000266094,RASSF5,Ras association domain family member 5,ENSG00000266094,Q8WWW0,83593,HGNC:17609,CellAge,1,True,True,True,Tissue enhanced,10
+ENSG00000268606,MAGEA2,MAGE family member A2,ENSG00000268606,P43356,4101,HGNC:6800,CellAge,1,True,True,True,Tissue enriched,0
+ENSG00000269335,IKBKG,inhibitor of nuclear factor kappa B kinase regulatory subunit gamma,ENSG00000269335,Q9Y6K9,8517,HGNC:5961,CellAge,1,True,True,True,Low tissue specificity,46
+ENSG00000270141,TERC,telomerase RNA component,ENSG00000270141,,7012,HGNC:11727,GenAge,1,False,False,True,,0
+ENSG00000271503,CCL5,C-C motif chemokine ligand 5,ENSG00000271503,P13501,6352,HGNC:10632,SenMayo,1,True,True,True,Tissue enhanced,60
+ENSG00000273562,NAP1L4,nucleosome assembly protein 1 like 4,ENSG00000273562,Q99733,4676,HGNC:7640,SenMayo,1,False,False,False,,4
+ENSG00000273703,H2BC14,H2B clustered histone 14,ENSG00000273703,Q99879,8342,HGNC:4750,Reactome,1,True,False,True,Tissue enhanced,33
+ENSG00000274183,H2AB1,H2A.B variant histone 1,ENSG00000274183,P0C5Y9,474382,HGNC:22516,Reactome,1,True,False,True,Tissue enriched,5
+ENSG00000274641,H2BC17,H2B clustered histone 17,ENSG00000274641,P23527,8348,HGNC:4758,Reactome,1,False,False,True,Tissue enhanced,36
+ENSG00000275152,CCL16,C-C motif chemokine ligand 16,ENSG00000275152,O15467,6360,HGNC:10614,SenMayo,1,False,False,True,Tissue enriched,8
+ENSG00000275199,AKT3,AKT serine/threonine kinase 3,ENSG00000275199,Q9Y243,10000,HGNC:393,CellAge,1,False,False,False,,45
+ENSG00000275302,CCL4,C-C motif chemokine ligand 4,ENSG00000275302,P13236,6351,HGNC:10630,SenMayo,1,True,True,True,Tissue enhanced,31
+ENSG00000275331,ABCC6,ATP binding cassette subfamily C member 6,ENSG00000275331,O95255,368,HGNC:57,CellAge,1,False,False,False,,0
+ENSG00000275713,H2BC9,H2B clustered histone 9,ENSG00000275713,Q93079,8345,HGNC:4755,Reactome,1,False,False,True,Tissue enhanced,31
+ENSG00000275714,H3C1,H3 clustered histone 1,ENSG00000275714,P68431,8350,HGNC:4766,Reactome,1,True,False,True,Group enriched,75
+ENSG00000276043,UHRF1,ubiquitin like with PHD and ring finger domains 1,ENSG00000276043,Q96T88,29128,HGNC:12556,CellAge,1,True,True,True,Group enriched,29
+ENSG00000276045,ORAI1,ORAI calcium release-activated calcium modulator 1,ENSG00000276045,,,,CellAge,1,True,True,True,Tissue enhanced,4
+ENSG00000276368,H2AC14,H2A clustered histone 14,ENSG00000276368,Q99878,8331,HGNC:4727,Reactome,1,False,False,True,Tissue enriched,22
+ENSG00000276410,H2BC3,H2B clustered histone 3,ENSG00000276410,P33778,3018,HGNC:4751,Reactome,1,True,False,True,Tissue enhanced,45
+ENSG00000277258,PCGF2,polycomb group ring finger 2,ENSG00000277258,P35227,7703,HGNC:12929,CellAge,1,True,False,True,Low tissue specificity,44
+ENSG00000277443,MARCKS,myristoylated alanine rich protein kinase C substrate,ENSG00000277443,P29966,4082,HGNC:6759,CellAge,1,True,True,True,Low tissue specificity,2
+ENSG00000277585,MUC4,"mucin 4, cell surface associated",ENSG00000277585,Q99102,4585,HGNC:7514,CellAge,1,False,False,False,,2
+ENSG00000277632,CCL3,C-C motif chemokine ligand 3,ENSG00000277632,P10147,6348,HGNC:10627,SenMayo,1,True,True,True,Tissue enhanced,34
+ENSG00000278081,RPS9,ribosomal protein S9,ENSG00000278081,P46781,6203,HGNC:10442,CellAge,1,False,False,False,,20
+ENSG00000278195,SSTR3,somatostatin receptor 3,ENSG00000278195,P32745,6753,HGNC:11332,GenAge,1,True,True,True,Tissue enhanced,1
+ENSG00000278463,H2AC4,H2A clustered histone 4,ENSG00000278463,P04908,8335,HGNC:4734,Reactome,1,False,False,True,Tissue enhanced,35
+ENSG00000278637,H4C1,H4 clustered histone 1,ENSG00000278637,P62805,8359,HGNC:4781,Reactome,1,False,True,True,Tissue enhanced,66
+ENSG00000280962,DUSP16,dual specificity phosphatase 16,ENSG00000280962,Q9BY84,80824,HGNC:17909,CellAge,1,False,False,False,,7
+ENSG00000281089,ATG16L1,autophagy related 16 like 1,ENSG00000281089,Q676U5,55054,HGNC:21498,CellAge,1,False,False,False,,14
+ENSG00000281877,RPS6KA1,ribosomal protein S6 kinase A1,ENSG00000281877,Q15418,6195,HGNC:10430,Reactome,1,False,False,False,,20
+ENSG00000283100,SIRT2,sirtuin 2,ENSG00000283100,Q8IXJ6,22933,HGNC:10886,CellAge,1,False,False,False,,20
+ENSG00000284764,PINX1,PIN2 (TERF1) interacting telomerase inhibitor 1,ENSG00000284764,Q96BK5,54984,HGNC:30046,CellAge,1,False,False,False,,2
+ENSG00000284915,TINF2,TERF1 interacting nuclear factor 2,ENSG00000284915,Q9BSI4,26277,HGNC:11824,Reactome,1,False,False,False,,17
+ENSG00000285200,MDP1,magnesium dependent phosphatase 1,ENSG00000285200,Q86V88,145553,HGNC:28781,CellAge,1,False,False,False,,0
+ENSG00000285449,H2BC26,H2B clustered histone 26,ENSG00000285449,Q8N257,128312,HGNC:20514,Reactome,1,False,False,False,,0
+ENSG00000285451,ADCK5,aarF domain containing kinase 5,ENSG00000285451,Q3MIX3,203054,HGNC:21738,CellAge,1,False,False,False,,0
+ENSG00000288217,PEX5,peroxisomal biogenesis factor 5,ENSG00000288217,P50542,5830,HGNC:9719,GenAge,1,False,False,False,,7
+ENSG00000288825,H2AC18,H2A clustered histone 18,ENSG00000288825,Q6FI13,8337,HGNC:4736,Reactome,1,True,False,False,Tissue enhanced,83
+ENSG00000291237,SOD2,superoxide dismutase 2,ENSG00000291237,P04179,6648,HGNC:11180,CellAge|GenAge,2,True,True,False,Tissue enhanced,22
+ENSG00000291972,GHRH,growth hormone releasing hormone,ENSG00000291972,P01286,2691,HGNC:4265,GenAge,1,False,False,False,,10

@@ -1,4 +1,4 @@
-# Unified Cellular Senescence / SASP Gene Database — Pipeline
+# SenSASP: A Unified, Multi-Layer Database of Senescence and SASP Genes
 
 A fully scripted, one-command-reproducible pipeline that unifies four senescence /
 SASP gene resources onto a single canonical identifier and enriches every gene
