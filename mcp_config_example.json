@@ -1,0 +1,24 @@
+{
+  "_comment": "Add ONE of the three blocks below to your Claude Desktop config.",
+
+  "mcpServers": {
+
+    "sensasp_via_pip": {
+      "_how": "After: pip install sensasp-mcp",
+      "command": "python3",
+      "args": ["-m", "sensasp_mcp.server"]
+    },
+
+    "sensasp_local_repo": {
+      "_how": "Run directly from this repository (no install needed)",
+      "command": "python3",
+      "args": ["/home/xuan/sensasp/sensasp_mcp/server.py"]
+    },
+
+    "sensasp_remote": {
+      "_how": "Connect to a hosted instance (after deploying with --transport sse)",
+      "url": "https://your-server.com/sse"
+    }
+
+  }
+}

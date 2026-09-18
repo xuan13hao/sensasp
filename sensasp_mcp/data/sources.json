@@ -1,0 +1,26 @@
+[
+  {
+    "name": "CellAge",
+    "n_genes": 866,
+    "url": "https://genomics.senescence.info/cells/",
+    "description": "HAGR CellAge \u2014 literature-curated + in-silico predicted cellular senescence genes"
+  },
+  {
+    "name": "GenAge",
+    "n_genes": 307,
+    "url": "https://genomics.senescence.info/genes/",
+    "description": "HAGR GenAge human \u2014 curated ageing genes (broader; senescence-relevance resolved via source-overlap diagnostic)"
+  },
+  {
+    "name": "SenMayo",
+    "n_genes": 124,
+    "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/SAUL_SEN_MAYO",
+    "description": "SenMayo (SAUL_SEN_MAYO, MSigDB M45803) \u2014 curated senescence/SASP signature, Saul et al. 2022"
+  },
+  {
+    "name": "Reactome",
+    "n_genes": 163,
+    "url": "https://reactome.org/content/detail/R-HSA-2559583",
+    "description": "Reactome Cellular Senescence pathway R-HSA-2559583 \u2014 gene participants"
+  }
+]

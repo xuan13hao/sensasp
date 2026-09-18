@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sensasp-mcp"
+version = "1.0.0"
+description = "SenSASP MCP Server — unified senescence / SASP gene database for Claude and MCP clients"
+readme = "README.md"
+license = { text = "CC-BY-4.0" }
+authors = [
+  { name = "Xuan Hao",  email = "xuanhao@iu.edu" },
+  { name = "Yu Huang"  },
+  { name = "Jiang Bian" },
+]
+keywords = ["senescence", "SASP", "bioinformatics", "MCP", "Claude", "gene-database"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+  "License :: Free for non-commercial use",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.10"
+dependencies = [
+  "mcp>=1.0,<2",
+]
+
+[project.urls]
+Homepage   = "https://xuan13hao.github.io/sensasp"
+Repository = "https://github.com/xuan13hao/sensasp"
+Paper      = "https://doi.org/10.64898/2026.08.26.747427"
+
+[project.scripts]
+sensasp-mcp = "sensasp_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["sensasp_mcp"]
+
+[tool.hatch.build.targets.sdist]
+include = ["sensasp_mcp/", "README.md", "pyproject.toml"]
