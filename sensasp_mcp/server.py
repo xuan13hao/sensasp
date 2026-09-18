@@ -69,7 +69,7 @@ def search_genes(
     """
     limit = min(limit, 200)
     q = query.lower()
-    results = []
+    exact, others = [], []
     for g in _FLAT:
         if q and q not in f"{g['symbol']} {g['gene_name']} {g['string_top_partners']}".lower():
             continue
@@ -85,7 +85,7 @@ def search_genes(
             continue
         if min_string_degree and (g["string_degree"] or 0) < min_string_degree:
             continue
-        results.append({
+        row = {
             "symbol":              g["symbol"],
             "gene_name":           g["gene_name"],
             "sources":             g["sources"],
@@ -98,10 +98,13 @@ def search_genes(
             "hpa_tissue_spec":     g["hpa_tissue_spec"],
             "string_degree":       g["string_degree"],
             "string_top_partners": g["string_top_partners"],
-        })
-        if len(results) >= limit:
-            break
-    return results
+        }
+        # Exact symbol match floats to the top
+        if q and g["symbol"].lower() == q:
+            exact.append(row)
+        else:
+            others.append(row)
+    return (exact + others)[:limit]
 
 
 @mcp.tool()
