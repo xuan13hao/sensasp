@@ -27,6 +27,28 @@ _FULL_INDEX: dict[str, dict] = {
     g["identifiers"]["hgnc_symbol"].upper(): g for g in _FULL
 }
 
+# Secondary index of original source (input) symbols so queries using the symbol
+# as it appeared in a seed resource (e.g. 'ATP5O' → canonical 'ATP5PO') still
+# resolve. Canonical symbols take precedence; ambiguous source symbols (mapping
+# to more than one canonical record) are dropped to avoid wrong matches.
+def _build_source_index(records: list[dict]) -> dict[str, dict]:
+    index: dict[str, dict] = {}
+    ambiguous: set[str] = set()
+    for g in records:
+        for alias in g["identifiers"].get("input_symbols") or []:
+            a = alias.upper()
+            if a in _FULL_INDEX:            # canonical symbol wins
+                continue
+            if a in index and index[a] is not g:
+                ambiguous.add(a)
+            else:
+                index[a] = g
+    for a in ambiguous:
+        index.pop(a, None)
+    return index
+
+_SOURCE_INDEX: dict[str, dict] = _build_source_index(_FULL)
+
 # ── MCP server ─────────────────────────────────────────────────────────────
 mcp = FastMCP(
     "SenSASP",
@@ -50,6 +72,7 @@ def search_genes(
     conserved_mouse: bool = False,
     conserved_zebrafish: bool = False,
     hpa_tissue_specificity: str = "",
+    hpa_cell_specificity: str = "",
     min_string_degree: int = 0,
     limit: int = 20,
 ) -> list[dict]:
@@ -62,8 +85,10 @@ def search_genes(
         multi_source_only: Only return genes confirmed by >=2 sources.
         conserved_mouse: Only return genes with a mouse ortholog.
         conserved_zebrafish: Only return genes with a zebrafish ortholog.
-        hpa_tissue_specificity: HPA RNA tissue specificity category, e.g.
-            'Tissue enhanced', 'Tissue specific', 'Cell type enhanced'.
+        hpa_tissue_specificity: HPA RNA *tissue* specificity category, e.g.
+            'Tissue enhanced', 'Tissue enriched', 'Low tissue specificity'.
+        hpa_cell_specificity: HPA RNA *single-cell* specificity category, e.g.
+            'Cell type enhanced', 'Cell type enriched', 'Low cell type specificity'.
         min_string_degree: Minimum STRING intra-set interaction degree.
         limit: Max results (default 20, max 200).
     """
@@ -83,6 +108,8 @@ def search_genes(
             continue
         if hpa_tissue_specificity and g["hpa_tissue_spec"] != hpa_tissue_specificity:
             continue
+        if hpa_cell_specificity and g["hpa_cell_spec"] != hpa_cell_specificity:
+            continue
         if min_string_degree and (g["string_degree"] or 0) < min_string_degree:
             continue
         row = {
@@ -96,6 +123,7 @@ def search_genes(
             "gtex_top_tissue":     g["gtex_top_tissue"],
             "gtex_max_tpm":        g["gtex_max_tpm"],
             "hpa_tissue_spec":     g["hpa_tissue_spec"],
+            "hpa_cell_spec":       g["hpa_cell_spec"],
             "string_degree":       g["string_degree"],
             "string_top_partners": g["string_top_partners"],
         }
@@ -116,9 +144,11 @@ def get_gene(symbol: str) -> dict:
         symbol: HGNC gene symbol, e.g. 'TP53', 'IL6', 'CDKN2A'. Case-insensitive.
 
     Returns full provenance, conservation, GTEx top tissues, HPA specificity,
-    and STRING partners with scores.
+    and STRING partners with scores. Original source symbols (as they appeared
+    in the seed resources) also resolve to the canonical record when unambiguous.
     """
-    record = _FULL_INDEX.get(symbol.upper())
+    key = symbol.upper()
+    record = _FULL_INDEX.get(key) or _SOURCE_INDEX.get(key)
     if record is None:
         return {"error": f"Gene '{symbol}' not found in SenSASP (1,250 genes)."}
     return record
@@ -180,8 +210,13 @@ def get_top_hub_genes(n: int = 20) -> list[dict]:
 @mcp.tool()
 def get_multi_source_genes() -> list[dict]:
     """
-    All genes confirmed by 2 or more seed sources, sorted by confidence (n_sources desc).
-    These 173 genes have the strongest multi-database support for senescence relevance.
+    All genes listed by 2 or more seed sources, sorted by source overlap (n_sources desc).
+
+    n_sources counts how many seed resources list each gene, not experimental
+    strength. The seed resources use different inclusion criteria, so higher overlap
+    means broader agreement across databases rather than stronger confidence on its
+    own. These 173 genes are the most-shared across databases; consult the original
+    studies (see list_sources) when assessing experimental evidence for a gene.
     """
     multi = sorted(
         [g for g in _FLAT if g["n_sources"] >= 2],

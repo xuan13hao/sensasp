@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sensasp-mcp"
-version = "1.0.1"
+version = "1.0.2"
 description = "SenSASP MCP Server — unified senescence / SASP gene database for Claude and MCP clients"
 readme = "README.md"
 license = { text = "CC-BY-4.0" }
