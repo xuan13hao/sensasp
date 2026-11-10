@@ -49,6 +49,16 @@ def _build_source_index(records: list[dict]) -> dict[str, dict]:
 
 _SOURCE_INDEX: dict[str, dict] = _build_source_index(_FULL)
 
+# canonical symbol → original source (input) symbols that differ from it, so
+# free-text search can also match a gene by the symbol it carried in a seed
+# resource (e.g. searching 'ATP5O' surfaces canonical 'ATP5PO').
+_ALIASES: dict[str, list[str]] = {}
+for _g in _FULL:
+    _canon = _g["identifiers"]["hgnc_symbol"].upper()
+    _extra = [s for s in (_g["identifiers"].get("input_symbols") or []) if s.upper() != _canon]
+    if _extra:
+        _ALIASES[_canon] = _extra
+
 # ── MCP server ─────────────────────────────────────────────────────────────
 mcp = FastMCP(
     "SenSASP",
@@ -80,7 +90,8 @@ def search_genes(
     Search the SenSASP gene database with optional filters.
 
     Args:
-        query: Free-text against symbol, gene name, and STRING partners.
+        query: Free-text against symbol, original source (input) symbols,
+            gene name, and STRING partners.
         source: Filter by seed source — CellAge, GenAge, SenMayo, or Reactome.
         multi_source_only: Only return genes confirmed by >=2 sources.
         conserved_mouse: Only return genes with a mouse ortholog.
@@ -96,7 +107,8 @@ def search_genes(
     q = query.lower()
     exact, others = [], []
     for g in _FLAT:
-        if q and q not in f"{g['symbol']} {g['gene_name']} {g['string_top_partners']}".lower():
+        aliases = _ALIASES.get(g["symbol"].upper(), [])
+        if q and q not in f"{g['symbol']} {g['gene_name']} {g['string_top_partners']} {' '.join(aliases)}".lower():
             continue
         if source and source not in g["sources"]:
             continue
@@ -114,6 +126,7 @@ def search_genes(
             continue
         row = {
             "symbol":              g["symbol"],
+            "input_symbols":       aliases,
             "gene_name":           g["gene_name"],
             "sources":             g["sources"],
             "n_sources":           g["n_sources"],
@@ -127,8 +140,8 @@ def search_genes(
             "string_degree":       g["string_degree"],
             "string_top_partners": g["string_top_partners"],
         }
-        # Exact symbol match floats to the top
-        if q and g["symbol"].lower() == q:
+        # Exact symbol match (canonical or source symbol) floats to the top
+        if q and (g["symbol"].lower() == q or any(a.lower() == q for a in aliases)):
             exact.append(row)
         else:
             others.append(row)

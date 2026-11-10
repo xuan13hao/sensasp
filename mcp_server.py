@@ -51,6 +51,16 @@ def _build_source_index(records: list[dict]) -> dict[str, dict]:
 
 _SOURCE_INDEX: dict[str, dict] = _build_source_index(_DB["genes"])
 
+# canonical symbol → original source (input) symbols that differ from it, so
+# free-text search can also match a gene by the symbol it carried in a seed
+# resource (e.g. searching 'ATP5O' surfaces canonical 'ATP5PO').
+_ALIASES: dict[str, list[str]] = {}
+for _g in _DB["genes"]:
+    _canon = _g["identifiers"]["hgnc_symbol"].upper()
+    _extra = [s for s in (_g["identifiers"].get("input_symbols") or []) if s.upper() != _canon]
+    if _extra:
+        _ALIASES[_canon] = _extra
+
 # ── Server ─────────────────────────────────────────────────────────────────
 mcp = FastMCP(
     "SenSASP",
@@ -85,8 +95,9 @@ def search_genes(
     Search the SenSASP gene database with optional filters.
 
     Args:
-        query: Free-text search against gene symbol, gene name, and STRING
-               interaction partners (case-insensitive, partial match).
+        query: Free-text search against gene symbol, original source (input)
+               symbols, gene name, and STRING interaction partners
+               (case-insensitive, partial match).
         source: Filter by seed source. One of: CellAge, GenAge, SenMayo, Reactome.
                 Leave empty to include all sources.
         multi_source_only: If True, return only genes confirmed by 2 or more sources.
@@ -109,7 +120,8 @@ def search_genes(
 
     results = []
     for g in _FLAT:
-        if q and q not in f"{g['symbol']} {g['gene_name']} {g['string_top_partners']}".lower():
+        aliases = _ALIASES.get(g["symbol"].upper(), [])
+        if q and q not in f"{g['symbol']} {g['gene_name']} {g['string_top_partners']} {' '.join(aliases)}".lower():
             continue
         if source and source not in g["sources"]:
             continue
@@ -128,6 +140,7 @@ def search_genes(
 
         results.append({
             "symbol":          g["symbol"],
+            "input_symbols":   aliases,
             "gene_name":       g["gene_name"],
             "sources":         g["sources"],
             "n_sources":       g["n_sources"],
